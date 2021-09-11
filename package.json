@@ -1,0 +1,17 @@
+{
+  "name": "ddd21.nl",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "generate": "nuxt generate --modern",
+    "start": "nuxt start"
+  },
+  "dependencies": {
+    "nuxt": "^2.15.8",
+    "vue-blotter": "^0.1.3"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^4.2.1"
+  }
+}

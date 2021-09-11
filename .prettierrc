@@ -1,0 +1,6 @@
+{
+    "arrowParens": "always",
+    "htmlWhitespaceSensitivity": "ignore",
+    "singleQuote": true,
+    "trailingComma": "es5"
+  }
