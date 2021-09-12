@@ -20,7 +20,7 @@
         <li
           class="hidden md:list-item md:pt-[14px] md:text-[24px] md:leading-[29px] xl:pt-[12px] xl:text-[38px] xl:leading-[46px]"
         >
-          <nuxt-link to="">
+          <nuxt-link to="/the-drivers">
             The
             <br class="xl:hidden" />
             Drivers
@@ -29,7 +29,7 @@
         <li
           class="hidden md:list-item md:pt-[14px] md:text-[24px] md:leading-[29px] xl:pt-[12px] xl:text-[38px] xl:leading-[46px]"
         >
-          <nuxt-link to="">
+          <nuxt-link to="/ddw-expo">
             DDW
             <br class="xl:hidden" />
             Expo
@@ -38,7 +38,7 @@
         <li
           class="hidden md:list-item md:pt-[14px] md:text-[24px] md:leading-[29px] xl:pt-[12px] xl:text-[38px] xl:leading-[46px]"
         >
-          <nuxt-link to="">
+          <nuxt-link to="/driver-tv">
             Driver
             <br class="xl:hidden" />
             TV
@@ -47,7 +47,7 @@
         <li
           class="hidden md:list-item md:pt-[14px] md:text-[24px] md:leading-[29px] xl:pt-[12px] xl:text-[38px] xl:leading-[46px]"
         >
-          <nuxt-link to="">Contact</nuxt-link>
+          <nuxt-link to="/contact">Contact</nuxt-link>
         </li>
         <li class="md:hidden">
           <button type="button">
