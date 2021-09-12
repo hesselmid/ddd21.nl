@@ -8,6 +8,7 @@
     "start": "nuxt start"
   },
   "dependencies": {
+    "@nuxt/content": "^1.14.0",
     "nuxt": "^2.15.8",
     "vue-blotter": "^0.1.3"
   },

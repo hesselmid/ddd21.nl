@@ -5,7 +5,7 @@
         class="inline-block h-[54px] md:hidden"
         :size="45"
         material-type="LiquidDistortMaterial"
-        text="Asja Keeman"
+        :text="driver.name"
         :uniforms="{
           uSpeed: 0.25,
         }"
@@ -18,7 +18,7 @@
         class="hidden md:inline-block md:h-[61px]"
         :size="50"
         material-type="LiquidDistortMaterial"
-        text="Asja Keeman"
+        :text="driver.name"
         :uniforms="{
           uSpeed: 0.25,
         }"
@@ -33,24 +33,15 @@
         class="md:grid md:grid-cols-2 md:mx-auto md:mt-[81px] md:w-[768px] xl:grid-cols-1 xl:mr-0 xl:mt-[-98px] xl:ml-[74px] xl:w-[352px]"
       >
         <picture>
-          <source
-            srcset="/images/fotografie/asja-keeman-2.avif"
-            type="image/avif"
-          />
-          <source
-            srcset="/images/fotografie/asja-keeman-2.webp"
-            type="image/webp"
-          />
-          <source
-            srcset="/images/fotografie/asja-keeman-2.jpg"
-            type="image/jpeg"
-          />
+          <source :srcset="driver.image.avif" type="image/avif" />
+          <source :srcset="driver.image.webp" type="image/webp" />
+          <source :srcset="driver.image.jpg" type="image/jpeg" />
           <img
             class="mx-auto mt-[32px] w-[291px] md:mr-0 md:mt-0 md:ml-[80px] md:w-[352px] xl:ml-0"
-            src="/images/fotografie/asja-keeman-2.jpg"
-            alt="Asja Keepman"
-            width=""
-            height=""
+            :src="driver.image.jpg"
+            :alt="driver.name"
+            width="704"
+            height="1126"
           />
         </picture>
 
@@ -199,7 +190,7 @@
 export default {
   head() {
     return {
-      title: 'Driving Dutch Design 21',
+      title: this.driver.name + ' - Driving Dutch Design 21',
       meta: [
         {
           hid: 'description',
@@ -209,6 +200,10 @@ export default {
         },
       ],
     };
+  },
+  async asyncData({ $content, params }) {
+    const driver = await $content('drivers', params.slug).fetch();
+    return { driver };
   },
 };
 </script>
