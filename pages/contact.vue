@@ -39,11 +39,11 @@
           Pressfolder
         </a>
       </div>
-      <div
-        id="grey-stroke"
-        class="mt-[14px] h-[47px] bg-center bg-no-repeat bg-cover"
-      ></div>
     </div>
+    <div
+      id="grey-stroke"
+      class="mt-[14px] h-[47px] bg-center bg-no-repeat bg-cover"
+    ></div>
   </main>
 </template>
 
