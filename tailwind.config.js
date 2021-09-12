@@ -9,6 +9,9 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    fontFamily: {
+      sans: ['Maria-Regular', 'sans-serif'],
+    },
     extend: {},
   },
   variants: {

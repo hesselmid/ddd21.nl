@@ -1,10 +1,10 @@
 <template>
   <header>
     <nav
-      class="pt-[20px] mx-auto max-w-[375px] md:pt-[54px] md:w-[768px] md:max-w-none"
+      class="pt-[20px] mx-auto max-w-[375px] md:pt-[54px] md:w-[768px] md:max-w-none xl:pt-[42px] xl:w-[1280px]"
     >
       <ul
-        class="flex justify-between mr-[23px] ml-[13px] md:mr-[48px] md:ml-[35px]"
+        class="flex justify-between mr-[23px] ml-[13px] md:mr-[48px] md:ml-[35px] xl:mr-[65px] xl:ml-[57px]"
       >
         <li>
           <nuxt-link to="/">
@@ -18,34 +18,34 @@
           </nuxt-link>
         </li>
         <li
-          class="hidden md:list-item md:pt-[14px] md:text-[24px] md:leading-[29px]"
+          class="hidden md:list-item md:pt-[14px] md:text-[24px] md:leading-[29px] xl:pt-[12px] xl:text-[38px] xl:leading-[46px]"
         >
           <nuxt-link to="">
             The
-            <br />
+            <br class="xl:hidden" />
             Drivers
           </nuxt-link>
         </li>
         <li
-          class="hidden md:list-item md:pt-[14px] md:text-[24px] md:leading-[29px]"
+          class="hidden md:list-item md:pt-[14px] md:text-[24px] md:leading-[29px] xl:pt-[12px] xl:text-[38px] xl:leading-[46px]"
         >
           <nuxt-link to="">
             DDW
-            <br />
+            <br class="xl:hidden" />
             Expo
           </nuxt-link>
         </li>
         <li
-          class="hidden md:list-item md:pt-[14px] md:text-[24px] md:leading-[29px]"
+          class="hidden md:list-item md:pt-[14px] md:text-[24px] md:leading-[29px] xl:pt-[12px] xl:text-[38px] xl:leading-[46px]"
         >
           <nuxt-link to="">
             Driver
-            <br />
+            <br class="xl:hidden" />
             TV
           </nuxt-link>
         </li>
         <li
-          class="hidden md:list-item md:pt-[14px] md:text-[24px] md:leading-[29px]"
+          class="hidden md:list-item md:pt-[14px] md:text-[24px] md:leading-[29px] xl:pt-[12px] xl:text-[38px] xl:leading-[46px]"
         >
           <nuxt-link to="">Contact</nuxt-link>
         </li>

@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Maria-Regular';
+    src: url(/fonts/Maria-Regular.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+}
