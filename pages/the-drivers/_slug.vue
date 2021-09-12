@@ -64,17 +64,7 @@
       <p
         class="mx-auto mt-[66.5px] w-[291px] text-[16px] leading-[19px] md:mt-[67px] md:w-[613px] md:text-[20px] md:leading-[24px] xl:mr-0 xl:mt-0 xl:ml-[-136px] xl:w-[655px] xl:text-[25px] xl:leading-[30px]"
       >
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, labore et
-        anim, adipiscing consectetur officia ut et velit quis nostrud. Ea ut et
-        ut id exercitation dolore aute cillum aliquip veniam adipiscing sint
-        mollit reprehenderit consequat labore sit labore excepteur esse
-        consequat exercitation ut ex ullamco pariatur exercitation esse proident
-        occaecat laboris occaecat nulla anim consectetur et dolor ad amet minim
-        dolore amet excepteur dolore ullamco exercitation cillum anim. Amet
-        voluptate nulla sint ea aliquip labore eiusmod ullamco ex quis non
-        ullamco proident esse sint esse dolore reprehenderit aliqua ex
-        adipiscing cillum. Sit magna. Cupidatat culpa aliqua excepteur minim
-        aliqua elit ullamco exercitation do commodo labore magna minim occaecat.
+        {{ driver.intro }}
       </p>
     </div>
     <div
