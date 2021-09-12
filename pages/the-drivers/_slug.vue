@@ -5,12 +5,12 @@
         class="inline-block h-[54px] md:hidden"
         :size="45"
         material-type="LiquidDistortMaterial"
-        text="Asja Keepman"
+        text="Asja Keeman"
         :uniforms="{
           uSpeed: 0.25,
         }"
-        :padding-right="20"
-        :padding-left="20"
+        :padding-right="40"
+        :padding-left="40"
       >
         <h1></h1>
       </vue-blotter>
@@ -18,12 +18,12 @@
         class="hidden md:inline-block md:h-[61px]"
         :size="50"
         material-type="LiquidDistortMaterial"
-        text="Asja Keepman"
+        text="Asja Keeman"
         :uniforms="{
           uSpeed: 0.25,
         }"
-        :padding-right="20"
-        :padding-left="20"
+        :padding-right="40"
+        :padding-left="40"
       >
         <h1></h1>
       </vue-blotter>
@@ -34,7 +34,7 @@
       >
         <img
           class="mx-auto mt-[32px] w-[291px] md:mr-0 md:mt-0 md:ml-[80px] md:w-[352px] xl:ml-0"
-          src="/images/fotografie/asja-keepman-2.jpg"
+          src="/images/fotografie/asja-keeman-2.jpg"
           alt="Asja Keepman"
           width=""
           height=""
