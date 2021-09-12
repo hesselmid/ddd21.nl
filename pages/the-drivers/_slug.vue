@@ -32,13 +32,28 @@
       <div
         class="md:grid md:grid-cols-2 md:mx-auto md:mt-[81px] md:w-[768px] xl:grid-cols-1 xl:mr-0 xl:mt-[-98px] xl:ml-[74px] xl:w-[352px]"
       >
-        <img
-          class="mx-auto mt-[32px] w-[291px] md:mr-0 md:mt-0 md:ml-[80px] md:w-[352px] xl:ml-0"
-          src="/images/fotografie/asja-keeman-2.jpg"
-          alt="Asja Keepman"
-          width=""
-          height=""
-        />
+        <picture>
+          <source
+            srcset="/images/fotografie/asja-keeman-2.avif"
+            type="image/avif"
+          />
+          <source
+            srcset="/images/fotografie/asja-keeman-2.webp"
+            type="image/webp"
+          />
+          <source
+            srcset="/images/fotografie/asja-keeman-2.jpg"
+            type="image/jpeg"
+          />
+          <img
+            class="mx-auto mt-[32px] w-[291px] md:mr-0 md:mt-0 md:ml-[80px] md:w-[352px] xl:ml-0"
+            src="/images/fotografie/asja-keeman-2.jpg"
+            alt="Asja Keepman"
+            width=""
+            height=""
+          />
+        </picture>
+
         <div class="md:ml-[88.75px] xl:mt-[39.5px] xl:ml-0">
           <hr
             class="mx-auto mt-[66px] w-[290.5px] md:mx-0 md:mt-0 md:w-[246.75px] xl:w-[352px]"
