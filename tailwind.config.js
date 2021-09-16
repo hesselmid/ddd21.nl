@@ -11,6 +11,7 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: ['Maria-Regular', 'sans-serif'],
+      serif: ['Haarlem-Regular', 'serif'],
     },
     extend: {},
   },

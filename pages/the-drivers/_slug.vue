@@ -3,6 +3,7 @@
     <div class="flex justify-center md:mt-[42px] xl:mt-[53px]">
       <vue-blotter
         class="inline-block h-[54px] md:hidden"
+        family="Haarlem-Regular"
         :size="45"
         material-type="LiquidDistortMaterial"
         :text="driver.name"
@@ -16,6 +17,7 @@
       </vue-blotter>
       <vue-blotter
         class="hidden md:inline-block md:h-[61px]"
+        family="Haarlem-Regular"
         :size="50"
         material-type="LiquidDistortMaterial"
         :text="driver.name"
