@@ -1,5 +1,5 @@
 <template>
-  <main></main>
+  <main id="body" class="h-[531.55px] bg-no-repeat bg-cover"></main>
 </template>
 
 <script>
@@ -19,3 +19,9 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+#body {
+  background-image: url(/images/backgrounds/grey-bg-xl.jpg);
+}
+</style>
