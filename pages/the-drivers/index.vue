@@ -19,21 +19,21 @@
         >
           <picture>
             <source
-              srcset="/images/fotografie/lola-van-praag-1.avif"
+              srcset="/images/fotografie/asja-keeman-1.avif"
               type="image/avif"
             />
             <source
-              srcset="/images/fotografie/lola-van-praag-1.webp"
+              srcset="/images/fotografie/asja-keeman-1.webp"
               type="image/webp"
             />
             <source
-              srcset="/images/fotografie/lola-van-praag-1.jpg"
+              srcset="/images/fotografie/asja-keeman-1.jpg"
               type="image/jpeg"
             />
             <img
               class="w-[243px] md:w-full"
-              src="/images/fotografie/lola-van-praag-1.jpg"
-              alt="Lola van Praag"
+              src="/images/fotografie/asja-keeman-1.jpg"
+              alt="Asja Keeman"
               width="486"
               height="680"
             />
@@ -42,7 +42,7 @@
         <div
           class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
         >
-          Lola van Praag
+          Asja Keeman
         </div>
       </div>
 
@@ -62,21 +62,21 @@
         >
           <picture>
             <source
-              srcset="/images/fotografie/lola-van-praag-1.avif"
+              srcset="/images/fotografie/bram-de-vos-1.avif"
               type="image/avif"
             />
             <source
-              srcset="/images/fotografie/lola-van-praag-1.webp"
+              srcset="/images/fotografie/bram-de-vos-1.webp"
               type="image/webp"
             />
             <source
-              srcset="/images/fotografie/lola-van-praag-1.jpg"
+              srcset="/images/fotografie/bram-de-vos-1.jpg"
               type="image/jpeg"
             />
             <img
               class="w-[243px] md:w-full"
-              src="/images/fotografie/lola-van-praag-1.jpg"
-              alt="Lola van Praag"
+              src="/images/fotografie/bram-de-vos-1.jpg"
+              alt="Bram de Vos"
               width="486"
               height="680"
             />
@@ -85,7 +85,7 @@
         <div
           class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
         >
-          Lola van Praag
+          Bram de Vos
         </div>
       </div>
 
@@ -105,21 +105,21 @@
         >
           <picture>
             <source
-              srcset="/images/fotografie/lola-van-praag-1.avif"
+              srcset="/images/fotografie/daisy-van-loenhout-1.avif"
               type="image/avif"
             />
             <source
-              srcset="/images/fotografie/lola-van-praag-1.webp"
+              srcset="/images/fotografie/daisy-van-loenhout-1.webp"
               type="image/webp"
             />
             <source
-              srcset="/images/fotografie/lola-van-praag-1.jpg"
+              srcset="/images/fotografie/daisy-van-loenhout-1.jpg"
               type="image/jpeg"
             />
             <img
               class="w-[243px] md:w-full"
-              src="/images/fotografie/lola-van-praag-1.jpg"
-              alt="Lola van Praag"
+              src="/images/fotografie/daisy-van-loenhout-1.jpg"
+              alt="Daisy van Loenhout"
               width="486"
               height="680"
             />
@@ -128,7 +128,7 @@
         <div
           class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
         >
-          Lola van Praag
+          Daisy van Loenhout
         </div>
       </div>
 
@@ -148,21 +148,21 @@
         >
           <picture>
             <source
-              srcset="/images/fotografie/lola-van-praag-1.avif"
+              srcset="/images/fotografie/djenne-fila-1.avif"
               type="image/avif"
             />
             <source
-              srcset="/images/fotografie/lola-van-praag-1.webp"
+              srcset="/images/fotografie/djenne-fila-1.webp"
               type="image/webp"
             />
             <source
-              srcset="/images/fotografie/lola-van-praag-1.jpg"
+              srcset="/images/fotografie/djenne-fila-1.jpg"
               type="image/jpeg"
             />
             <img
               class="w-[243px] md:w-full"
-              src="/images/fotografie/lola-van-praag-1.jpg"
-              alt="Lola van Praag"
+              src="/images/fotografie/djenne-fila-1.jpg"
+              alt="Djenne Fila"
               width="486"
               height="680"
             />
@@ -171,7 +171,7 @@
         <div
           class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
         >
-          Lola van Praag
+          Djenne Fila
         </div>
       </div>
 
@@ -191,21 +191,21 @@
         >
           <picture>
             <source
-              srcset="/images/fotografie/lola-van-praag-1.avif"
+              srcset="/images/fotografie/fides-lapidaire-1.avif"
               type="image/avif"
             />
             <source
-              srcset="/images/fotografie/lola-van-praag-1.webp"
+              srcset="/images/fotografie/fides-lapidaire-1.webp"
               type="image/webp"
             />
             <source
-              srcset="/images/fotografie/lola-van-praag-1.jpg"
+              srcset="/images/fotografie/fides-lapidaire-1.jpg"
               type="image/jpeg"
             />
             <img
               class="w-[243px] md:w-full"
-              src="/images/fotografie/lola-van-praag-1.jpg"
-              alt="Lola van Praag"
+              src="/images/fotografie/fides-lapidaire-1.jpg"
+              alt="Fides Lapidaire"
               width="486"
               height="680"
             />
@@ -214,7 +214,7 @@
         <div
           class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
         >
-          Lola van Praag
+          Fides Lapidaire
         </div>
       </div>
 
@@ -234,21 +234,21 @@
         >
           <picture>
             <source
-              srcset="/images/fotografie/lola-van-praag-1.avif"
+              srcset="/images/fotografie/geert-snijders-1.avif"
               type="image/avif"
             />
             <source
-              srcset="/images/fotografie/lola-van-praag-1.webp"
+              srcset="/images/fotografie/geert-snijders-1.webp"
               type="image/webp"
             />
             <source
-              srcset="/images/fotografie/lola-van-praag-1.jpg"
+              srcset="/images/fotografie/geert-snijders-1.jpg"
               type="image/jpeg"
             />
             <img
               class="w-[243px] md:w-full"
-              src="/images/fotografie/lola-van-praag-1.jpg"
-              alt="Lola van Praag"
+              src="/images/fotografie/geert-snijders-1.jpg"
+              alt="Geert Snijders"
               width="486"
               height="680"
             />
@@ -257,7 +257,7 @@
         <div
           class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
         >
-          Lola van Praag
+          Geert Snijders
         </div>
       </div>
 
@@ -277,21 +277,21 @@
         >
           <picture>
             <source
-              srcset="/images/fotografie/lola-van-praag-1.avif"
+              srcset="/images/fotografie/inderjeet-sandhu-1.avif"
               type="image/avif"
             />
             <source
-              srcset="/images/fotografie/lola-van-praag-1.webp"
+              srcset="/images/fotografie/inderjeet-sandhu-1.webp"
               type="image/webp"
             />
             <source
-              srcset="/images/fotografie/lola-van-praag-1.jpg"
+              srcset="/images/fotografie/inderjeet-sandhu-1.jpg"
               type="image/jpeg"
             />
             <img
               class="w-[243px] md:w-full"
-              src="/images/fotografie/lola-van-praag-1.jpg"
-              alt="Lola van Praag"
+              src="/images/fotografie/inderjeet-sandhu-1.jpg"
+              alt="Inderjeet Sandhu"
               width="486"
               height="680"
             />
@@ -300,7 +300,7 @@
         <div
           class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
         >
-          Lola van Praag
+          Inderjeet Sandhu
         </div>
       </div>
 
@@ -320,21 +320,21 @@
         >
           <picture>
             <source
-              srcset="/images/fotografie/lola-van-praag-1.avif"
+              srcset="/images/fotografie/josephine-de-fijter-1.avif"
               type="image/avif"
             />
             <source
-              srcset="/images/fotografie/lola-van-praag-1.webp"
+              srcset="/images/fotografie/josephine-de-fijter-1.webp"
               type="image/webp"
             />
             <source
-              srcset="/images/fotografie/lola-van-praag-1.jpg"
+              srcset="/images/fotografie/josephine-de-fijter-1.jpg"
               type="image/jpeg"
             />
             <img
               class="w-[243px] md:w-full"
-              src="/images/fotografie/lola-van-praag-1.jpg"
-              alt="Lola van Praag"
+              src="/images/fotografie/josephine-de-fijter-1.jpg"
+              alt="Josephine de Fijter"
               width="486"
               height="680"
             />
@@ -343,7 +343,7 @@
         <div
           class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
         >
-          Lola van Praag
+          Josephine de Fijter
         </div>
       </div>
 
@@ -363,21 +363,21 @@
         >
           <picture>
             <source
-              srcset="/images/fotografie/lola-van-praag-1.avif"
+              srcset="/images/fotografie/jule-cats-1.avif"
               type="image/avif"
             />
             <source
-              srcset="/images/fotografie/lola-van-praag-1.webp"
+              srcset="/images/fotografie/jule-cats-1.webp"
               type="image/webp"
             />
             <source
-              srcset="/images/fotografie/lola-van-praag-1.jpg"
+              srcset="/images/fotografie/jule-cats-1.jpg"
               type="image/jpeg"
             />
             <img
               class="w-[243px] md:w-full"
-              src="/images/fotografie/lola-van-praag-1.jpg"
-              alt="Lola van Praag"
+              src="/images/fotografie/jule-cats-1.jpg"
+              alt="Jule Cats"
               width="486"
               height="680"
             />
@@ -386,7 +386,7 @@
         <div
           class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
         >
-          Lola van Praag
+          Jule Cats
         </div>
       </div>
 
@@ -405,22 +405,13 @@
           class="flex justify-center items-center w-[302.39px] h-[386.45px] md:w-full md:h-auto md!bg-none"
         >
           <picture>
-            <source
-              srcset="/images/fotografie/lola-van-praag-1.avif"
-              type="image/avif"
-            />
-            <source
-              srcset="/images/fotografie/lola-van-praag-1.webp"
-              type="image/webp"
-            />
-            <source
-              srcset="/images/fotografie/lola-van-praag-1.jpg"
-              type="image/jpeg"
-            />
+            <source srcset="/images/fotografie/jwve-1.avif" type="image/avif" />
+            <source srcset="/images/fotografie/jwve-1.webp" type="image/webp" />
+            <source srcset="/images/fotografie/jwve-1.jpg" type="image/jpeg" />
             <img
               class="w-[243px] md:w-full"
-              src="/images/fotografie/lola-van-praag-1.jpg"
-              alt="Lola van Praag"
+              src="/images/fotografie/jwve-1.jpg"
+              alt="JWvE"
               width="486"
               height="680"
             />
@@ -429,7 +420,7 @@
         <div
           class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
         >
-          Lola van Praag
+          JWvE
         </div>
       </div>
 
@@ -449,21 +440,21 @@
         >
           <picture>
             <source
-              srcset="/images/fotografie/lola-van-praag-1.avif"
+              srcset="/images/fotografie/lisa-mandemaker-1.avif"
               type="image/avif"
             />
             <source
-              srcset="/images/fotografie/lola-van-praag-1.webp"
+              srcset="/images/fotografie/lisa-mandemaker-1.webp"
               type="image/webp"
             />
             <source
-              srcset="/images/fotografie/lola-van-praag-1.jpg"
+              srcset="/images/fotografie/lisa-mandemaker-1.jpg"
               type="image/jpeg"
             />
             <img
               class="w-[243px] md:w-full"
-              src="/images/fotografie/lola-van-praag-1.jpg"
-              alt="Lola van Praag"
+              src="/images/fotografie/lisa-mandemaker-1.jpg"
+              alt="Lisa Mandemaker"
               width="486"
               height="680"
             />
@@ -472,7 +463,7 @@
         <div
           class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
         >
-          Lola van Praag
+          Lisa Mandemaker
         </div>
       </div>
 
@@ -535,21 +526,21 @@
         >
           <picture>
             <source
-              srcset="/images/fotografie/lola-van-praag-1.avif"
+              srcset="/images/fotografie/ralf-de-bruin-1.avif"
               type="image/avif"
             />
             <source
-              srcset="/images/fotografie/lola-van-praag-1.webp"
+              srcset="/images/fotografie/ralf-de-bruin-1.webp"
               type="image/webp"
             />
             <source
-              srcset="/images/fotografie/lola-van-praag-1.jpg"
+              srcset="/images/fotografie/ralf-de-bruin-1.jpg"
               type="image/jpeg"
             />
             <img
               class="w-[243px] md:w-full"
-              src="/images/fotografie/lola-van-praag-1.jpg"
-              alt="Lola van Praag"
+              src="/images/fotografie/ralf-de-bruin-1.jpg"
+              alt="Ralf de Bruin"
               width="486"
               height="680"
             />
@@ -558,7 +549,7 @@
         <div
           class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
         >
-          Lola van Praag
+          Ralf de Bruin
         </div>
       </div>
 
@@ -578,21 +569,21 @@
         >
           <picture>
             <source
-              srcset="/images/fotografie/lola-van-praag-1.avif"
+              srcset="/images/fotografie/rein-reitsma-1.avif"
               type="image/avif"
             />
             <source
-              srcset="/images/fotografie/lola-van-praag-1.webp"
+              srcset="/images/fotografie/rein-reitsma-1.webp"
               type="image/webp"
             />
             <source
-              srcset="/images/fotografie/lola-van-praag-1.jpg"
+              srcset="/images/fotografie/rein-reitsma-1.jpg"
               type="image/jpeg"
             />
             <img
               class="w-[243px] md:w-full"
-              src="/images/fotografie/lola-van-praag-1.jpg"
-              alt="Lola van Praag"
+              src="/images/fotografie/rein-reitsma-1.jpg"
+              alt="Rein Reitsma"
               width="486"
               height="680"
             />
@@ -601,7 +592,7 @@
         <div
           class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
         >
-          Lola van Praag
+          Rein Reitsma
         </div>
       </div>
 
@@ -621,21 +612,21 @@
         >
           <picture>
             <source
-              srcset="/images/fotografie/lola-van-praag-1.avif"
+              srcset="/images/fotografie/studio-new-west-1.avif"
               type="image/avif"
             />
             <source
-              srcset="/images/fotografie/lola-van-praag-1.webp"
+              srcset="/images/fotografie/studio-new-west-1.webp"
               type="image/webp"
             />
             <source
-              srcset="/images/fotografie/lola-van-praag-1.jpg"
+              srcset="/images/fotografie/studio-new-west-1.jpg"
               type="image/jpeg"
             />
             <img
               class="w-[243px] md:w-full"
-              src="/images/fotografie/lola-van-praag-1.jpg"
-              alt="Lola van Praag"
+              src="/images/fotografie/studio-new-west-1.jpg"
+              alt="Studio New West"
               width="486"
               height="680"
             />
@@ -644,7 +635,7 @@
         <div
           class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
         >
-          Lola van Praag
+          Studio New West
         </div>
       </div>
 
@@ -664,21 +655,21 @@
         >
           <picture>
             <source
-              srcset="/images/fotografie/lola-van-praag-1.avif"
+              srcset="/images/fotografie/tessa-petrusa-1.avif"
               type="image/avif"
             />
             <source
-              srcset="/images/fotografie/lola-van-praag-1.webp"
+              srcset="/images/fotografie/tessa-petrusa-1.webp"
               type="image/webp"
             />
             <source
-              srcset="/images/fotografie/lola-van-praag-1.jpg"
+              srcset="/images/fotografie/tessa-petrusa-1.jpg"
               type="image/jpeg"
             />
             <img
               class="w-[243px] md:w-full"
-              src="/images/fotografie/lola-van-praag-1.jpg"
-              alt="Lola van Praag"
+              src="/images/fotografie/tessa-petrusa-1.jpg"
+              alt="Tessa Petrusa"
               width="486"
               height="680"
             />
@@ -687,7 +678,7 @@
         <div
           class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
         >
-          Lola van Praag
+          Tessa Petrusa
         </div>
       </div>
 
@@ -707,21 +698,21 @@
         >
           <picture>
             <source
-              srcset="/images/fotografie/lola-van-praag-1.avif"
+              srcset="/images/fotografie/thom-bindels-1.avif"
               type="image/avif"
             />
             <source
-              srcset="/images/fotografie/lola-van-praag-1.webp"
+              srcset="/images/fotografie/thom-bindels-1.webp"
               type="image/webp"
             />
             <source
-              srcset="/images/fotografie/lola-van-praag-1.jpg"
+              srcset="/images/fotografie/thom-bindels-1.jpg"
               type="image/jpeg"
             />
             <img
               class="w-[243px] md:w-full"
-              src="/images/fotografie/lola-van-praag-1.jpg"
-              alt="Lola van Praag"
+              src="/images/fotografie/thom-bindels-1.jpg"
+              alt="Thom Bindels"
               width="486"
               height="680"
             />
@@ -730,7 +721,7 @@
         <div
           class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
         >
-          Lola van Praag
+          Thom Bindels
         </div>
       </div>
 
