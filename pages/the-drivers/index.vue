@@ -168,7 +168,7 @@
             <img
               class="w-[243px] md:w-full"
               src="/images/fotografie/djenne-fila-1.jpg"
-              alt="Djenne Fila"
+              alt="Djenné Fila"
               width="486"
               height="680"
             />
@@ -177,7 +177,7 @@
         <div
           class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-0 md:group-hover:block"
         >
-          Djenne Fila
+          Djenné Fila
         </div>
       </nuxt-link>
 
