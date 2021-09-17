@@ -9,7 +9,10 @@
     >
       <!-- START 1 -->
 
-      <div class="mx-auto w-[298.87px] md:relative md:mx-0 md:w-[140.38px]">
+      <nuxt-link
+        class="group block mx-auto w-[298.87px] md:relative md:mx-0 md:w-[140.38px]"
+        to="/the-drivers/asja-keeman"
+      >
         <div class="text-[24px] leading-[29px] text-center md:hidden">
           I feel objects
         </div>
@@ -31,7 +34,7 @@
               type="image/jpeg"
             />
             <img
-              class="w-[243px] md:w-full"
+              class="w-[243px] md:w-full md:group-hover:grayscale"
               src="/images/fotografie/asja-keeman-1.jpg"
               alt="Asja Keeman"
               width="486"
@@ -40,18 +43,19 @@
           </picture>
         </div>
         <div
-          class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
+          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-0 md:group-hover:block"
         >
           Asja Keeman
         </div>
-      </div>
+      </nuxt-link>
 
       <!-- END 1 -->
 
       <!-- START 2 -->
 
-      <div
-        class="mx-auto mt-[108px] w-[302.39px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+      <nuxt-link
+        class="group block mx-auto mt-[108px] w-[302.39px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+        to="/the-drivers/bram-de-vos"
       >
         <div class="text-[24px] leading-[29px] text-center md:hidden">
           I feel objects
@@ -83,18 +87,19 @@
           </picture>
         </div>
         <div
-          class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
+          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-0 md:group-hover:block"
         >
           Bram de Vos
         </div>
-      </div>
+      </nuxt-link>
 
       <!-- END 2 -->
 
       <!-- START 3 -->
 
-      <div
-        class="mx-auto mt-[108px] w-[298.87px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+      <nuxt-link
+        class="group block mx-auto mt-[108px] w-[298.87px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+        to="/the-drivers/daisy-van-loenhout"
       >
         <div class="text-[24px] leading-[29px] text-center md:hidden">
           I feel objects
@@ -126,18 +131,19 @@
           </picture>
         </div>
         <div
-          class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
+          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-0 md:group-hover:block"
         >
           Daisy van Loenhout
         </div>
-      </div>
+      </nuxt-link>
 
       <!-- END 3 -->
 
       <!-- START 4 -->
 
-      <div
-        class="mx-auto mt-[108px] w-[302.39px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+      <nuxt-link
+        class="group block mx-auto mt-[108px] w-[302.39px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+        to="/the-drivers/djenna-fila"
       >
         <div class="text-[24px] leading-[29px] text-center md:hidden">
           I feel objects
@@ -169,18 +175,19 @@
           </picture>
         </div>
         <div
-          class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
+          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-0 md:group-hover:block"
         >
           Djenne Fila
         </div>
-      </div>
+      </nuxt-link>
 
       <!-- END 4 -->
 
       <!-- START 5 -->
 
-      <div
-        class="mx-auto mt-[108px] w-[298.87px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+      <nuxt-link
+        class="group block mx-auto mt-[108px] w-[298.87px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+        to="/the-drivers/fides-lapidaire"
       >
         <div class="text-[24px] leading-[29px] text-center md:hidden">
           I feel objects
@@ -212,18 +219,19 @@
           </picture>
         </div>
         <div
-          class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
+          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-0 md:group-hover:block"
         >
           Fides Lapidaire
         </div>
-      </div>
+      </nuxt-link>
 
       <!-- END 5 -->
 
       <!-- START 6 -->
 
-      <div
-        class="mx-auto mt-[108px] w-[302.39px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+      <nuxt-link
+        class="group block mx-auto mt-[108px] w-[302.39px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+        to="/the-drivers/geert-snijders"
       >
         <div class="text-[24px] leading-[29px] text-center md:hidden">
           I feel objects
@@ -255,18 +263,19 @@
           </picture>
         </div>
         <div
-          class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
+          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-0 md:group-hover:block"
         >
           Geert Snijders
         </div>
-      </div>
+      </nuxt-link>
 
       <!-- END 6 -->
 
       <!-- START 7 -->
 
-      <div
-        class="mx-auto mt-[108px] w-[298.87px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+      <nuxt-link
+        class="group block mx-auto mt-[108px] w-[298.87px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+        to="/the-drivers/inderjeet-sandhu"
       >
         <div class="text-[24px] leading-[29px] text-center md:hidden">
           I feel objects
@@ -298,18 +307,19 @@
           </picture>
         </div>
         <div
-          class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
+          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-0 md:group-hover:block"
         >
           Inderjeet Sandhu
         </div>
-      </div>
+      </nuxt-link>
 
       <!-- END 7 -->
 
       <!-- START 8 -->
 
-      <div
-        class="mx-auto mt-[108px] w-[302.39px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+      <nuxt-link
+        class="group block mx-auto mt-[108px] w-[302.39px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+        to="/the-drivers/josephine-de-fijter"
       >
         <div class="text-[24px] leading-[29px] text-center md:hidden">
           I feel objects
@@ -341,18 +351,19 @@
           </picture>
         </div>
         <div
-          class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
+          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-0 md:group-hover:block"
         >
           Josephine de Fijter
         </div>
-      </div>
+      </nuxt-link>
 
       <!-- END 8 -->
 
       <!-- START 9 -->
 
-      <div
-        class="mx-auto mt-[108px] w-[298.87px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+      <nuxt-link
+        class="group block mx-auto mt-[108px] w-[298.87px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+        to="/the-drivers/jule-cats"
       >
         <div class="text-[24px] leading-[29px] text-center md:hidden">
           I feel objects
@@ -384,18 +395,19 @@
           </picture>
         </div>
         <div
-          class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
+          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-0 md:group-hover:block"
         >
           Jule Cats
         </div>
-      </div>
+      </nuxt-link>
 
       <!-- END 9 -->
 
       <!-- START 10 -->
 
-      <div
-        class="mx-auto mt-[108px] w-[302.39px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+      <nuxt-link
+        class="group block mx-auto mt-[108px] w-[302.39px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+        to="/the-drivers/jwve"
       >
         <div class="text-[24px] leading-[29px] text-center md:hidden">
           I feel objects
@@ -418,18 +430,19 @@
           </picture>
         </div>
         <div
-          class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
+          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-0 md:group-hover:block"
         >
           JWvE
         </div>
-      </div>
+      </nuxt-link>
 
       <!-- END 10 -->
 
       <!-- START 11 -->
 
-      <div
-        class="mx-auto mt-[108px] w-[298.87px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+      <nuxt-link
+        class="group block mx-auto mt-[108px] w-[298.87px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+        to="/lisa-mandemaker"
       >
         <div class="text-[24px] leading-[29px] text-center md:hidden">
           I feel objects
@@ -461,18 +474,19 @@
           </picture>
         </div>
         <div
-          class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
+          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-0 md:group-hover:block"
         >
           Lisa Mandemaker
         </div>
-      </div>
+      </nuxt-link>
 
       <!-- END 11 -->
 
       <!-- START 12 -->
 
-      <div
-        class="mx-auto mt-[108px] w-[302.39px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+      <nuxt-link
+        class="group block mx-auto mt-[108px] w-[302.39px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+        to="/the-drivers/lola-van-praag"
       >
         <div class="text-[24px] leading-[29px] text-center md:hidden">
           I feel objects
@@ -504,18 +518,19 @@
           </picture>
         </div>
         <div
-          class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
+          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-0 md:group-hover:block"
         >
           Lola van Praag
         </div>
-      </div>
+      </nuxt-link>
 
       <!-- END 12 -->
 
       <!-- START 13 -->
 
-      <div
-        class="mx-auto mt-[108px] w-[298.87px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+      <nuxt-link
+        class="group block mx-auto mt-[108px] w-[298.87px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+        to="/the-drivers/ralf-de-bruin"
       >
         <div class="text-[24px] leading-[29px] text-center md:hidden">
           I feel objects
@@ -547,18 +562,19 @@
           </picture>
         </div>
         <div
-          class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
+          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-0 md:group-hover:block"
         >
           Ralf de Bruin
         </div>
-      </div>
+      </nuxt-link>
 
       <!-- END 13 -->
 
       <!-- START 14 -->
 
-      <div
-        class="mx-auto mt-[108px] w-[302.39px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+      <nuxt-link
+        class="group block mx-auto mt-[108px] w-[302.39px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+        to="/the-drivers/rein-reitsma"
       >
         <div class="text-[24px] leading-[29px] text-center md:hidden">
           I feel objects
@@ -590,18 +606,19 @@
           </picture>
         </div>
         <div
-          class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
+          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-0 md:group-hover:block"
         >
           Rein Reitsma
         </div>
-      </div>
+      </nuxt-link>
 
       <!-- END 14 -->
 
       <!-- START 15 -->
 
-      <div
-        class="mx-auto mt-[108px] w-[298.87px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+      <nuxt-link
+        class="group block mx-auto mt-[108px] w-[298.87px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+        to="/the-drivers/studio-new-west"
       >
         <div class="text-[24px] leading-[29px] text-center md:hidden">
           I feel objects
@@ -633,18 +650,19 @@
           </picture>
         </div>
         <div
-          class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
+          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-0 md:group-hover:block"
         >
           Studio New West
         </div>
-      </div>
+      </nuxt-link>
 
       <!-- END 15 -->
 
       <!-- START 16 -->
 
-      <div
-        class="mx-auto mt-[108px] w-[302.39px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+      <nuxt-link
+        class="group block mx-auto mt-[108px] w-[302.39px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+        to="/the-drivers/tessa-petrusa"
       >
         <div class="text-[24px] leading-[29px] text-center md:hidden">
           I feel objects
@@ -676,18 +694,19 @@
           </picture>
         </div>
         <div
-          class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
+          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-0 md:group-hover:block"
         >
           Tessa Petrusa
         </div>
-      </div>
+      </nuxt-link>
 
       <!-- END 16 -->
 
       <!-- START 17 -->
 
-      <div
-        class="mx-auto mt-[108px] w-[298.87px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+      <nuxt-link
+        class="group block mx-auto mt-[108px] w-[298.87px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+        to="/the-drivers/thom-bindels"
       >
         <div class="text-[24px] leading-[29px] text-center md:hidden">
           I feel objects
@@ -719,11 +738,11 @@
           </picture>
         </div>
         <div
-          class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
+          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-0 md:group-hover:block"
         >
           Thom Bindels
         </div>
-      </div>
+      </nuxt-link>
 
       <!-- END 17 -->
     </div>
