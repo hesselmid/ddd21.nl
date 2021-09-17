@@ -442,7 +442,7 @@
 
       <nuxt-link
         class="group block mx-auto mt-[108px] w-[298.87px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
-        to="/lisa-mandemaker"
+        to="/the-drivers/lisa-mandemaker"
       >
         <div class="text-[24px] leading-[29px] text-center md:hidden">
           I feel objects
