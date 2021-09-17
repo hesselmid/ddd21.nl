@@ -1,6 +1,11 @@
 {
   "name": "Bram de Vos",
-  "image": {
+  "image_1": {
+    "jpg": "/images/fotografie/bram-de-vos-1.jpg",
+    "webp": "/images/fotografie/bram-de-vos-1.webp",
+    "avif": "/images/fotografie/bram-de-vos-1.avif"
+  },
+  "image_2": {
     "jpg": "/images/fotografie/bram-de-vos-2.jpg",
     "webp": "/images/fotografie/bram-de-vos-2.webp",
     "avif": "/images/fotografie/bram-de-vos-2.avif"

@@ -1,7 +1,5 @@
 <template>
-  <main>
-    <nuxt-link to="/the-drivers/asja">Asja</nuxt-link>
-  </main>
+  <main></main>
 </template>
 
 <script>

@@ -1,10 +1,14 @@
 {
-    "name": "Inderjeet Sandhu",
-    "image": {
-      "jpg": "/images/fotografie/inderjeet-sandhu-2.jpg",
-      "webp": "/images/fotografie/inderjeet-sandhu-2.webp",
-      "avif": "/images/fotografie/inderjeet-sandhu-2.avif"
-    },
-    "intro": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, labore et anim, adipiscing consectetur officia ut et velit quis nostrud. Ea ut et ut id exercitation dolore aute cillum aliquip veniam adipiscing sint mollit reprehenderit consequat labore sit labore excepteur esse consequat exercitation ut ex ullamco pariatur exercitation esse proident occaecat laboris occaecat nulla anim consectetur et dolor ad amet minim dolore amet excepteur dolore ullamco exercitation cillum anim. Amet voluptate nulla sint ea aliquip labore eiusmod ullamco ex quis non ullamco proident esse sint esse dolore reprehenderit aliqua ex adipiscing cillum. Sit magna. Cupidatat culpa aliqua excepteur minim aliqua elit ullamco exercitation do commodo labore magna minim occaecat."
-  }
-  
+  "name": "Inderjeet Sandhu",
+  "image_1": {
+    "jpg": "/images/fotografie/inderjeet-sandhu-1.jpg",
+    "webp": "/images/fotografie/inderjeet-sandhu-1.webp",
+    "avif": "/images/fotografie/inderjeet-sandhu-1.avif"
+  },
+  "image_2": {
+    "jpg": "/images/fotografie/inderjeet-sandhu-2.jpg",
+    "webp": "/images/fotografie/inderjeet-sandhu-2.webp",
+    "avif": "/images/fotografie/inderjeet-sandhu-2.avif"
+  },
+  "intro": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, labore et anim, adipiscing consectetur officia ut et velit quis nostrud. Ea ut et ut id exercitation dolore aute cillum aliquip veniam adipiscing sint mollit reprehenderit consequat labore sit labore excepteur esse consequat exercitation ut ex ullamco pariatur exercitation esse proident occaecat laboris occaecat nulla anim consectetur et dolor ad amet minim dolore amet excepteur dolore ullamco exercitation cillum anim. Amet voluptate nulla sint ea aliquip labore eiusmod ullamco ex quis non ullamco proident esse sint esse dolore reprehenderit aliqua ex adipiscing cillum. Sit magna. Cupidatat culpa aliqua excepteur minim aliqua elit ullamco exercitation do commodo labore magna minim occaecat."
+}

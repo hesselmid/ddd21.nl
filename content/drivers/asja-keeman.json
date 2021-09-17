@@ -1,6 +1,11 @@
 {
   "name": "Asja Keeman",
-  "image": {
+  "image_1": {
+    "jpg": "/images/fotografie/asja-keeman-1.jpg",
+    "webp": "/images/fotografie/asja-keeman-1.webp",
+    "avif": "/images/fotografie/asja-keeman-1.avif"
+  },
+  "image_2": {
     "jpg": "/images/fotografie/asja-keeman-2.jpg",
     "webp": "/images/fotografie/asja-keeman-2.webp",
     "avif": "/images/fotografie/asja-keeman-2.avif"

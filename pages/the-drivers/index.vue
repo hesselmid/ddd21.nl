@@ -1,634 +1,766 @@
 <template>
-  <main>
+  <main class="bg-[#B5DECB]">
+    <h1 class="pt-[84.3px] text-[35px] leading-[42px] text-center">
+      The Drivers
+    </h1>
     <div
-      class="bg-mint mx-auto mt-[11px] max-w-[375px] md:pt-[60px] md:pb-[204.7px] md:mt-[41px] md:w-[768px] md:max-w-none md:bg-center md:bg-no-repeat md:bg-cover"
+      id="grid"
+      class="mt-[37.5px] md:grid md:grid-cols-3 md:gap-x-[51.2px] md:gap-y-[41.4px] md:px-[66.5px] md:pt-[47.3px] md:pb-[47.2px] md:mx-auto md:w-[662.95px] md:h-[1479.02px]"
     >
-      <div
-        id="drivers-bg"
-        class="md:px-[69.7px] md:pt-[47.2px] md:pb-[47.6px] md:mx-auto md:mt-[46.3px] md:w-[662.95px] md:bg-top md:bg-no-repeat md:bg-cover"
-      >
-        <div class="md:grid md:grid-cols-3 md:gap-x-[51.2px] md:gap-y-[41.4px]">
-          <div
-            class="mint flex flex-col items-center bg-top bg-no-repeat bg-cover md:relative group"
-          >
-            <h2 class="mt-[35px] text-[24px] leading-[29px] md:hidden">
-              I feel systems
-            </h2>
-            <nuxt-link to="/the-drivers/josephine-de-fijter">
-              <picture>
-                <source
-                  srcset="/images/fotografie/josephine-de-fijter-1.avif"
-                  type="image/avif"
-                />
-                <source
-                  srcset="/images/fotografie/josephine-de-fijter-1.webp"
-                  type="image/webp"
-                />
-                <source
-                  srcset="/images/fotografie/josephine-de-fijter-1.jpg"
-                  type="image/jpeg"
-                />
-                <img
-                  class="mt-[22.2px] w-[243px] md:mt-0 md:w-full md:hover:grayscale"
-                  src="/images/fotografie/josephine-de-fijter-1.jpg"
-                  alt="Josephine de Fijter"
-                  width="486"
-                  height="680"
-                />
-              </picture>
-            </nuxt-link>
-            <h3
-              class="mx-auto mt-[22.6px] mb-[121px] w-[140px] text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-[25%] md:mx-0 md:mt-0 md:mb-0 md:w-[140.38px] md:text-[30px] md:leading-[37px] md:text-[#007190] md:pointer-events-none group-hover:block"
-            >
-              Studio Uncoated
-            </h3>
-          </div>
-          <div
-            class="flex flex-col items-center mt-[-48px] md:relative group md:mt-0"
-          >
-            <h2 class="mt-[35px] text-[24px] leading-[29px] md:hidden">
-              I feel objects
-            </h2>
-            <nuxt-link to="/the-drivers/lola-van-praag">
-              <picture>
-                <source
-                  srcset="/images/fotografie/lola-van-praag-1.avif"
-                  type="image/avif"
-                />
-                <source
-                  srcset="/images/fotografie/lola-van-praag-1.webp"
-                  type="image/webp"
-                />
-                <source
-                  srcset="/images/fotografie/lola-van-praag-1.jpg"
-                  type="image/jpeg"
-                />
-                <img
-                  class="mt-[22.2px] w-[243px] md:mt-0 md:w-full md:hover:grayscale"
-                  src="/images/fotografie/lola-van-praag-1.jpg"
-                  alt="Lola van Praag"
-                  width="486"
-                  height="680"
-                />
-              </picture>
-            </nuxt-link>
-            <h3
-              class="mx-auto mt-[22.6px] mb-[64px] w-[140px] text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-[25%] md:mx-0 md:mt-0 md:mb-0 md:w-[140.38px] md:text-[30px] md:leading-[37px] md:text-[#B5DECB] md:pointer-events-none group-hover:block"
-            >
-              Lola van Praag
-            </h3>
-          </div>
-          <div
-            class="mint flex flex-col items-center bg-top bg-no-repeat bg-cover md:relative group"
-          >
-            <h2 class="mt-[35px] text-[24px] leading-[29px] md:hidden">
-              I feel stories
-            </h2>
-            <nuxt-link to="/the-drivers/daisy-van-loenhout">
-              <picture>
-                <source
-                  srcset="/images/fotografie/daisy-van-loenhout-1.avif"
-                  type="image/avif"
-                />
-                <source
-                  srcset="/images/fotografie/daisy-van-loenhout-1.webp"
-                  type="image/webp"
-                />
-                <source
-                  srcset="/images/fotografie/daisy-van-loenhout-1.jpg"
-                  type="image/jpeg"
-                />
-                <img
-                  class="mt-[22.2px] w-[243px] md:mt-0 md:w-full md:hover:grayscale"
-                  src="/images/fotografie/daisy-van-loenhout-1.jpg"
-                  alt="Daisy van Loenhout"
-                  width="486"
-                  height="680"
-                />
-              </picture>
-            </nuxt-link>
-            <h3
-              class="mx-auto mt-[22.6px] mb-[121px] w-[140px] text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-[25%] md:mx-0 md:mt-0 md:mb-0 md:w-[140.38px] md:text-[30px] md:leading-[37px] md:text-[#FBDC00] md:pointer-events-none group-hover:block"
-            >
-              Lithe Lab
-            </h3>
-          </div>
-          <div
-            class="flex flex-col items-center mt-[-48px] md:relative group md:mt-0"
-          >
-            <h2 class="mt-[35px] text-[24px] leading-[29px] md:hidden">
-              I feel stories
-            </h2>
-            <nuxt-link to="/the-drivers/geert-snijders">
-              <picture>
-                <source
-                  srcset="/images/fotografie/lola-van-praag-1.avif"
-                  type="image/avif"
-                />
-                <source
-                  srcset="/images/fotografie/lola-van-praag-1.webp"
-                  type="image/webp"
-                />
-                <source
-                  srcset="/images/fotografie/lola-van-praag-1.jpg"
-                  type="image/jpeg"
-                />
-                <img
-                  class="mt-[22.2px] w-[243px] md:mt-0 md:w-full md:hover:grayscale"
-                  src="/images/fotografie/lola-van-praag-1.jpg"
-                  alt="Lola van Praag"
-                  width="486"
-                  height="680"
-                />
-              </picture>
-            </nuxt-link>
-            <h3
-              class="mx-auto mt-[22.6px] mb-[64px] w-[140px] text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-[25%] md:mx-0 md:mt-0 md:mb-0 md:w-[140.38px] md:text-[30px] md:leading-[37px] md:text-[#FBDC00] md:pointer-events-none group-hover:block"
-            >
-              Geert Snijders
-            </h3>
-          </div>
-          <div
-            class="mint flex flex-col items-center bg-top bg-no-repeat bg-cover md:relative group"
-          >
-            <h2 class="mt-[35px] text-[24px] leading-[29px] md:hidden">
-              I feel systems
-            </h2>
-            <nuxt-link to="/the-drivers/lola-van-praag">
-              <picture>
-                <source
-                  srcset="/images/fotografie/lola-van-praag-1.avif"
-                  type="image/avif"
-                />
-                <source
-                  srcset="/images/fotografie/lola-van-praag-1.webp"
-                  type="image/webp"
-                />
-                <source
-                  srcset="/images/fotografie/lola-van-praag-1.jpg"
-                  type="image/jpeg"
-                />
-                <img
-                  class="mt-[22.2px] w-[243px] md:mt-0 md:w-full md:hover:grayscale"
-                  src="/images/fotografie/lola-van-praag-1.jpg"
-                  alt="Lola van Praag"
-                  width="486"
-                  height="680"
-                />
-              </picture>
-            </nuxt-link>
-            <h3
-              class="mx-auto mt-[22.6px] mb-[121px] w-[140px] text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-[25%] md:mx-0 md:mt-0 md:mb-0 md:w-[140.38px] md:text-[30px] md:leading-[37px] md:text-[#007190] md:pointer-events-none group-hover:block"
-            >
-              Tessa Petrusa Design
-            </h3>
-          </div>
-          <div
-            class="flex flex-col items-center mt-[-48px] md:relative group md:mt-0"
-          >
-            <h2 class="mt-[35px] text-[24px] leading-[29px] md:hidden">
-              I feel objects
-            </h2>
-            <nuxt-link to="/the-drivers/ralf-de-bruin">
-              <picture>
-                <source
-                  srcset="/images/fotografie/lola-van-praag-1.avif"
-                  type="image/avif"
-                />
-                <source
-                  srcset="/images/fotografie/lola-van-praag-1.webp"
-                  type="image/webp"
-                />
-                <source
-                  srcset="/images/fotografie/lola-van-praag-1.jpg"
-                  type="image/jpeg"
-                />
-                <img
-                  class="mt-[22.2px] w-[243px] md:mt-0 md:w-full md:hover:grayscale"
-                  src="/images/fotografie/lola-van-praag-1.jpg"
-                  alt="Lola van Praag"
-                  width="486"
-                  height="680"
-                />
-              </picture>
-            </nuxt-link>
-            <h3
-              class="mx-auto mt-[22.6px] mb-[64px] w-[140px] text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-[25%] md:mx-0 md:mt-0 md:mb-0 md:w-[140.38px] md:text-[30px] md:leading-[37px] md:text-[#B5DECB] md:pointer-events-none group-hover:block"
-            >
-              Ralf de Bruin
-            </h3>
-          </div>
-          <div
-            class="mint flex flex-col items-center bg-top bg-no-repeat bg-cover md:relative group"
-          >
-            <h2 class="mt-[35px] text-[24px] leading-[29px] md:hidden">
-              I feel systems
-            </h2>
-            <nuxt-link to="/the-drivers/lola-van-praag">
-              <picture>
-                <source
-                  srcset="/images/fotografie/lola-van-praag-1.avif"
-                  type="image/avif"
-                />
-                <source
-                  srcset="/images/fotografie/lola-van-praag-1.webp"
-                  type="image/webp"
-                />
-                <source
-                  srcset="/images/fotografie/lola-van-praag-1.jpg"
-                  type="image/jpeg"
-                />
-                <img
-                  class="mt-[22.2px] w-[243px] md:mt-0 md:w-full md:hover:grayscale"
-                  src="/images/fotografie/lola-van-praag-1.jpg"
-                  alt="Lola van Praag"
-                  width="486"
-                  height="680"
-                />
-              </picture>
-            </nuxt-link>
-            <h3
-              class="mx-auto mt-[22.6px] mb-[121px] w-[140px] text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-[25%] md:mx-0 md:mt-0 md:mb-0 md:w-[140.38px] md:text-[30px] md:leading-[37px] md:text-[#007190] md:pointer-events-none group-hover:block"
-            >
-              Amper Design
-            </h3>
-          </div>
-          <div
-            class="flex flex-col items-center mt-[-48px] md:relative group md:mt-0"
-          >
-            <h2 class="mt-[35px] text-[24px] leading-[29px] md:hidden">
-              I feel objects
-            </h2>
-            <nuxt-link to="/the-drivers/inderjeet-sandhu">
-              <picture>
-                <source
-                  srcset="/images/fotografie/lola-van-praag-1.avif"
-                  type="image/avif"
-                />
-                <source
-                  srcset="/images/fotografie/lola-van-praag-1.webp"
-                  type="image/webp"
-                />
-                <source
-                  srcset="/images/fotografie/lola-van-praag-1.jpg"
-                  type="image/jpeg"
-                />
-                <img
-                  class="mt-[22.2px] w-[243px] md:mt-0 md:w-full md:hover:grayscale"
-                  src="/images/fotografie/lola-van-praag-1.jpg"
-                  alt="Lola van Praag"
-                  width="486"
-                  height="680"
-                />
-              </picture>
-            </nuxt-link>
-            <h3
-              class="mx-auto mt-[22.6px] mb-[64px] w-[140px] text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-[25%] md:mx-0 md:mt-0 md:mb-0 md:w-[140.38px] md:text-[30px] md:leading-[37px] md:text-[#B5DECB] md:pointer-events-none group-hover:block"
-            >
-              Inderjeet Sandhu
-            </h3>
-          </div>
-          <div
-            class="mint flex flex-col items-center bg-top bg-no-repeat bg-cover md:relative group"
-          >
-            <h2 class="mt-[35px] text-[24px] leading-[29px] md:hidden">
-              I feel stories
-            </h2>
-            <nuxt-link to="/the-drivers/djenne-fila">
-              <picture>
-                <source
-                  srcset="/images/fotografie/lola-van-praag-1.avif"
-                  type="image/avif"
-                />
-                <source
-                  srcset="/images/fotografie/lola-van-praag-1.webp"
-                  type="image/webp"
-                />
-                <source
-                  srcset="/images/fotografie/lola-van-praag-1.jpg"
-                  type="image/jpeg"
-                />
-                <img
-                  class="mt-[22.2px] w-[243px] md:mt-0 md:w-full md:hover:grayscale"
-                  src="/images/fotografie/lola-van-praag-1.jpg"
-                  alt="Lola van Praag"
-                  width="486"
-                  height="680"
-                />
-              </picture>
-            </nuxt-link>
-            <h3
-              class="mx-auto mt-[22.6px] mb-[121px] w-[140px] text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-[25%] md:mx-0 md:mt-0 md:mb-0 md:w-[140.38px] md:text-[30px] md:leading-[37px] md:text-[#FBDC00] md:pointer-events-none group-hover:block"
-            >
-              Djenne Fila
-            </h3>
-          </div>
-          <div
-            class="flex flex-col items-center mt-[-48px] md:relative group md:mt-0"
-          >
-            <h2 class="mt-[35px] text-[24px] leading-[29px] md:hidden">
-              I feel stories
-            </h2>
-            <nuxt-link to="/the-drivers/lola-van-praag">
-              <picture>
-                <source
-                  srcset="/images/fotografie/lola-van-praag-1.avif"
-                  type="image/avif"
-                />
-                <source
-                  srcset="/images/fotografie/lola-van-praag-1.webp"
-                  type="image/webp"
-                />
-                <source
-                  srcset="/images/fotografie/lola-van-praag-1.jpg"
-                  type="image/jpeg"
-                />
-                <img
-                  class="mt-[22.2px] w-[243px] md:mt-0 md:w-full md:hover:grayscale"
-                  src="/images/fotografie/lola-van-praag-1.jpg"
-                  alt="Lola van Praag"
-                  width="486"
-                  height="680"
-                />
-              </picture>
-            </nuxt-link>
-            <h3
-              class="mx-auto mt-[22.6px] mb-[64px] w-[140px] text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-[25%] md:mx-0 md:mt-0 md:mb-0 md:w-[140.38px] md:text-[30px] md:leading-[37px] md:text-[#FBDC00] md:pointer-events-none group-hover:block"
-            >
-              Studio New West
-            </h3>
-          </div>
-          <div
-            class="mint flex flex-col items-center bg-top bg-no-repeat bg-cover md:relative group"
-          >
-            <h2 class="mt-[35px] text-[24px] leading-[29px] md:hidden">
-              I feel objects
-            </h2>
-            <nuxt-link to="/the-drivers/lola-van-praag">
-              <picture>
-                <source
-                  srcset="/images/fotografie/lola-van-praag-1.avif"
-                  type="image/avif"
-                />
-                <source
-                  srcset="/images/fotografie/lola-van-praag-1.webp"
-                  type="image/webp"
-                />
-                <source
-                  srcset="/images/fotografie/lola-van-praag-1.jpg"
-                  type="image/jpeg"
-                />
-                <img
-                  class="mt-[22.2px] w-[243px] md:mt-0 md:w-full md:hover:grayscale"
-                  src="/images/fotografie/lola-van-praag-1.jpg"
-                  alt="Lola van Praag"
-                  width="486"
-                  height="680"
-                />
-              </picture>
-            </nuxt-link>
-            <h3
-              class="mx-auto mt-[22.6px] mb-[121px] w-[140px] text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-[25%] md:mx-0 md:mt-0 md:mb-0 md:w-[140.38px] md:text-[30px] md:leading-[37px] md:text-[#B5DECB] md:pointer-events-none group-hover:block"
-            >
-              JWvE
-            </h3>
-          </div>
-          <div
-            class="flex flex-col items-center mt-[-48px] md:relative group md:mt-0"
-          >
-            <h2 class="mt-[35px] text-[24px] leading-[29px] md:hidden">
-              I feel systems
-            </h2>
-            <nuxt-link to="/the-drivers/lisa-mandemaker">
-              <picture>
-                <source
-                  srcset="/images/fotografie/lola-van-praag-1.avif"
-                  type="image/avif"
-                />
-                <source
-                  srcset="/images/fotografie/lola-van-praag-1.webp"
-                  type="image/webp"
-                />
-                <source
-                  srcset="/images/fotografie/lola-van-praag-1.jpg"
-                  type="image/jpeg"
-                />
-                <img
-                  class="mt-[22.2px] w-[243px] md:mt-0 md:w-full md:hover:grayscale"
-                  src="/images/fotografie/lola-van-praag-1.jpg"
-                  alt="Lola van Praag"
-                  width="486"
-                  height="680"
-                />
-              </picture>
-            </nuxt-link>
-            <h3
-              class="mx-auto mt-[22.6px] mb-[64px] w-[140px] text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-[25%] md:mx-0 md:mt-0 md:mb-0 md:w-[140.38px] md:text-[30px] md:leading-[37px] md:text-[#007190] md:pointer-events-none group-hover:block"
-            >
-              Lisa Mande&shy;maker
-            </h3>
-          </div>
-          <div
-            class="mint flex flex-col items-center bg-top bg-no-repeat bg-cover md:relative group"
-          >
-            <h2 class="mt-[35px] text-[24px] leading-[29px] md:hidden">
-              I feel objects
-            </h2>
-            <nuxt-link to="/the-drivers/lola-van-praag">
-              <picture>
-                <source
-                  srcset="/images/fotografie/lola-van-praag-1.avif"
-                  type="image/avif"
-                />
-                <source
-                  srcset="/images/fotografie/lola-van-praag-1.webp"
-                  type="image/webp"
-                />
-                <source
-                  srcset="/images/fotografie/lola-van-praag-1.jpg"
-                  type="image/jpeg"
-                />
-                <img
-                  class="mt-[22.2px] w-[243px] md:mt-0 md:w-full md:hover:grayscale"
-                  src="/images/fotografie/lola-van-praag-1.jpg"
-                  alt="Lola van Praag"
-                  width="486"
-                  height="680"
-                />
-              </picture>
-            </nuxt-link>
-            <h3
-              class="mx-auto mt-[22.6px] mb-[121px] w-[140px] text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-[25%] md:mx-0 md:mt-0 md:mb-0 md:w-[140.38px] md:text-[30px] md:leading-[37px] md:text-[#B5DECB] md:pointer-events-none group-hover:block"
-            >
-              Studio Jule Cats
-            </h3>
-          </div>
-          <div
-            class="flex flex-col items-center mt-[-48px] md:relative group md:mt-0"
-          >
-            <h2 class="mt-[35px] text-[24px] leading-[29px] md:hidden">
-              I feel stories
-            </h2>
-            <nuxt-link to="/the-drivers/lola-van-praag">
-              <picture>
-                <source
-                  srcset="/images/fotografie/lola-van-praag-1.avif"
-                  type="image/avif"
-                />
-                <source
-                  srcset="/images/fotografie/lola-van-praag-1.webp"
-                  type="image/webp"
-                />
-                <source
-                  srcset="/images/fotografie/lola-van-praag-1.jpg"
-                  type="image/jpeg"
-                />
-                <img
-                  class="mt-[22.2px] w-[243px] md:mt-0 md:w-full md:hover:grayscale"
-                  src="/images/fotografie/lola-van-praag-1.jpg"
-                  alt="Lola van Praag"
-                  width="486"
-                  height="680"
-                />
-              </picture>
-            </nuxt-link>
-            <h3
-              class="mx-auto mt-[22.6px] mb-[64px] w-[140px] text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-[25%] md:mx-0 md:mt-0 md:mb-0 md:w-[140.38px] md:text-[30px] md:leading-[37px] md:text-[#FBDC00] md:pointer-events-none group-hover:block"
-            >
-              Studio Asja Keeman
-            </h3>
-          </div>
-          <div
-            class="mint flex flex-col items-center bg-top bg-no-repeat bg-cover md:relative group"
-          >
-            <h2 class="mt-[35px] text-[24px] leading-[29px] md:hidden">
-              I feel systems
-            </h2>
-            <nuxt-link to="/the-drivers/lola-van-praag">
-              <picture>
-                <source
-                  srcset="/images/fotografie/lola-van-praag-1.avif"
-                  type="image/avif"
-                />
-                <source
-                  srcset="/images/fotografie/lola-van-praag-1.webp"
-                  type="image/webp"
-                />
-                <source
-                  srcset="/images/fotografie/lola-van-praag-1.jpg"
-                  type="image/jpeg"
-                />
-                <img
-                  class="mt-[22.2px] w-[243px] md:mt-0 md:w-full md:hover:grayscale"
-                  src="/images/fotografie/lola-van-praag-1.jpg"
-                  alt="Lola van Praag"
-                  width="486"
-                  height="680"
-                />
-              </picture>
-            </nuxt-link>
-            <h3
-              class="mx-auto mt-[22.6px] mb-[121px] w-[140px] text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-[25%] md:mx-0 md:mt-0 md:mb-0 md:w-[140.38px] md:text-[30px] md:leading-[37px] md:text-[#007190] md:pointer-events-none group-hover:block"
-            >
-              Bram de Vos Studio
-            </h3>
-          </div>
+      <!-- START 1 -->
+
+      <div class="mx-auto w-[298.87px] md:relative md:mx-0 md:w-[140.38px]">
+        <div class="text-[24px] leading-[29px] text-center md:hidden">
+          I feel objects
         </div>
         <div
-          class="md:grid md:grid-cols-2 md:gap-x-[48.2px] md:mx-auto md:mt-[41.4px] md:w-[328.67px]"
+          style="background-image:url(/images/backgrounds/white-bg-sm-1.svg)"
+          class="flex justify-center items-center w-[298.87px] h-[383.81px] md:w-full md:h-auto md!bg-none"
         >
-          <div
-            class="flex flex-col items-center mt-[-48px] md:relative group md:mt-0"
-          >
-            <h2 class="mt-[35px] text-[24px] leading-[29px] md:hidden">
-              I feel systems
-            </h2>
-            <nuxt-link to="/the-drivers/lola-van-praag">
-              <picture>
-                <source
-                  srcset="/images/fotografie/lola-van-praag-1.avif"
-                  type="image/avif"
-                />
-                <source
-                  srcset="/images/fotografie/lola-van-praag-1.webp"
-                  type="image/webp"
-                />
-                <source
-                  srcset="/images/fotografie/lola-van-praag-1.jpg"
-                  type="image/jpeg"
-                />
-                <img
-                  class="mt-[22.2px] w-[243px] md:mt-0 md:w-full md:hover:grayscale"
-                  src="/images/fotografie/lola-van-praag-1.jpg"
-                  alt="Lola van Praag"
-                  width="486"
-                  height="680"
-                />
-              </picture>
-            </nuxt-link>
-            <h3
-              class="mx-auto mt-[22.6px] mb-[64px] w-[140px] text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-[25%] md:mx-0 md:mt-0 md:mb-0 md:w-[140.38px] md:text-[30px] md:leading-[37px] md:text-[#007190] md:pointer-events-none group-hover:block"
-            >
-              Fides Lapidaire
-            </h3>
-          </div>
-          <div
-            class="mint flex flex-col items-center bg-top bg-no-repeat bg-cover md:relative group"
-          >
-            <h2 class="mt-[35px] text-[24px] leading-[29px] md:hidden">
-              I feel objects
-            </h2>
-            <nuxt-link to="/the-drivers/lola-van-praag">
-              <picture>
-                <source
-                  srcset="/images/fotografie/lola-van-praag-1.avif"
-                  type="image/avif"
-                />
-                <source
-                  srcset="/images/fotografie/lola-van-praag-1.webp"
-                  type="image/webp"
-                />
-                <source
-                  srcset="/images/fotografie/lola-van-praag-1.jpg"
-                  type="image/jpeg"
-                />
-                <img
-                  class="mt-[22.2px] w-[243px] md:mt-0 md:w-full md:hover:grayscale"
-                  src="/images/fotografie/lola-van-praag-1.jpg"
-                  alt="Lola van Praag"
-                  width="486"
-                  height="680"
-                />
-              </picture>
-            </nuxt-link>
-            <h3
-              class="mx-auto mt-[22.6px] mb-[121px] w-[140px] text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-[25%] md:mx-0 md:mt-0 md:mb-0 md:w-[140.38px] md:text-[30px] md:leading-[37px] md:text-[#B5DECB] md:pointer-events-none group-hover:block"
-            >
-              Studio Rein Reitsma
-            </h3>
-          </div>
+          <picture>
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.jpg"
+              type="image/jpeg"
+            />
+            <img
+              class="w-[243px] md:w-full"
+              src="/images/fotografie/lola-van-praag-1.jpg"
+              alt="Lola van Praag"
+              width="486"
+              height="680"
+            />
+          </picture>
+        </div>
+        <div
+          class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
+        >
+          Lola van Praag
         </div>
       </div>
+
+      <!-- END 1 -->
+
+      <!-- START 2 -->
+
+      <div
+        class="mx-auto mt-[108px] w-[302.39px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+      >
+        <div class="text-[24px] leading-[29px] text-center md:hidden">
+          I feel objects
+        </div>
+        <div
+          style="background-image:url(/images/backgrounds/white-bg-sm-2.svg)"
+          class="flex justify-center items-center w-[302.39px] h-[386.45px] md:w-full md:h-auto md!bg-none"
+        >
+          <picture>
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.jpg"
+              type="image/jpeg"
+            />
+            <img
+              class="w-[243px] md:w-full"
+              src="/images/fotografie/lola-van-praag-1.jpg"
+              alt="Lola van Praag"
+              width="486"
+              height="680"
+            />
+          </picture>
+        </div>
+        <div
+          class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
+        >
+          Lola van Praag
+        </div>
+      </div>
+
+      <!-- END 2 -->
+
+      <!-- START 3 -->
+
+      <div
+        class="mx-auto mt-[108px] w-[298.87px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+      >
+        <div class="text-[24px] leading-[29px] text-center md:hidden">
+          I feel objects
+        </div>
+        <div
+          style="background-image:url(/images/backgrounds/white-bg-sm-3.svg)"
+          class="flex justify-center items-center w-[298.87px] h-[383.81px] md:w-full md:h-auto md!bg-none"
+        >
+          <picture>
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.jpg"
+              type="image/jpeg"
+            />
+            <img
+              class="w-[243px] md:w-full"
+              src="/images/fotografie/lola-van-praag-1.jpg"
+              alt="Lola van Praag"
+              width="486"
+              height="680"
+            />
+          </picture>
+        </div>
+        <div
+          class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
+        >
+          Lola van Praag
+        </div>
+      </div>
+
+      <!-- END 3 -->
+
+      <!-- START 4 -->
+
+      <div
+        class="mx-auto mt-[108px] w-[302.39px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+      >
+        <div class="text-[24px] leading-[29px] text-center md:hidden">
+          I feel objects
+        </div>
+        <div
+          style="background-image:url(/images/backgrounds/white-bg-sm-4.svg)"
+          class="flex justify-center items-center w-[302.39px] h-[386.45px] md:w-full md:h-auto md!bg-none"
+        >
+          <picture>
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.jpg"
+              type="image/jpeg"
+            />
+            <img
+              class="w-[243px] md:w-full"
+              src="/images/fotografie/lola-van-praag-1.jpg"
+              alt="Lola van Praag"
+              width="486"
+              height="680"
+            />
+          </picture>
+        </div>
+        <div
+          class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
+        >
+          Lola van Praag
+        </div>
+      </div>
+
+      <!-- END 4 -->
+
+      <!-- START 5 -->
+
+      <div
+        class="mx-auto mt-[108px] w-[298.87px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+      >
+        <div class="text-[24px] leading-[29px] text-center md:hidden">
+          I feel objects
+        </div>
+        <div
+          style="background-image:url(/images/backgrounds/white-bg-sm-1.svg)"
+          class="flex justify-center items-center w-[298.87px] h-[383.81px] md:w-full md:h-auto md!bg-none"
+        >
+          <picture>
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.jpg"
+              type="image/jpeg"
+            />
+            <img
+              class="w-[243px] md:w-full"
+              src="/images/fotografie/lola-van-praag-1.jpg"
+              alt="Lola van Praag"
+              width="486"
+              height="680"
+            />
+          </picture>
+        </div>
+        <div
+          class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
+        >
+          Lola van Praag
+        </div>
+      </div>
+
+      <!-- END 5 -->
+
+      <!-- START 6 -->
+
+      <div
+        class="mx-auto mt-[108px] w-[302.39px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+      >
+        <div class="text-[24px] leading-[29px] text-center md:hidden">
+          I feel objects
+        </div>
+        <div
+          style="background-image:url(/images/backgrounds/white-bg-sm-2.svg)"
+          class="flex justify-center items-center w-[302.39px] h-[386.45px] md:w-full md:h-auto md!bg-none"
+        >
+          <picture>
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.jpg"
+              type="image/jpeg"
+            />
+            <img
+              class="w-[243px] md:w-full"
+              src="/images/fotografie/lola-van-praag-1.jpg"
+              alt="Lola van Praag"
+              width="486"
+              height="680"
+            />
+          </picture>
+        </div>
+        <div
+          class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
+        >
+          Lola van Praag
+        </div>
+      </div>
+
+      <!-- END 6 -->
+
+      <!-- START 7 -->
+
+      <div
+        class="mx-auto mt-[108px] w-[298.87px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+      >
+        <div class="text-[24px] leading-[29px] text-center md:hidden">
+          I feel objects
+        </div>
+        <div
+          style="background-image:url(/images/backgrounds/white-bg-sm-3.svg)"
+          class="flex justify-center items-center w-[298.87px] h-[383.81px] md:w-full md:h-auto md!bg-none"
+        >
+          <picture>
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.jpg"
+              type="image/jpeg"
+            />
+            <img
+              class="w-[243px] md:w-full"
+              src="/images/fotografie/lola-van-praag-1.jpg"
+              alt="Lola van Praag"
+              width="486"
+              height="680"
+            />
+          </picture>
+        </div>
+        <div
+          class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
+        >
+          Lola van Praag
+        </div>
+      </div>
+
+      <!-- END 7 -->
+
+      <!-- START 8 -->
+
+      <div
+        class="mx-auto mt-[108px] w-[302.39px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+      >
+        <div class="text-[24px] leading-[29px] text-center md:hidden">
+          I feel objects
+        </div>
+        <div
+          style="background-image:url(/images/backgrounds/white-bg-sm-4.svg)"
+          class="flex justify-center items-center w-[302.39px] h-[386.45px] md:w-full md:h-auto md!bg-none"
+        >
+          <picture>
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.jpg"
+              type="image/jpeg"
+            />
+            <img
+              class="w-[243px] md:w-full"
+              src="/images/fotografie/lola-van-praag-1.jpg"
+              alt="Lola van Praag"
+              width="486"
+              height="680"
+            />
+          </picture>
+        </div>
+        <div
+          class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
+        >
+          Lola van Praag
+        </div>
+      </div>
+
+      <!-- END 8 -->
+
+      <!-- START 9 -->
+
+      <div
+        class="mx-auto mt-[108px] w-[298.87px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+      >
+        <div class="text-[24px] leading-[29px] text-center md:hidden">
+          I feel objects
+        </div>
+        <div
+          style="background-image:url(/images/backgrounds/white-bg-sm-1.svg)"
+          class="flex justify-center items-center w-[298.87px] h-[383.81px] md:w-full md:h-auto md!bg-none"
+        >
+          <picture>
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.jpg"
+              type="image/jpeg"
+            />
+            <img
+              class="w-[243px] md:w-full"
+              src="/images/fotografie/lola-van-praag-1.jpg"
+              alt="Lola van Praag"
+              width="486"
+              height="680"
+            />
+          </picture>
+        </div>
+        <div
+          class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
+        >
+          Lola van Praag
+        </div>
+      </div>
+
+      <!-- END 9 -->
+
+      <!-- START 10 -->
+
+      <div
+        class="mx-auto mt-[108px] w-[302.39px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+      >
+        <div class="text-[24px] leading-[29px] text-center md:hidden">
+          I feel objects
+        </div>
+        <div
+          style="background-image:url(/images/backgrounds/white-bg-sm-2.svg)"
+          class="flex justify-center items-center w-[302.39px] h-[386.45px] md:w-full md:h-auto md!bg-none"
+        >
+          <picture>
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.jpg"
+              type="image/jpeg"
+            />
+            <img
+              class="w-[243px] md:w-full"
+              src="/images/fotografie/lola-van-praag-1.jpg"
+              alt="Lola van Praag"
+              width="486"
+              height="680"
+            />
+          </picture>
+        </div>
+        <div
+          class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
+        >
+          Lola van Praag
+        </div>
+      </div>
+
+      <!-- END 10 -->
+
+      <!-- START 11 -->
+
+      <div
+        class="mx-auto mt-[108px] w-[298.87px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+      >
+        <div class="text-[24px] leading-[29px] text-center md:hidden">
+          I feel objects
+        </div>
+        <div
+          style="background-image:url(/images/backgrounds/white-bg-sm-3.svg)"
+          class="flex justify-center items-center w-[298.87px] h-[383.81px] md:w-full md:h-auto md!bg-none"
+        >
+          <picture>
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.jpg"
+              type="image/jpeg"
+            />
+            <img
+              class="w-[243px] md:w-full"
+              src="/images/fotografie/lola-van-praag-1.jpg"
+              alt="Lola van Praag"
+              width="486"
+              height="680"
+            />
+          </picture>
+        </div>
+        <div
+          class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
+        >
+          Lola van Praag
+        </div>
+      </div>
+
+      <!-- END 11 -->
+
+      <!-- START 12 -->
+
+      <div
+        class="mx-auto mt-[108px] w-[302.39px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+      >
+        <div class="text-[24px] leading-[29px] text-center md:hidden">
+          I feel objects
+        </div>
+        <div
+          style="background-image:url(/images/backgrounds/white-bg-sm-4.svg)"
+          class="flex justify-center items-center w-[302.39px] h-[386.45px] md:w-full md:h-auto md!bg-none"
+        >
+          <picture>
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.jpg"
+              type="image/jpeg"
+            />
+            <img
+              class="w-[243px] md:w-full"
+              src="/images/fotografie/lola-van-praag-1.jpg"
+              alt="Lola van Praag"
+              width="486"
+              height="680"
+            />
+          </picture>
+        </div>
+        <div
+          class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
+        >
+          Lola van Praag
+        </div>
+      </div>
+
+      <!-- END 12 -->
+
+      <!-- START 13 -->
+
+      <div
+        class="mx-auto mt-[108px] w-[298.87px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+      >
+        <div class="text-[24px] leading-[29px] text-center md:hidden">
+          I feel objects
+        </div>
+        <div
+          style="background-image:url(/images/backgrounds/white-bg-sm-1.svg)"
+          class="flex justify-center items-center w-[298.87px] h-[383.81px] md:w-full md:h-auto md!bg-none"
+        >
+          <picture>
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.jpg"
+              type="image/jpeg"
+            />
+            <img
+              class="w-[243px] md:w-full"
+              src="/images/fotografie/lola-van-praag-1.jpg"
+              alt="Lola van Praag"
+              width="486"
+              height="680"
+            />
+          </picture>
+        </div>
+        <div
+          class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
+        >
+          Lola van Praag
+        </div>
+      </div>
+
+      <!-- END 13 -->
+
+      <!-- START 14 -->
+
+      <div
+        class="mx-auto mt-[108px] w-[302.39px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+      >
+        <div class="text-[24px] leading-[29px] text-center md:hidden">
+          I feel objects
+        </div>
+        <div
+          style="background-image:url(/images/backgrounds/white-bg-sm-2.svg)"
+          class="flex justify-center items-center w-[302.39px] h-[386.45px] md:w-full md:h-auto md!bg-none"
+        >
+          <picture>
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.jpg"
+              type="image/jpeg"
+            />
+            <img
+              class="w-[243px] md:w-full"
+              src="/images/fotografie/lola-van-praag-1.jpg"
+              alt="Lola van Praag"
+              width="486"
+              height="680"
+            />
+          </picture>
+        </div>
+        <div
+          class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
+        >
+          Lola van Praag
+        </div>
+      </div>
+
+      <!-- END 14 -->
+
+      <!-- START 15 -->
+
+      <div
+        class="mx-auto mt-[108px] w-[298.87px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+      >
+        <div class="text-[24px] leading-[29px] text-center md:hidden">
+          I feel objects
+        </div>
+        <div
+          style="background-image:url(/images/backgrounds/white-bg-sm-3.svg)"
+          class="flex justify-center items-center w-[298.87px] h-[383.81px] md:w-full md:h-auto md!bg-none"
+        >
+          <picture>
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.jpg"
+              type="image/jpeg"
+            />
+            <img
+              class="w-[243px] md:w-full"
+              src="/images/fotografie/lola-van-praag-1.jpg"
+              alt="Lola van Praag"
+              width="486"
+              height="680"
+            />
+          </picture>
+        </div>
+        <div
+          class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
+        >
+          Lola van Praag
+        </div>
+      </div>
+
+      <!-- END 15 -->
+
+      <!-- START 16 -->
+
+      <div
+        class="mx-auto mt-[108px] w-[302.39px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+      >
+        <div class="text-[24px] leading-[29px] text-center md:hidden">
+          I feel objects
+        </div>
+        <div
+          style="background-image:url(/images/backgrounds/white-bg-sm-4.svg)"
+          class="flex justify-center items-center w-[302.39px] h-[386.45px] md:w-full md:h-auto md!bg-none"
+        >
+          <picture>
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.jpg"
+              type="image/jpeg"
+            />
+            <img
+              class="w-[243px] md:w-full"
+              src="/images/fotografie/lola-van-praag-1.jpg"
+              alt="Lola van Praag"
+              width="486"
+              height="680"
+            />
+          </picture>
+        </div>
+        <div
+          class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
+        >
+          Lola van Praag
+        </div>
+      </div>
+
+      <!-- END 16 -->
+
+      <!-- START 17 -->
+
+      <div
+        class="mx-auto mt-[108px] w-[298.87px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+      >
+        <div class="text-[24px] leading-[29px] text-center md:hidden">
+          I feel objects
+        </div>
+        <div
+          style="background-image:url(/images/backgrounds/white-bg-sm-1.svg)"
+          class="flex justify-center items-center w-[298.87px] h-[383.81px] md:w-full md:h-auto md!bg-none"
+        >
+          <picture>
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/images/fotografie/lola-van-praag-1.jpg"
+              type="image/jpeg"
+            />
+            <img
+              class="w-[243px] md:w-full"
+              src="/images/fotografie/lola-van-praag-1.jpg"
+              alt="Lola van Praag"
+              width="486"
+              height="680"
+            />
+          </picture>
+        </div>
+        <div
+          class="text-[24px] leading-[29px] text-center md:absolute md:top-0 md:left-0"
+        >
+          Lola van Praag
+        </div>
+      </div>
+
+      <!-- END 17 -->
     </div>
   </main>
 </template>
 
+<script>
+export default {
+  head() {
+    return {
+      title: 'The Drivers - Driving Dutch Design 21',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'The amazing Nuxt application that teaches me all the cool features of Nuxt',
+        },
+      ],
+    };
+  },
+};
+</script>
+
 <style scoped>
-.mint {
-  background-image: url('/images/backgrounds/mint.jpg');
-}
-
 @media (min-width: 768px) {
-  .mint {
-    background: none;
-  }
-
-  .bg-mint {
-    background-image: url('/images/backgrounds/mint.jpg');
-  }
-
-  #drivers-bg {
-    background-image: url('/images/backgrounds/white-bg-md.svg');
+  #grid {
+    background-image: url(/images/backgrounds/white-bg-md.svg);
   }
 }
 </style>

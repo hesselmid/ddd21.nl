@@ -1,6 +1,11 @@
 {
   "name": "Lola van Praag",
-  "image": {
+  "image_1": {
+    "jpg": "/images/fotografie/lola-van-praag-1.jpg",
+    "webp": "/images/fotografie/lola-van-praag-1.webp",
+    "avif": "/images/fotografie/lola-van-praag-1.avif"
+  },
+  "image_2": {
     "jpg": "/images/fotografie/lola-van-praag-2.jpg",
     "webp": "/images/fotografie/lola-van-praag-2.webp",
     "avif": "/images/fotografie/lola-van-praag-2.avif"
