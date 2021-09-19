@@ -1,12 +1,9 @@
 <template>
   <main>
-    <img
-      class="mt-[9px] md:mt-[7.9px] xl:mt-0"
-      src="/images/backgrounds/mint-stroke-top.png"
-      alt=""
-      width="1280"
-      height="227"
-    />
+    <div
+      id="mint-stroke-top"
+      class="relative z-10 h-[66.33px] bg-center bg-no-repeat bg-cover md:h-[135.84px] xl:h-[226.41px]"
+    ></div>
     <div
       class="pb-[44.2px] mt-[-36.63px] bg-[#B5DECB] md:pb-[159.6px] md:mt-[-46.7px] xl:pb-[182px] xl:mt-[-113.41px]"
     >
@@ -768,13 +765,10 @@
         <!-- END 17 -->
       </div>
     </div>
-    <img
-      class="mt-[-44.2px] md:mt-[-143.74px] xl:mt-[-192.21px]"
-      src="/images/backgrounds/mint-stroke-bottom.png"
-      alt=""
-      width="1280"
-      height="305"
-    />
+    <div
+      id="mint-stroke-bottom"
+      class="relative z-10 mt-[-44.2px] h-[89.15px] bg-center bg-no-repeat bg-cover md:mt-[-143.74px] md:h-[182.59px] xl:mt-[-192.21px] xl:h-[304.31px]"
+    ></div>
   </main>
 </template>
 
@@ -797,6 +791,14 @@ export default {
 </script>
 
 <style scoped>
+#mint-stroke-top {
+  background-image: url(/images/backgrounds/mint-stroke-top.png);
+}
+
+#mint-stroke-bottom {
+  background-image: url(/images/backgrounds/mint-stroke-bottom.png);
+}
+
 @media (min-width: 768px) {
   #grid {
     background-image: url(/images/backgrounds/white-bg-md.svg);
