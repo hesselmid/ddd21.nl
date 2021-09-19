@@ -43,7 +43,7 @@
           </picture>
         </div>
         <div
-          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-0 md:group-hover:block"
+          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#FBDC00]"
         >
           Asja Keeman
         </div>
@@ -78,7 +78,7 @@
               type="image/jpeg"
             />
             <img
-              class="w-[243px] md:w-full"
+              class="w-[243px] md:w-full md:group-hover:grayscale"
               src="/images/fotografie/bram-de-vos-1.jpg"
               alt="Bram de Vos"
               width="486"
@@ -87,7 +87,7 @@
           </picture>
         </div>
         <div
-          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-0 md:group-hover:block"
+          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#007190]"
         >
           Bram de Vos
         </div>
@@ -122,7 +122,7 @@
               type="image/jpeg"
             />
             <img
-              class="w-[243px] md:w-full"
+              class="w-[243px] md:w-full md:group-hover:grayscale"
               src="/images/fotografie/daisy-van-loenhout-1.jpg"
               alt="Daisy van Loenhout"
               width="486"
@@ -131,7 +131,7 @@
           </picture>
         </div>
         <div
-          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-0 md:group-hover:block"
+          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#FBDC00]"
         >
           Daisy van Loenhout
         </div>
@@ -166,7 +166,7 @@
               type="image/jpeg"
             />
             <img
-              class="w-[243px] md:w-full"
+              class="w-[243px] md:w-full md:group-hover:grayscale"
               src="/images/fotografie/djenne-fila-1.jpg"
               alt="Djenné Fila"
               width="486"
@@ -175,7 +175,7 @@
           </picture>
         </div>
         <div
-          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-0 md:group-hover:block"
+          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#FBDC00]"
         >
           Djenné Fila
         </div>
@@ -210,7 +210,7 @@
               type="image/jpeg"
             />
             <img
-              class="w-[243px] md:w-full"
+              class="w-[243px] md:w-full md:group-hover:grayscale"
               src="/images/fotografie/fides-lapidaire-1.jpg"
               alt="Fides Lapidaire"
               width="486"
@@ -219,7 +219,7 @@
           </picture>
         </div>
         <div
-          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-0 md:group-hover:block"
+          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#007190]"
         >
           Fides Lapidaire
         </div>
@@ -254,7 +254,7 @@
               type="image/jpeg"
             />
             <img
-              class="w-[243px] md:w-full"
+              class="w-[243px] md:w-full md:group-hover:grayscale"
               src="/images/fotografie/geert-snijders-1.jpg"
               alt="Geert Snijders"
               width="486"
@@ -263,7 +263,7 @@
           </picture>
         </div>
         <div
-          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-0 md:group-hover:block"
+          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#FBDC00]"
         >
           Geert Snijders
         </div>
@@ -298,7 +298,7 @@
               type="image/jpeg"
             />
             <img
-              class="w-[243px] md:w-full"
+              class="w-[243px] md:w-full md:group-hover:grayscale"
               src="/images/fotografie/inderjeet-sandhu-1.jpg"
               alt="Inderjeet Sandhu"
               width="486"
@@ -307,7 +307,7 @@
           </picture>
         </div>
         <div
-          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-0 md:group-hover:block"
+          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#B5DECB]"
         >
           Inderjeet Sandhu
         </div>
@@ -342,7 +342,7 @@
               type="image/jpeg"
             />
             <img
-              class="w-[243px] md:w-full"
+              class="w-[243px] md:w-full md:group-hover:grayscale"
               src="/images/fotografie/josephine-de-fijter-1.jpg"
               alt="Josephine de Fijter"
               width="486"
@@ -351,7 +351,7 @@
           </picture>
         </div>
         <div
-          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-0 md:group-hover:block"
+          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#007190]"
         >
           Josephine de Fijter
         </div>
@@ -386,7 +386,7 @@
               type="image/jpeg"
             />
             <img
-              class="w-[243px] md:w-full"
+              class="w-[243px] md:w-full md:group-hover:grayscale"
               src="/images/fotografie/jule-cats-1.jpg"
               alt="Jule Cats"
               width="486"
@@ -395,7 +395,7 @@
           </picture>
         </div>
         <div
-          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-0 md:group-hover:block"
+          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#B5DECB]"
         >
           Jule Cats
         </div>
@@ -421,7 +421,7 @@
             <source srcset="/images/fotografie/jwve-1.webp" type="image/webp" />
             <source srcset="/images/fotografie/jwve-1.jpg" type="image/jpeg" />
             <img
-              class="w-[243px] md:w-full"
+              class="w-[243px] md:w-full md:group-hover:grayscale"
               src="/images/fotografie/jwve-1.jpg"
               alt="JWvE"
               width="486"
@@ -430,7 +430,7 @@
           </picture>
         </div>
         <div
-          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-0 md:group-hover:block"
+          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#B5DECB]"
         >
           JWvE
         </div>
@@ -465,7 +465,7 @@
               type="image/jpeg"
             />
             <img
-              class="w-[243px] md:w-full"
+              class="w-[243px] md:w-full md:group-hover:grayscale"
               src="/images/fotografie/lisa-mandemaker-1.jpg"
               alt="Lisa Mandemaker"
               width="486"
@@ -474,7 +474,7 @@
           </picture>
         </div>
         <div
-          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-0 md:group-hover:block"
+          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#007190]"
         >
           Lisa Mandemaker
         </div>
@@ -509,7 +509,7 @@
               type="image/jpeg"
             />
             <img
-              class="w-[243px] md:w-full"
+              class="w-[243px] md:w-full md:group-hover:grayscale"
               src="/images/fotografie/lola-van-praag-1.jpg"
               alt="Lola van Praag"
               width="486"
@@ -518,7 +518,7 @@
           </picture>
         </div>
         <div
-          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-0 md:group-hover:block"
+          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#B5DECB]"
         >
           Lola van Praag
         </div>
@@ -553,7 +553,7 @@
               type="image/jpeg"
             />
             <img
-              class="w-[243px] md:w-full"
+              class="w-[243px] md:w-full md:group-hover:grayscale"
               src="/images/fotografie/ralf-de-bruin-1.jpg"
               alt="Ralf de Bruin"
               width="486"
@@ -562,7 +562,7 @@
           </picture>
         </div>
         <div
-          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-0 md:group-hover:block"
+          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#B5DECB]"
         >
           Ralf de Bruin
         </div>
@@ -597,7 +597,7 @@
               type="image/jpeg"
             />
             <img
-              class="w-[243px] md:w-full"
+              class="w-[243px] md:w-full md:group-hover:grayscale"
               src="/images/fotografie/rein-reitsma-1.jpg"
               alt="Rein Reitsma"
               width="486"
@@ -606,7 +606,7 @@
           </picture>
         </div>
         <div
-          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-0 md:group-hover:block"
+          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#B5DECB]"
         >
           Rein Reitsma
         </div>
@@ -641,7 +641,7 @@
               type="image/jpeg"
             />
             <img
-              class="w-[243px] md:w-full"
+              class="w-[243px] md:w-full md:group-hover:grayscale"
               src="/images/fotografie/studio-new-west-1.jpg"
               alt="Studio New West"
               width="486"
@@ -650,7 +650,7 @@
           </picture>
         </div>
         <div
-          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-0 md:group-hover:block"
+          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#FBDC00]"
         >
           Studio New West
         </div>
@@ -685,7 +685,7 @@
               type="image/jpeg"
             />
             <img
-              class="w-[243px] md:w-full"
+              class="w-[243px] md:w-full md:group-hover:grayscale"
               src="/images/fotografie/tessa-petrusa-1.jpg"
               alt="Tessa Petrusa"
               width="486"
@@ -694,7 +694,7 @@
           </picture>
         </div>
         <div
-          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-0 md:group-hover:block"
+          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#007190]"
         >
           Tessa Petrusa
         </div>
@@ -729,7 +729,7 @@
               type="image/jpeg"
             />
             <img
-              class="w-[243px] md:w-full"
+              class="w-[243px] md:w-full md:group-hover:grayscale"
               src="/images/fotografie/thom-bindels-1.jpg"
               alt="Thom Bindels"
               width="486"
@@ -738,7 +738,7 @@
           </picture>
         </div>
         <div
-          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:top-0 md:group-hover:block"
+          class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#007190]"
         >
           Thom Bindels
         </div>
