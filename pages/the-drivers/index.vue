@@ -5,12 +5,12 @@
     </h1>
     <div
       id="grid"
-      class="mt-[37.5px] md:grid md:grid-cols-3 md:gap-x-[51.2px] md:gap-y-[41.4px] md:px-[66.5px] md:pt-[47.3px] md:pb-[47.2px] md:mx-auto md:w-[662.95px] md:h-[1479.02px]"
+      class="mt-[37.5px] md:grid md:grid-cols-12 md:gap-x-[51.2px] md:gap-y-[41.4px] md:px-[66.5px] md:pt-[47.3px] md:pb-[47.2px] md:mx-auto md:w-[662.95px] md:h-[1479.02px]"
     >
       <!-- START 1 -->
 
       <nuxt-link
-        class="group block mx-auto w-[298.87px] md:relative md:mx-0 md:w-[140.38px]"
+        class="group block mx-auto w-[298.87px] md:relative md:col-span-4 md:mx-0 md:w-[140.38px]"
         to="/the-drivers/asja-keeman"
       >
         <div class="text-[24px] leading-[29px] text-center md:hidden">
@@ -54,7 +54,7 @@
       <!-- START 2 -->
 
       <nuxt-link
-        class="group block mx-auto mt-[108px] w-[302.39px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+        class="group block mx-auto mt-[108px] w-[302.39px] md:relative md:col-span-4 md:mx-0 md:mt-0 md:w-[140.38px]"
         to="/the-drivers/bram-de-vos"
       >
         <div class="text-[24px] leading-[29px] text-center md:hidden">
@@ -98,7 +98,7 @@
       <!-- START 3 -->
 
       <nuxt-link
-        class="group block mx-auto mt-[108px] w-[298.87px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+        class="group block mx-auto mt-[108px] w-[298.87px] md:relative md:col-span-4 md:mx-0 md:mt-0 md:w-[140.38px]"
         to="/the-drivers/daisy-van-loenhout"
       >
         <div class="text-[24px] leading-[29px] text-center md:hidden">
@@ -142,7 +142,7 @@
       <!-- START 4 -->
 
       <nuxt-link
-        class="group block mx-auto mt-[108px] w-[302.39px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+        class="group block mx-auto mt-[108px] w-[302.39px] md:relative md:col-span-4 md:mx-0 md:mt-0 md:w-[140.38px]"
         to="/the-drivers/djenne-fila"
       >
         <div class="text-[24px] leading-[29px] text-center md:hidden">
@@ -186,7 +186,7 @@
       <!-- START 5 -->
 
       <nuxt-link
-        class="group block mx-auto mt-[108px] w-[298.87px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+        class="group block mx-auto mt-[108px] w-[298.87px] md:relative md:col-span-4 md:mx-0 md:mt-0 md:w-[140.38px]"
         to="/the-drivers/fides-lapidaire"
       >
         <div class="text-[24px] leading-[29px] text-center md:hidden">
@@ -230,7 +230,7 @@
       <!-- START 6 -->
 
       <nuxt-link
-        class="group block mx-auto mt-[108px] w-[302.39px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+        class="group block mx-auto mt-[108px] w-[302.39px] md:relative md:col-span-4 md:mx-0 md:mt-0 md:w-[140.38px]"
         to="/the-drivers/geert-snijders"
       >
         <div class="text-[24px] leading-[29px] text-center md:hidden">
@@ -274,7 +274,7 @@
       <!-- START 7 -->
 
       <nuxt-link
-        class="group block mx-auto mt-[108px] w-[298.87px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+        class="group block mx-auto mt-[108px] w-[298.87px] md:relative md:col-span-4 md:mx-0 md:mt-0 md:w-[140.38px]"
         to="/the-drivers/inderjeet-sandhu"
       >
         <div class="text-[24px] leading-[29px] text-center md:hidden">
@@ -318,7 +318,7 @@
       <!-- START 8 -->
 
       <nuxt-link
-        class="group block mx-auto mt-[108px] w-[302.39px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+        class="group block mx-auto mt-[108px] w-[302.39px] md:relative md:col-span-4 md:mx-0 md:mt-0 md:w-[140.38px]"
         to="/the-drivers/josephine-de-fijter"
       >
         <div class="text-[24px] leading-[29px] text-center md:hidden">
@@ -362,7 +362,7 @@
       <!-- START 9 -->
 
       <nuxt-link
-        class="group block mx-auto mt-[108px] w-[298.87px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+        class="group block mx-auto mt-[108px] w-[298.87px] md:relative md:col-span-4 md:mx-0 md:mt-0 md:w-[140.38px]"
         to="/the-drivers/jule-cats"
       >
         <div class="text-[24px] leading-[29px] text-center md:hidden">
@@ -406,7 +406,7 @@
       <!-- START 10 -->
 
       <nuxt-link
-        class="group block mx-auto mt-[108px] w-[302.39px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+        class="group block mx-auto mt-[108px] w-[302.39px] md:relative md:col-span-4 md:mx-0 md:mt-0 md:w-[140.38px]"
         to="/the-drivers/jwve"
       >
         <div class="text-[24px] leading-[29px] text-center md:hidden">
@@ -441,7 +441,7 @@
       <!-- START 11 -->
 
       <nuxt-link
-        class="group block mx-auto mt-[108px] w-[298.87px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+        class="group block mx-auto mt-[108px] w-[298.87px] md:relative md:col-span-4 md:mx-0 md:mt-0 md:w-[140.38px]"
         to="/the-drivers/lisa-mandemaker"
       >
         <div class="text-[24px] leading-[29px] text-center md:hidden">
@@ -485,7 +485,7 @@
       <!-- START 12 -->
 
       <nuxt-link
-        class="group block mx-auto mt-[108px] w-[302.39px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+        class="group block mx-auto mt-[108px] w-[302.39px] md:relative md:col-span-4 md:mx-0 md:mt-0 md:w-[140.38px]"
         to="/the-drivers/lola-van-praag"
       >
         <div class="text-[24px] leading-[29px] text-center md:hidden">
@@ -529,7 +529,7 @@
       <!-- START 13 -->
 
       <nuxt-link
-        class="group block mx-auto mt-[108px] w-[298.87px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+        class="group block mx-auto mt-[108px] w-[298.87px] md:relative md:col-span-4 md:mx-0 md:mt-0 md:w-[140.38px]"
         to="/the-drivers/ralf-de-bruin"
       >
         <div class="text-[24px] leading-[29px] text-center md:hidden">
@@ -573,7 +573,7 @@
       <!-- START 14 -->
 
       <nuxt-link
-        class="group block mx-auto mt-[108px] w-[302.39px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+        class="group block mx-auto mt-[108px] w-[302.39px] md:relative md:col-span-4 md:mx-0 md:mt-0 md:w-[140.38px]"
         to="/the-drivers/rein-reitsma"
       >
         <div class="text-[24px] leading-[29px] text-center md:hidden">
@@ -617,7 +617,7 @@
       <!-- START 15 -->
 
       <nuxt-link
-        class="group block mx-auto mt-[108px] w-[298.87px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+        class="group block mx-auto mt-[108px] w-[298.87px] md:relative md:col-span-4 md:mx-0 md:mt-0 md:w-[140.38px]"
         to="/the-drivers/studio-new-west"
       >
         <div class="text-[24px] leading-[29px] text-center md:hidden">
@@ -661,7 +661,7 @@
       <!-- START 16 -->
 
       <nuxt-link
-        class="group block mx-auto mt-[108px] w-[302.39px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+        class="group block mx-auto mt-[108px] w-[302.39px] md:relative md:col-span-4 md:col-start-3 md:mx-0 md:mt-0 md:w-[140.38px]"
         to="/the-drivers/tessa-petrusa"
       >
         <div class="text-[24px] leading-[29px] text-center md:hidden">
@@ -705,7 +705,7 @@
       <!-- START 17 -->
 
       <nuxt-link
-        class="group block mx-auto mt-[108px] w-[298.87px] md:relative md:mx-0 md:mt-0 md:w-[140.38px]"
+        class="group block mx-auto mt-[108px] w-[298.87px] md:relative md:col-span-4 md:mx-0 md:mt-0 md:w-[140.38px]"
         to="/the-drivers/thom-bindels"
       >
         <div class="text-[24px] leading-[29px] text-center md:hidden">
