@@ -12,6 +12,37 @@
       >
         The Drivers
       </h1>
+      <ul
+        class="hidden md:flex md:justify-between md:mx-auto md:mt-[51.1px] md:w-[587px] "
+      >
+        <li>
+          <button
+            class="text-[24px] leading-[29px] underline"
+            type="button"
+            @click="selectCategory('objects')"
+          >
+            I feel objects
+          </button>
+        </li>
+        <li>
+          <button
+            class="text-[24px] leading-[29px] underline"
+            type="button"
+            @click="selectCategory('stories')"
+          >
+            I hear stories
+          </button>
+        </li>
+        <li>
+          <button
+            class="text-[24px] leading-[29px] underline"
+            type="button"
+            @click="selectCategory('systems')"
+          >
+            I see systems
+          </button>
+        </li>
+      </ul>
       <div
         id="grid"
         class="mt-[38.5px] md:grid md:grid-cols-12 md:gap-x-[51.2px] md:gap-y-[41.4px] md:px-[66.5px] md:pt-[47.3px] md:pb-[47.2px] md:mx-auto md:mt-[46.3px] md:w-[662.95px] md:h-[1479.02px] xl:grid-cols-10 xl:gap-x-[58.2px] xl:gap-y-[52.3px] xl:pt-[69.5px] xl:pr-[53.2px] xl:pb-[85.4px] xl:pl-[69.9px] xl:mt-[66px] xl:w-[1150.89px] xl:h-[1204.04px]"
@@ -44,6 +75,7 @@
               />
               <img
                 class="w-[243px] md:w-full md:group-hover:grayscale"
+                :class="{ 'md:grayscale': selectedCategory === 'stories' }"
                 src="/images/fotografie/asja-keeman-1.jpg"
                 alt="Asja Keeman"
                 width="486"
@@ -53,6 +85,10 @@
           </div>
           <div
             class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#FBDC00]"
+            :class="{
+              'md:!flex md::justify-between md:items-center md:text-[#FBDC00]':
+                selectedCategory === 'stories',
+            }"
           >
             Asja Keeman
           </div>
@@ -88,6 +124,7 @@
               />
               <img
                 class="w-[243px] md:w-full md:group-hover:grayscale"
+                :class="{ 'md:grayscale': selectedCategory === 'systems' }"
                 src="/images/fotografie/bram-de-vos-1.jpg"
                 alt="Bram de Vos"
                 width="486"
@@ -97,6 +134,10 @@
           </div>
           <div
             class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#007190]"
+            :class="{
+              'md:!flex md::justify-between md:items-center md:text-[#FBDC00]':
+                selectedCategory === 'systems',
+            }"
           >
             Bram de Vos
           </div>
@@ -132,6 +173,7 @@
               />
               <img
                 class="w-[243px] md:w-full md:group-hover:grayscale"
+                :class="{ 'md:grayscale': selectedCategory === 'stories' }"
                 src="/images/fotografie/daisy-van-loenhout-1.jpg"
                 alt="Daisy van Loenhout"
                 width="486"
@@ -141,6 +183,10 @@
           </div>
           <div
             class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#FBDC00]"
+            :class="{
+              'md:!flex md::justify-between md:items-center md:text-[#FBDC00]':
+                selectedCategory === 'stories',
+            }"
           >
             Daisy van Loenhout
           </div>
@@ -176,6 +222,7 @@
               />
               <img
                 class="w-[243px] md:w-full md:group-hover:grayscale"
+                :class="{ 'md:grayscale': selectedCategory === 'stories' }"
                 src="/images/fotografie/djenne-fila-1.jpg"
                 alt="Djenné Fila"
                 width="486"
@@ -185,6 +232,10 @@
           </div>
           <div
             class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#FBDC00]"
+            :class="{
+              'md:!flex md::justify-between md:items-center md:text-[#FBDC00]':
+                selectedCategory === 'stories',
+            }"
           >
             Djenné Fila
           </div>
@@ -220,6 +271,7 @@
               />
               <img
                 class="w-[243px] md:w-full md:group-hover:grayscale"
+                :class="{ 'md:grayscale': selectedCategory === 'systems' }"
                 src="/images/fotografie/fides-lapidaire-1.jpg"
                 alt="Fides Lapidaire"
                 width="486"
@@ -229,6 +281,10 @@
           </div>
           <div
             class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#007190]"
+            :class="{
+              'md:!flex md::justify-between md:items-center md:text-[#FBDC00]':
+                selectedCategory === 'systems',
+            }"
           >
             Fides Lapidaire
           </div>
@@ -264,6 +320,7 @@
               />
               <img
                 class="w-[243px] md:w-full md:group-hover:grayscale"
+                :class="{ 'md:grayscale': selectedCategory === 'stories' }"
                 src="/images/fotografie/geert-snijders-1.jpg"
                 alt="Geert Snijders"
                 width="486"
@@ -273,6 +330,10 @@
           </div>
           <div
             class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#FBDC00]"
+            :class="{
+              'md:!flex md::justify-between md:items-center md:text-[#FBDC00]':
+                selectedCategory === 'stories',
+            }"
           >
             Geert Snijders
           </div>
@@ -308,6 +369,7 @@
               />
               <img
                 class="w-[243px] md:w-full md:group-hover:grayscale"
+                :class="{ 'md:grayscale': selectedCategory === 'objects' }"
                 src="/images/fotografie/inderjeet-sandhu-1.jpg"
                 alt="Inderjeet Sandhu"
                 width="486"
@@ -317,6 +379,10 @@
           </div>
           <div
             class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#B5DECB]"
+            :class="{
+              'md:!flex md::justify-between md:items-center md:text-[#FBDC00]':
+                selectedCategory === 'objects',
+            }"
           >
             Inderjeet Sandhu
           </div>
@@ -352,6 +418,7 @@
               />
               <img
                 class="w-[243px] md:w-full md:group-hover:grayscale"
+                :class="{ 'md:grayscale': selectedCategory === 'systems' }"
                 src="/images/fotografie/josephine-de-fijter-1.jpg"
                 alt="Josephine de Fijter"
                 width="486"
@@ -361,6 +428,10 @@
           </div>
           <div
             class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#007190]"
+            :class="{
+              'md:!flex md::justify-between md:items-center md:text-[#FBDC00]':
+                selectedCategory === 'systems',
+            }"
           >
             Josephine de Fijter
           </div>
@@ -396,6 +467,7 @@
               />
               <img
                 class="w-[243px] md:w-full md:group-hover:grayscale"
+                :class="{ 'md:grayscale': selectedCategory === 'objects' }"
                 src="/images/fotografie/jule-cats-1.jpg"
                 alt="Jule Cats"
                 width="486"
@@ -405,6 +477,10 @@
           </div>
           <div
             class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#B5DECB]"
+            :class="{
+              'md:!flex md::justify-between md:items-center md:text-[#FBDC00]':
+                selectedCategory === 'objects',
+            }"
           >
             Jule Cats
           </div>
@@ -440,6 +516,7 @@
               />
               <img
                 class="w-[243px] md:w-full md:group-hover:grayscale"
+                :class="{ 'md:grayscale': selectedCategory === 'objects' }"
                 src="/images/fotografie/jwve-1.jpg"
                 alt="JWvE"
                 width="486"
@@ -449,6 +526,10 @@
           </div>
           <div
             class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#B5DECB]"
+            :class="{
+              'md:!flex md::justify-between md:items-center md:text-[#FBDC00]':
+                selectedCategory === 'objects',
+            }"
           >
             JWvE
           </div>
@@ -484,6 +565,7 @@
               />
               <img
                 class="w-[243px] md:w-full md:group-hover:grayscale"
+                :class="{ 'md:grayscale': selectedCategory === 'systems' }"
                 src="/images/fotografie/lisa-mandemaker-1.jpg"
                 alt="Lisa Mandemaker"
                 width="486"
@@ -493,6 +575,10 @@
           </div>
           <div
             class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#007190]"
+            :class="{
+              'md:!flex md::justify-between md:items-center md:text-[#FBDC00]':
+                selectedCategory === 'systems',
+            }"
           >
             Lisa Mandemaker
           </div>
@@ -528,6 +614,7 @@
               />
               <img
                 class="w-[243px] md:w-full md:group-hover:grayscale"
+                :class="{ 'md:grayscale': selectedCategory === 'objects' }"
                 src="/images/fotografie/lola-van-praag-1.jpg"
                 alt="Lola van Praag"
                 width="486"
@@ -537,6 +624,10 @@
           </div>
           <div
             class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#B5DECB]"
+            :class="{
+              'md:!flex md::justify-between md:items-center md:text-[#FBDC00]':
+                selectedCategory === 'objects',
+            }"
           >
             Lola van Praag
           </div>
@@ -572,6 +663,7 @@
               />
               <img
                 class="w-[243px] md:w-full md:group-hover:grayscale"
+                :class="{ 'md:grayscale': selectedCategory === 'objects' }"
                 src="/images/fotografie/ralf-de-bruin-1.jpg"
                 alt="Ralf de Bruin"
                 width="486"
@@ -581,6 +673,10 @@
           </div>
           <div
             class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#B5DECB]"
+            :class="{
+              'md:!flex md::justify-between md:items-center md:text-[#FBDC00]':
+                selectedCategory === 'objects',
+            }"
           >
             Ralf de Bruin
           </div>
@@ -616,6 +712,7 @@
               />
               <img
                 class="w-[243px] md:w-full md:group-hover:grayscale"
+                :class="{ 'md:grayscale': selectedCategory === 'objects' }"
                 src="/images/fotografie/rein-reitsma-1.jpg"
                 alt="Rein Reitsma"
                 width="486"
@@ -625,6 +722,10 @@
           </div>
           <div
             class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#B5DECB]"
+            :class="{
+              'md:!flex md::justify-between md:items-center md:text-[#FBDC00]':
+                selectedCategory === 'objects',
+            }"
           >
             Rein Reitsma
           </div>
@@ -660,6 +761,7 @@
               />
               <img
                 class="w-[243px] md:w-full md:group-hover:grayscale"
+                :class="{ 'md:grayscale': selectedCategory === 'stories' }"
                 src="/images/fotografie/studio-new-west-1.jpg"
                 alt="Studio New West"
                 width="486"
@@ -669,6 +771,10 @@
           </div>
           <div
             class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#FBDC00]"
+            :class="{
+              'md:!flex md::justify-between md:items-center md:text-[#FBDC00]':
+                selectedCategory === 'stories',
+            }"
           >
             Studio New West
           </div>
@@ -704,6 +810,7 @@
               />
               <img
                 class="w-[243px] md:w-full md:group-hover:grayscale"
+                :class="{ 'md:grayscale': selectedCategory === 'systems' }"
                 src="/images/fotografie/tessa-petrusa-1.jpg"
                 alt="Tessa Petrusa"
                 width="486"
@@ -713,6 +820,10 @@
           </div>
           <div
             class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#007190]"
+            :class="{
+              'md:!flex md::justify-between md:items-center md:text-[#FBDC00]':
+                selectedCategory === 'systems',
+            }"
           >
             Tessa Petrusa
           </div>
@@ -748,6 +859,7 @@
               />
               <img
                 class="w-[243px] md:w-full md:group-hover:grayscale"
+                :class="{ 'md:grayscale': selectedCategory === 'systems' }"
                 src="/images/fotografie/thom-bindels-1.jpg"
                 alt="Thom Bindels"
                 width="486"
@@ -757,6 +869,10 @@
           </div>
           <div
             class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#007190]"
+            :class="{
+              'md:!flex md::justify-between md:items-center md:text-[#FBDC00]':
+                selectedCategory === 'systems',
+            }"
           >
             Thom Bindels
           </div>
@@ -786,6 +902,16 @@ export default {
         },
       ],
     };
+  },
+  data() {
+    return {
+      selectedCategory: null,
+    };
+  },
+  methods: {
+    selectCategory(cat) {
+      return (this.selectedCategory = cat);
+    },
   },
 };
 </script>
