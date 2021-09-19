@@ -86,7 +86,7 @@
           <div
             class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#FBDC00]"
             :class="{
-              'md:!flex md::justify-between md:items-center md:text-[#FBDC00]':
+              'md:!flex md:justify-between md:items-center md:text-[#FBDC00]':
                 selectedCategory === 'stories',
             }"
           >
@@ -135,7 +135,7 @@
           <div
             class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#007190]"
             :class="{
-              'md:!flex md::justify-between md:items-center md:text-[#FBDC00]':
+              'md:!flex md:justify-between md:items-center md:text-[#FBDC00]':
                 selectedCategory === 'systems',
             }"
           >
@@ -184,7 +184,7 @@
           <div
             class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#FBDC00]"
             :class="{
-              'md:!flex md::justify-between md:items-center md:text-[#FBDC00]':
+              'md:!flex md:justify-between md:items-center md:text-[#FBDC00]':
                 selectedCategory === 'stories',
             }"
           >
@@ -233,7 +233,7 @@
           <div
             class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#FBDC00]"
             :class="{
-              'md:!flex md::justify-between md:items-center md:text-[#FBDC00]':
+              'md:!flex md:justify-between md:items-center md:text-[#FBDC00]':
                 selectedCategory === 'stories',
             }"
           >
@@ -282,7 +282,7 @@
           <div
             class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#007190]"
             :class="{
-              'md:!flex md::justify-between md:items-center md:text-[#FBDC00]':
+              'md:!flex md:justify-between md:items-center md:text-[#FBDC00]':
                 selectedCategory === 'systems',
             }"
           >
@@ -331,7 +331,7 @@
           <div
             class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#FBDC00]"
             :class="{
-              'md:!flex md::justify-between md:items-center md:text-[#FBDC00]':
+              'md:!flex md:justify-between md:items-center md:text-[#FBDC00]':
                 selectedCategory === 'stories',
             }"
           >
@@ -380,7 +380,7 @@
           <div
             class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#B5DECB]"
             :class="{
-              'md:!flex md::justify-between md:items-center md:text-[#FBDC00]':
+              'md:!flex md:justify-between md:items-center md:text-[#FBDC00]':
                 selectedCategory === 'objects',
             }"
           >
@@ -429,7 +429,7 @@
           <div
             class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#007190]"
             :class="{
-              'md:!flex md::justify-between md:items-center md:text-[#FBDC00]':
+              'md:!flex md:justify-between md:items-center md:text-[#FBDC00]':
                 selectedCategory === 'systems',
             }"
           >
@@ -478,7 +478,7 @@
           <div
             class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#B5DECB]"
             :class="{
-              'md:!flex md::justify-between md:items-center md:text-[#FBDC00]':
+              'md:!flex md:justify-between md:items-center md:text-[#FBDC00]':
                 selectedCategory === 'objects',
             }"
           >
@@ -527,7 +527,7 @@
           <div
             class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#B5DECB]"
             :class="{
-              'md:!flex md::justify-between md:items-center md:text-[#FBDC00]':
+              'md:!flex md:justify-between md:items-center md:text-[#FBDC00]':
                 selectedCategory === 'objects',
             }"
           >
@@ -576,7 +576,7 @@
           <div
             class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#007190]"
             :class="{
-              'md:!flex md::justify-between md:items-center md:text-[#FBDC00]':
+              'md:!flex md:justify-between md:items-center md:text-[#FBDC00]':
                 selectedCategory === 'systems',
             }"
           >
@@ -625,7 +625,7 @@
           <div
             class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#B5DECB]"
             :class="{
-              'md:!flex md::justify-between md:items-center md:text-[#FBDC00]':
+              'md:!flex md:justify-between md:items-center md:text-[#FBDC00]':
                 selectedCategory === 'objects',
             }"
           >
@@ -674,7 +674,7 @@
           <div
             class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#B5DECB]"
             :class="{
-              'md:!flex md::justify-between md:items-center md:text-[#FBDC00]':
+              'md:!flex md:justify-between md:items-center md:text-[#FBDC00]':
                 selectedCategory === 'objects',
             }"
           >
@@ -723,7 +723,7 @@
           <div
             class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#B5DECB]"
             :class="{
-              'md:!flex md::justify-between md:items-center md:text-[#FBDC00]':
+              'md:!flex md:justify-between md:items-center md:text-[#FBDC00]':
                 selectedCategory === 'objects',
             }"
           >
@@ -772,7 +772,7 @@
           <div
             class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#FBDC00]"
             :class="{
-              'md:!flex md::justify-between md:items-center md:text-[#FBDC00]':
+              'md:!flex md:justify-between md:items-center md:text-[#FBDC00]':
                 selectedCategory === 'stories',
             }"
           >
@@ -821,7 +821,7 @@
           <div
             class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#007190]"
             :class="{
-              'md:!flex md::justify-between md:items-center md:text-[#FBDC00]':
+              'md:!flex md:justify-between md:items-center md:text-[#FBDC00]':
                 selectedCategory === 'systems',
             }"
           >
@@ -870,7 +870,7 @@
           <div
             class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#007190]"
             :class="{
-              'md:!flex md::justify-between md:items-center md:text-[#FBDC00]':
+              'md:!flex md:justify-between md:items-center md:text-[#FBDC00]':
                 selectedCategory === 'systems',
             }"
           >
