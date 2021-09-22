@@ -16,49 +16,36 @@
         id="cloud"
         class="relative ml-[48px] w-[280.99px] h-[154.12px] bg-center bg-no-repeat bg-cover md:mt-[49px] md:ml-[131.1px] md:w-[542.74px] md:h-[283.12px] xl:mt-[72.3px] xl:ml-[187px] xl:w-[906.09px] xl:h-[472.66px]"
       >
-        <h2
-          class="absolute top-[5px] left-[95px] text-[17px] leading-[20px] text-center md:top-[20.2px] md:left-[231.9px] md:text-[22px] md:leading-[27px] xl:top-[31.7px] xl:left-[360px] xl:text-[32px] xl:leading-[38px]"
+        <div
+          :class="{
+            block: carouselIndex === index,
+            hidden: carouselIndex != index,
+          }"
+          v-for="(carouselItem, index) in carouselItems"
+          :key="carouselItem.title"
         >
-          I hear stories
-        </h2>
-        <p
-          class="absolute top-[32.9px] left-[50px] text-[8px] leading-[10px] text-center md:top-[62.2px] md:left-[109.9px] md:text-[14px] md:leading-[17px] xl:top-[94.7px] xl:left-[177px] xl:text-[22px] xl:leading-[27px]"
-        >
-          For press, partner or sponsorship enquires
-          <br />
-          please contact us at
-          <br />
-          info@ddd21.nl
-          <br />
-          connect with us on LinkedIn,
-          <br />
-          Instagram or Facebook
-          <br />
-          Or get in touch with a driver directly:
-          <br />
-          Feeling inspired and want to know more about the program?
-          <br />
-          jbcjbbOIBIQIONIN
-          <br />
-          JBOBOIBOIBO
-          <br />
-          UUHUOOUOIOIOIHOHOHOHOHHOOO
-        </p>
+          <h2
+            class="absolute top-[5px] left-[95px] text-[17px] leading-[20px] text-center md:top-[20.2px] md:left-[231.9px] md:text-[22px] md:leading-[27px] xl:top-[31.7px] xl:left-[360px] xl:text-[32px] xl:leading-[38px]"
+          >
+            {{ carouselItem.title }}
+          </h2>
+          <p
+            class="absolute top-[32.9px] left-[50px] text-[8px] leading-[10px] text-center md:top-[62.2px] md:left-[109.9px] md:text-[14px] md:leading-[17px] xl:top-[94.7px] xl:left-[177px] xl:text-[22px] xl:leading-[27px]"
+            v-html="carouselItem.description"
+          ></p>
+        </div>
       </div>
       <div
         class="flex justify-between mt-[6.8px] ml-[169px] w-[93px] md:mt-[22.1px] md:ml-[343px] md:w-[166px] xl:mt-[35px] xl:ml-[566px] xl:w-[210px]"
       >
         <div
           class="w-[12px] h-[11px] bg-white border border-black rounded-full md:w-[21px] md:h-[21px] xl:w-[27px] xl:h-[27px]"
-        ></div>
-        <div
-          class="w-[12px] h-[11px] bg-white border border-black rounded-full md:w-[21px] md:h-[21px] xl:w-[27px] xl:h-[27px]"
-        ></div>
-        <div
-          class="w-[12px] h-[11px] bg-white border border-black rounded-full md:w-[21px] md:h-[21px] xl:w-[27px] xl:h-[27px]"
-        ></div>
-        <div
-          class="w-[12px] h-[11px] bg-white border border-black rounded-full md:w-[21px] md:h-[21px] xl:w-[27px] xl:h-[27px]"
+          :class="{
+            'bg-black': carouselIndex === index,
+          }"
+          v-for="(carouselItem, index) in carouselItems"
+          :key="carouselItem.title"
+          @click="changecarouselIndex(index)"
         ></div>
       </div>
     </div>
@@ -82,14 +69,48 @@ export default {
   },
   data() {
     return {
-      bgColor: 'background-color:#FBDC00',
+      carouselIndex: 0,
+      carouselItems: [
+        {
+          title: 'I hear objects',
+          description:
+            'For press, partner or sponsorship enquires<br />please contact us at<br />info@ddd21.nl<br />connect with us on LinkedIn,<br />Instagram or Facebook<br />Or get in touch with a driver directly:<br />Feeling inspired and want to know more about the program?<br />jbcjbbOIBIQIONIN<br />JBOBOIBOIBO<br />UUHUOOUOIOIOIHOHOHOHOHHOOO',
+        },
+        {
+          title: 'I hear stories',
+          description:
+            'For press, partner or sponsorship enquires<br />please contact us at<br />info@ddd21.nl<br />connect with us on LinkedIn,<br />Instagram or Facebook<br />Or get in touch with a driver directly:<br />Feeling inspired and want to know more about the program?<br />jbcjbbOIBIQIONIN<br />JBOBOIBOIBO<br />UUHUOOUOIOIOIHOHOHOHOHHOOO',
+        },
+        {
+          title: 'I hear systems',
+          description:
+            'For press, partner or sponsorship enquires<br />please contact us at<br />info@ddd21.nl<br />connect with us on LinkedIn,<br />Instagram or Facebook<br />Or get in touch with a driver directly:<br />Feeling inspired and want to know more about the program?<br />jbcjbbOIBIQIONIN<br />JBOBOIBOIBO<br />UUHUOOUOIOIOIHOHOHOHOHHOOO',
+        },
+      ],
     };
   },
-
-  created() {
-    setTimeout(() => {
-      this.bgColor = 'background-color:#B5DECB';
-    }, 3000);
+  computed: {
+    bgColor() {
+      if (this.carouselIndex === 0) {
+        return 'background-color:#B5DECB';
+      } else if (this.carouselIndex === 1) {
+        return 'background-color:#FBDC00';
+      } else if (this.carouselIndex === 2) {
+        return 'background-color:#007190';
+      } else return;
+    },
+  },
+  methods: {
+    changecarouselIndex(index) {
+      this.carouselIndex = index;
+    },
+  },
+  mounted() {
+    setInterval(() => {
+      if (this.carouselIndex >= 2) {
+        this.carouselIndex = 0;
+      } else this.carouselIndex++;
+    }, 5000);
   },
 };
 </script>
