@@ -433,7 +433,7 @@
                 selectedCategory === 'systems',
             }"
           >
-            Josephine de Fijter
+            Studio Uncoated
           </div>
         </nuxt-link>
 
@@ -482,7 +482,7 @@
                 selectedCategory === 'objects',
             }"
           >
-            Jule Cats
+            Studio Jule Cats
           </div>
         </nuxt-link>
 
@@ -531,7 +531,7 @@
                 selectedCategory === 'objects',
             }"
           >
-            JWvE
+            Jan Willem van Elten
           </div>
         </nuxt-link>
 
@@ -678,7 +678,7 @@
                 selectedCategory === 'objects',
             }"
           >
-            Ralf de Bruin
+            Studio Brundal
           </div>
         </nuxt-link>
 
@@ -825,7 +825,7 @@
                 selectedCategory === 'systems',
             }"
           >
-            Tessa Petrusa
+            Studio Tessa Petrusa
           </div>
         </nuxt-link>
 
