@@ -73,7 +73,7 @@
       class="xl:flex xl:overflow-x-auto xl:flex-nowrap xl:gap-x-[60px] xl:px-[62px] xl:mt-[47px]"
     >
       <img
-        class="object-cover mx-auto mt-[67px] h-[214px] md:mt-[63px] md:h-[471px] xl:inline xl:flex-shrink-0 xl:mx-0 xl:mt-0 xl:h-[471px]"
+        class="object-cover mx-auto mt-[67px] h-[214px] md:mt-[63px] md:h-[471px] xl:inline xl:flex-shrink-0 xl:mx-0 xl:mt-0"
         :src="image"
         alt=""
         width=""
