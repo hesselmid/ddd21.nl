@@ -1,6 +1,15 @@
 <template>
-  <main :style="bgColor">
-    <div class="mx-auto max-w-[375px] md:w-[768px] md:max-w-none xl:w-[1280px]">
+  <main :style="bgColor" class="md:mb-[38.6px] xl:mb-[79px]">
+    <img
+      class="mt-[13px] w-full pointer-events-none md:mt-[31.7px] xl:mt-[-6.27px]"
+      src="/images/backgrounds/white-stroke-top.png"
+      alt=""
+      width="1280"
+      height="78"
+    />
+    <div
+      class="mx-auto mt-[17.4px] max-w-[375px] md:mt-[42.4px] md:w-[768px] md:max-w-none xl:mt-[93.4px] xl:w-[1280px]"
+    >
       <img
         class="ml-[23.3px] w-[345.27px] md:ml-[48.6px] md:w-[707.66px] xl:ml-[95px] xl:w-[1161px]"
         src="/images/logos/logo.png"
@@ -25,21 +34,21 @@
           :key="carouselItem.title"
         >
           <h2
-            class="absolute top-[5px] left-[95px] text-[17px] leading-[20px] text-center md:top-[20.2px] md:left-[231.9px] md:text-[22px] md:leading-[27px] xl:top-[31.7px] xl:left-[360px] xl:text-[32px] xl:leading-[38px]"
+            class="absolute top-[10.9px] left-[110px] text-[17px] leading-[20px] md:top-[49.2px] md:left-[234.9px] md:text-[22px] md:leading-[27px] xl:top-[63.7px] xl:left-[401px] xl:text-[32px] xl:leading-[38px]"
           >
             {{ carouselItem.title }}
           </h2>
           <p
-            class="absolute top-[32.9px] left-[50px] text-[8px] leading-[10px] text-center md:top-[62.2px] md:left-[109.9px] md:text-[14px] md:leading-[17px] xl:top-[94.7px] xl:left-[177px] xl:text-[22px] xl:leading-[27px]"
+            class="absolute top-[43.9px] left-[56px] w-[196px] text-[10px] leading-[13px] text-center md:top-[94.2px] md:left-[105.9px] md:w-[363px] md:text-[16px] md:leading-[19px] xl:top-[153.7px] xl:left-[193px] xl:w-[605px] xl:text-[28px] xl:leading-[34px]"
             v-html="carouselItem.description"
           ></p>
         </div>
       </div>
       <div
-        class="flex justify-between mt-[6.8px] ml-[169px] w-[93px] md:mt-[22.1px] md:ml-[343px] md:w-[166px] xl:mt-[35px] xl:ml-[566px] xl:w-[210px]"
+        class="flex justify-between mt-[8.8px] ml-[173px] w-[53px] md:mt-[26.1px] md:ml-[369px] md:w-[108px] xl:mt-[35px] xl:ml-[566px] xl:w-[210px]"
       >
         <div
-          class="w-[12px] h-[11px] bg-white border border-black rounded-full md:w-[21px] md:h-[21px] xl:w-[27px] xl:h-[27px]"
+          class="w-[7px] h-[7px] bg-white border border-black rounded-full md:w-[14px] md:h-[13px] xl:w-[27px] xl:h-[27px]"
           :class="{
             'bg-black': carouselIndex === index,
           }"
@@ -49,6 +58,13 @@
         ></div>
       </div>
     </div>
+    <img
+      class="mt-[7px] w-full md:mt-[32.7px] xl:mt-[63px]"
+      src="/images/backgrounds/white-stroke-bottom.png"
+      alt=""
+      width="1280"
+      height="48"
+    />
   </main>
 </template>
 
@@ -71,6 +87,11 @@ export default {
     return {
       carouselIndex: 0,
       carouselItems: [
+        {
+          title: 'About the Expo',
+          description:
+            'An exhibition of 17 design studios that listen to see the world. Peek and peer through the grey areas into a world of wonder, beauty and questions. Discover the ideas and visions that lie beyond the first glance through the themes; I see systems, I hear stories and I feel objects.',
+        },
         {
           title: 'I feel objects',
           description:
@@ -109,7 +130,7 @@ export default {
       if (this.carouselIndex >= 2) {
         this.carouselIndex = 0;
       } else this.carouselIndex++;
-    }, 5000);
+    }, 10000);
   },
 };
 </script>

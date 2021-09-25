@@ -7,7 +7,7 @@
         Contact
       </h1>
       <div
-        class="mt-[27px] mr-[50px] ml-[34px] md:mt-[48px] md:mr-[48px] md:ml-[77px] xl:mt-[42px] xl:mr-auto xl:ml-[101px] xl:w-[676px]"
+        class="mt-[27px] mr-[50px] ml-[34px] md:mt-[48px] md:mr-[48px] md:ml-[77px] xl:mt-[42px] xl:mr-auto xl:ml-[101px] xl:w-[1078px]"
       >
         <h2
           class="text-[24px] leading-[29px] md:text-[30px] md:leading-[37px] xl:text-[35px] xl:leading-[42px]"
@@ -68,7 +68,7 @@
           Feeling inspired and want to know more about the program?
 
           <a
-            class="text-[24px] leading-[29px] underline md:text-[30px] md:leading-[37px] xl:text-[35px] xl:leading-[42px]"
+            class="block text-[24px] leading-[29px] underline md:text-[30px] md:leading-[37px] xl:text-[35px] xl:leading-[42px]"
             href="https://drivingdutchdesign.nl/"
             target="_blank"
             rel="nofollow noreferrer noopener"
@@ -76,17 +76,37 @@
             drivingdutchdesign.nl
           </a>
         </p>
+        <p
+          class="text-[13px] leading-[15px] md:text-[18px] md:leading-[22px] xl:text-[21px] xl:leading-[25px]"
+        >
+          Driving Dutch Design (DDD) is a professionalization and networking
+          program of ABN AMRO, the Professional Organization of Dutch Designers
+          (BNO) and the Dutch Design Foundation (DDF) that helps passionate
+          designers on their way in the world of creative entrepreneurship.
+        </p>
         <a
-          class="inline-block mt-[58px] text-[24px] leading-[29px underline md:text-[30px] md:leading-[37px] xl:text-[35px] xl:leading-[42px]"
+          class="inline-block mt-[29px] text-[24px] leading-[29px underline md:text-[30px] md:leading-[37px] xl:text-[35px] xl:leading-[42px]"
           href="/"
         >
           Pressfolder
         </a>
+        <h2
+          class="mt-[29px] text-[24px] leading-[29px] underline md:text-[30px] md:leading-[37px] xl:text-[35px] xl:leading-[42px]"
+        >
+          Colophon
+        </h2>
+        <p
+          class="text-[13px] leading-[15px] md:text-[16px] md:leading-[19px] xl:text-[21px] xl:leading-[25px]"
+        >
+          Photography Michele Bergsma, Illustraties Djenné Fila, Branding Asja
+          Keeman, Films by Studio New West, Website design Lola van Praag,
+          Website developer Hessel Middendorp
+        </p>
       </div>
     </div>
     <div
       id="grey-stroke"
-      class="mt-[14px] h-[47px] bg-center bg-no-repeat bg-cover md:mt-[17px] md:h-[97px] xl:mt-[7px] xl:h-[159px]"
+      class="mt-[47px] h-[47px] bg-center bg-no-repeat bg-cover md:mt-[58px] md:h-[97px] xl:mt-[39px] xl:h-[159px]"
     ></div>
   </main>
 </template>
