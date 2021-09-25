@@ -40,19 +40,44 @@
       <div class="pb-[81.8px] md:pb-[154.6px] xl:pb-[223px]">
         <article
           class="mt-[30px] md:mt-[62px] xl:mt-[142px]"
-          v-for="n in 3"
-          :key="n"
+          v-for="video in videos"
+          :key="video.videoId"
         >
           <h2
             class="text-[40px] leading-[48px] md:text-[45px] md:leading-[54px]"
           >
-            Asja
+            {{ video.name }}
           </h2>
           <div
-            class="mt-[13px] w-[291px] h-[172px] bg-white md:mt-[69px] md:w-[594px] md:h-[352px] xl:mt-[47px] xl:w-[990px] xl:h-[582px]"
-          ></div>
+            style="padding:56.25% 0 0 0;position:relative;"
+            class="mt-[13px] w-[291px] h-auto bg-white md:mt-[69px] md:w-[594px] xl:mt-[47px] xl:w-[990px]"
+          >
+            <iframe
+              :src="
+                `https://player.vimeo.com/video/${video.videoId}?h=7fdd86b7ea&color=E7411C`
+              "
+              style="position:absolute;top:0;left:0;width:100%;height:100%;"
+              frameborder="0"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
         </article>
       </div>
     </div>
   </main>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      videos: [
+        { name: 'I feel systems', videoId: '614471863' },
+        { name: 'I feel objects', videoId: '614469590' },
+        { name: 'I feel stories', videoId: '614469590' },
+      ],
+    };
+  },
+};
+</script>
