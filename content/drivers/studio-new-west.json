@@ -10,5 +10,14 @@
     "webp": "/images/fotografie/studio-new-west-2.webp",
     "avif": "/images/fotografie/studio-new-west-2.avif"
   },
-  "intro": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, labore et anim, adipiscing consectetur officia ut et velit quis nostrud. Ea ut et ut id exercitation dolore aute cillum aliquip veniam adipiscing sint mollit reprehenderit consequat labore sit labore excepteur esse consequat exercitation ut ex ullamco pariatur exercitation esse proident occaecat laboris occaecat nulla anim consectetur et dolor ad amet minim dolore amet excepteur dolore ullamco exercitation cillum anim. Amet voluptate nulla sint ea aliquip labore eiusmod ullamco ex quis non ullamco proident esse sint esse dolore reprehenderit aliqua ex adipiscing cillum. Sit magna. Cupidatat culpa aliqua excepteur minim aliqua elit ullamco exercitation do commodo labore magna minim occaecat."
+  "intro": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, labore et anim, adipiscing consectetur officia ut et velit quis nostrud. Ea ut et ut id exercitation dolore aute cillum aliquip veniam adipiscing sint mollit reprehenderit consequat labore sit labore excepteur esse consequat exercitation ut ex ullamco pariatur exercitation esse proident occaecat laboris occaecat nulla anim consectetur et dolor ad amet minim dolore amet excepteur dolore ullamco exercitation cillum anim. Amet voluptate nulla sint ea aliquip labore eiusmod ullamco ex quis non ullamco proident esse sint esse dolore reprehenderit aliqua ex adipiscing cillum. Sit magna. Cupidatat culpa aliqua excepteur minim aliqua elit ullamco exercitation do commodo labore magna minim occaecat.",
+  "content_1": "",
+  "content_2": "",
+  "project_images": [
+    "/images/fotografie/Still_Erasmus_1.png",
+    "/images/fotografie/Still_Ghetto_dino_2.jpg",
+    "/images/fotografie/Still_Bakker_3.png",
+    "/images/fotografie/Still_Kaasboer_4.png",
+    "/images/fotografie/Still_Rijkswaterstaat_5.png"
+  ]
 }
