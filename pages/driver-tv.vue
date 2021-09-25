@@ -73,9 +73,9 @@ export default {
   data() {
     return {
       videos: [
-        { name: 'I feel systems', videoId: '614471863' },
+        { name: 'I see systems', videoId: '614471863' },
         { name: 'I feel objects', videoId: '614469590' },
-        { name: 'I feel stories', videoId: '614469590' },
+        { name: 'I hear stories', videoId: '614469590' },
       ],
     };
   },

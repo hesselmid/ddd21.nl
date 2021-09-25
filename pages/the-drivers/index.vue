@@ -54,7 +54,7 @@
           to="/the-drivers/asja-keeman"
         >
           <div class="text-[24px] leading-[29px] text-center md:hidden">
-            I feel objects
+            I hear stories
           </div>
           <div
             style="background-image:url(/images/backgrounds/white-bg-sm-1.svg)"
@@ -103,7 +103,7 @@
           to="/the-drivers/bram-de-vos"
         >
           <div class="text-[24px] leading-[29px] text-center md:hidden">
-            I feel objects
+            I see systems
           </div>
           <div
             style="background-image:url(/images/backgrounds/white-bg-sm-2.svg)"
@@ -152,7 +152,7 @@
           to="/the-drivers/daisy-van-loenhout"
         >
           <div class="text-[24px] leading-[29px] text-center md:hidden">
-            I feel objects
+            I hear stories
           </div>
           <div
             style="background-image:url(/images/backgrounds/white-bg-sm-3.svg)"
@@ -201,7 +201,7 @@
           to="/the-drivers/djenne-fila"
         >
           <div class="text-[24px] leading-[29px] text-center md:hidden">
-            I feel objects
+            I hear stories
           </div>
           <div
             style="background-image:url(/images/backgrounds/white-bg-sm-4.svg)"
@@ -250,7 +250,7 @@
           to="/the-drivers/fides-lapidaire"
         >
           <div class="text-[24px] leading-[29px] text-center md:hidden">
-            I feel objects
+            I see systems
           </div>
           <div
             style="background-image:url(/images/backgrounds/white-bg-sm-1.svg)"
@@ -299,7 +299,7 @@
           to="/the-drivers/geert-snijders"
         >
           <div class="text-[24px] leading-[29px] text-center md:hidden">
-            I feel objects
+            I hear stories
           </div>
           <div
             style="background-image:url(/images/backgrounds/white-bg-sm-2.svg)"
@@ -397,7 +397,7 @@
           to="/the-drivers/josephine-de-fijter"
         >
           <div class="text-[24px] leading-[29px] text-center md:hidden">
-            I feel objects
+            I see systems
           </div>
           <div
             style="background-image:url(/images/backgrounds/white-bg-sm-4.svg)"
@@ -544,7 +544,7 @@
           to="/the-drivers/lisa-mandemaker"
         >
           <div class="text-[24px] leading-[29px] text-center md:hidden">
-            I feel objects
+            I see systems
           </div>
           <div
             style="background-image:url(/images/backgrounds/white-bg-sm-3.svg)"
@@ -740,7 +740,7 @@
           to="/the-drivers/studio-new-west"
         >
           <div class="text-[24px] leading-[29px] text-center md:hidden">
-            I feel objects
+            I hear stories
           </div>
           <div
             style="background-image:url(/images/backgrounds/white-bg-sm-3.svg)"
@@ -789,7 +789,7 @@
           to="/the-drivers/tessa-petrusa"
         >
           <div class="text-[24px] leading-[29px] text-center md:hidden">
-            I feel objects
+            I see systems
           </div>
           <div
             style="background-image:url(/images/backgrounds/white-bg-sm-4.svg)"
@@ -838,7 +838,7 @@
           to="/the-drivers/thom-bindels"
         >
           <div class="text-[24px] leading-[29px] text-center md:hidden">
-            I feel objects
+            I see systems
           </div>
           <div
             style="background-image:url(/images/backgrounds/white-bg-sm-1.svg)"

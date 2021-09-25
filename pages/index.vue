@@ -72,19 +72,18 @@ export default {
       carouselIndex: 0,
       carouselItems: [
         {
-          title: 'I hear objects',
+          title: 'I feel objects',
           description:
-            'For press, partner or sponsorship enquires<br />please contact us at<br />info@ddd21.nl<br />connect with us on LinkedIn,<br />Instagram or Facebook<br />Or get in touch with a driver directly:<br />Feeling inspired and want to know more about the program?<br />jbcjbbOIBIQIONIN<br />JBOBOIBOIBO<br />UUHUOOUOIOIOIHOHOHOHOHHOOO',
+            'From extremely practical to purely poetic. In ‘I feel objects’ autonomous- and product designers draw attention to the tangible world around us and the interaction we have with it. The designers show surprising perspectives on materials such as marble, plastic waste and textiles.',
         },
         {
           title: 'I hear stories',
           description:
-            'For press, partner or sponsorship enquires<br />please contact us at<br />info@ddd21.nl<br />connect with us on LinkedIn,<br />Instagram or Facebook<br />Or get in touch with a driver directly:<br />Feeling inspired and want to know more about the program?<br />jbcjbbOIBIQIONIN<br />JBOBOIBOIBO<br />UUHUOOUOIOIOIHOHOHOHOHHOOO',
+            'Stories are there to be experienced. The designers in ‘I hear stories’  invite you into visual worlds that are not your own. Connect with your surroundings through the visions of Graphic Designers, Illustrators, Filmmakers, and Interior Designers.',
         },
         {
-          title: 'I hear systems',
-          description:
-            'For press, partner or sponsorship enquires<br />please contact us at<br />info@ddd21.nl<br />connect with us on LinkedIn,<br />Instagram or Facebook<br />Or get in touch with a driver directly:<br />Feeling inspired and want to know more about the program?<br />jbcjbbOIBIQIONIN<br />JBOBOIBOIBO<br />UUHUOOUOIOIOIHOHOHOHOHHOOO',
+          title: 'I see systems',
+          description: `Designers aren't there to provide answers, but to question the obvious. The designers in ‘I see systems’ give insights in their process, guided by alternative visions of the systems in which we function as humans.`,
         },
       ],
     };
