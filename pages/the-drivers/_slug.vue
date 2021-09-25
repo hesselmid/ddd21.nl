@@ -67,6 +67,7 @@
               </div>
               <div
                 class="text-[16.5px] leading-[20px] md:text-[14.2px] md:leading-[17px] xl:text-[20px] xl:leading-[24px]"
+                v-if="driver.social.linkedin"
               >
                 LinkedIn
               </div>
@@ -92,6 +93,7 @@
               <a
                 class="text-[16.5px] leading-[20px] underline md:text-[14.2px] md:leading-[17px] xl:text-[20px] xl:leading-[24px]"
                 :href="driver.social.linkedinUrl"
+                v-if="driver.social.linkedin"
               >
                 {{ driver.social.linkedin }}
               </a>
