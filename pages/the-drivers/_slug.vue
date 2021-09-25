@@ -49,17 +49,62 @@
 
         <div class="md:ml-[88.75px] xl:mt-[39.5px] xl:ml-0">
           <hr
-            class="mx-auto mt-[66px] w-[290.5px] md:mx-0 md:mt-0 md:w-[246.75px] xl:w-[352px]"
+            class="mx-auto mt-[66px] w-[290.5px] border-t border-black md:mx-0 md:mt-0 md:w-[246.75px] xl:w-[352px]"
           />
-          <p
-            class="mx-auto mt-[20px] w-[291px] text-[16px] leading-[19px] md:mx-0 md:mt-[20px] md:w-[246.75px] md:text-[20px] md:leading-[24px] xl:mt-[20.5px] xl:w-[352px] xl:text-[25px] xl:leading-[30px]"
+          <div
+            class="flex justify-between mx-auto mt-[23.5px] w-[291px] md:ml-0 md:mt-[21.5px] md:w-[258px] xl:w-[352px]"
           >
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, labore et
-            anim, adipiscing consectetur officia ut et velit quis nostrud. Ea ut
-            et ut id exercitation dolore aute cillum
-          </p>
+            <div>
+              <div
+                class="text-[16.5px] leading-[20px] md:text-[14.2px] md:leading-[17px] xl:text-[20px] xl:leading-[24px]"
+              >
+                Website
+              </div>
+              <div
+                class="text-[16.5px] leading-[20px] md:text-[14.2px] md:leading-[17px] xl:text-[20px] xl:leading-[24px]"
+              >
+                Instagram
+              </div>
+              <div
+                class="text-[16.5px] leading-[20px] md:text-[14.2px] md:leading-[17px] xl:text-[20px] xl:leading-[24px]"
+              >
+                LinkedIn
+              </div>
+              <div
+                class="text-[16.5px] leading-[20px] md:text-[14.2px] md:leading-[17px] xl:text-[20px] xl:leading-[24px]"
+              >
+                E-mail
+              </div>
+            </div>
+            <div class="flex flex-col items-end">
+              <a
+                class="text-[16.5px] leading-[20px] underline md:text-[14.2px] md:leading-[17px] xl:text-[20px] xl:leading-[24px]"
+                :href="driver.social.websiteUrl"
+              >
+                {{ driver.social.website }}
+              </a>
+              <a
+                class="text-[16.5px] leading-[20px] underline md:text-[14.2px] md:leading-[17px] xl:text-[20px] xl:leading-[24px]"
+                :href="driver.social.instagramUrl"
+              >
+                {{ driver.social.instagram }}
+              </a>
+              <a
+                class="text-[16.5px] leading-[20px] underline md:text-[14.2px] md:leading-[17px] xl:text-[20px] xl:leading-[24px]"
+                :href="driver.social.linkedinUrl"
+              >
+                {{ driver.social.linkedin }}
+              </a>
+              <a
+                class="text-[16.5px] leading-[20px] underline md:text-[14.2px] md:leading-[17px] xl:text-[20px] xl:leading-[24px]"
+                :href="`mailto:${driver.social.email}`"
+              >
+                {{ driver.social.email }}
+              </a>
+            </div>
+          </div>
           <hr
-            class="mx-auto mt-[30px] w-[290.5px] md:mx-0 md:mt-[20px] md:w-[246.75px] xl:mt-[29px] xl:w-[352px]"
+            class="mx-auto mt-[23.5px] w-[290.5px] border-t border-black md:mx-0 md:mt-[21.5px] md:w-[246.75px] xl:mt-[29px] xl:w-[352px]"
           />
         </div>
       </div>
@@ -84,77 +129,13 @@
     </div>
     <div class="xl:grid xl:grid-cols-2 xl:mx-auto xl:mt-[69px] xl:w-[1280px]">
       <div
-        class="mx-auto mt-[67px] w-[291px] md:mt-[39px] md:w-[614px] xl:mr-0 xl:mt-0 xl:ml-[88px] xl:w-[524px]"
-      >
-        <p
-          class="text-[16px] leading-[19px] text-center md:text-[20px] md:leading-[24px] xl:text-[25px] xl:leading-[30px] xl:text-left"
-        >
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, labore et
-          anim, adipiscing consectetur officia ut et velit quis nostrud. Ea ut
-          et ut id exercitation
-        </p>
-        <p
-          class="mt-[19px] text-[16px] leading-[19px] text-center md:mt-[24px] md:text-[20px] md:leading-[24px] xl:mt-[30px] xl:text-[25px] xl:leading-[30px] xl:text-left"
-        >
-          dolore aute cillum aliquip veniam adipiscing sint mollit reprehenderit
-          consequat labore sit labore excepteur esse consequat exercitation ut
-          ex ullamco pariatur exercitation esse proident occaecat laboris
-          occaecat nulla anim consectetur et dolor ad amet minim dolore amet
-          excepteur dolore ullamco exercitation cillum anim. Amet
-        </p>
-        <p
-          class="mt-[19px] text-[16px] leading-[19px] text-center md:mt-[24px md:text-[20px] md:leading-[24px] xl:mt-[30px] xl:text-[25px] xl:leading-[30px] xl:text-left"
-        >
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, labore et
-          anim, adipiscing consectetur officia ut et velit quis nostrud. Ea ut
-          et ut id exercitation
-        </p>
-        <p
-          class="mt-[19px] text-[16px] leading-[19px] text-center md:mt-[24px md:text-[20px] md:leading-[24px] xl:mt-[30px] xl:text-[25px] xl:leading-[30px] xl:text-left"
-        >
-          dolore aute cillum aliquip veniam adipiscing sint mollit reprehenderit
-          consequat labore sit labore excepteur esse consequat exercitation ut
-          ex ullamco pariatur exercitation esse proident occaecat laboris
-          occaecat nulla anim consectetur et dolor ad amet minim dolore amet
-          excepteur dolore ullamco exercitation cillum anim. Amet
-        </p>
-      </div>
+        class="content mx-auto mt-[67px] w-[291px] md:mt-[39px] md:w-[614px] xl:mr-0 xl:mt-0 xl:ml-[88px] xl:w-[524px]"
+        v-html="driver.content_1"
+      ></div>
       <div
-        class="mx-auto mt-[19px] w-[291px] md:mt-[24px] md:w-[614px] xl:mr-[87px] xl:mt-0 xl:w-[524px]"
-      >
-        <p
-          class="text-[16px] leading-[19px] text-center md:text-[20px] md:leading-[24px] xl:text-[25px] xl:leading-[30px] xl:text-left"
-        >
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, labore et
-          anim, adipiscing consectetur officia ut et velit quis nostrud. Ea ut
-          et ut id exercitation
-        </p>
-        <p
-          class="mt-[19px] text-[16px] leading-[19px] text-center md:mt-[24px] md:text-[20px] md:leading-[24px] xl:mt-[30px] xl:text-[25px] xl:leading-[30px] xl:text-left"
-        >
-          dolore aute cillum aliquip veniam adipiscing sint mollit reprehenderit
-          consequat labore sit labore excepteur esse consequat exercitation ut
-          ex ullamco pariatur exercitation esse proident occaecat laboris
-          occaecat nulla anim consectetur et dolor ad amet minim dolore amet
-          excepteur dolore ullamco exercitation cillum anim. Amet
-        </p>
-        <p
-          class="mt-[19px] text-[16px] leading-[19px] text-center md:mt-[24px md:text-[20px] md:leading-[24px] xl:mt-[30px] xl:text-[25px] xl:leading-[30px] xl:text-left"
-        >
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, labore et
-          anim, adipiscing consectetur officia ut et velit quis nostrud. Ea ut
-          et ut id exercitation
-        </p>
-        <p
-          class="mt-[19px] text-[16px] leading-[19px] text-center md:mt-[24px md:text-[20px] md:leading-[24px] xl:mt-[30px] xl:text-[25px] xl:leading-[30px] xl:text-left"
-        >
-          dolore aute cillum aliquip veniam adipiscing sint mollit reprehenderit
-          consequat labore sit labore excepteur esse consequat exercitation ut
-          ex ullamco pariatur exercitation esse proident occaecat laboris
-          occaecat nulla anim consectetur et dolor ad amet minim dolore amet
-          excepteur dolore ullamco exercitation cillum anim. Amet
-        </p>
-      </div>
+        class="content mx-auto mt-[19px] w-[291px] md:mt-[24px] md:w-[614px] xl:mr-[87px] xl:mt-0 xl:w-[524px]"
+        v-html="driver.content_2"
+      ></div>
     </div>
     <img
       class="object-cover mx-auto mt-[77px] mb-[67px] w-[291px] h-[172px] md:mt-[63px] md:mb-[58px] md:w-[614px] md:h-[317px] xl:mt-[42px] xl:mb-[73px] xl:w-[1156px] xl:h-[596px]"
@@ -187,3 +168,33 @@ export default {
   },
 };
 </script>
+
+<style>
+.content p {
+  margin-top: 19px;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+
+.content p:first-of-type {
+  margin-top: 0px;
+}
+
+@media (min-width: 768px) {
+  .content p {
+    margin-top: 24px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .content p {
+    margin-top: 30px;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: left;
+  }
+}
+</style>

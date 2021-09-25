@@ -10,6 +10,15 @@
     "webp": "/images/fotografie/bram-de-vos-2.webp",
     "avif": "/images/fotografie/bram-de-vos-2.avif"
   },
+  "social": {
+    "website": "www.asjakeeman.com",
+    "websiteUrl": "https://www.asjakeeman.com/",
+    "instagram": "@studioasjakeeman",
+    "instagramUrl": "https://www.instagram.com/studioasjakeeman/",
+    "linkedin": "Studio Asja Keeman",
+    "linkedinUrl": "https://www.linkedin.com/company/studio-asja-keeman/",
+    "email": "info@asjakeeman.com"
+  },
   "intro": "The common thread through Bram de Vos' work is to provide answers to the 'pain' cities are facing. As a designer, Bram brings disconnected ideas together into a large overall plan, designing forward-thinking urban solutions. In short, a cohesive masterplan.",
   "content_1": "Local food production can make a city more resilient and create spaces for social interaction throughout all sorts of backgrounds and cultures resulting in a stronger sense of community. We are showcasing a variety of proposals on how to bring agriculture and the city closer together focusing on alternative farming approaches that are space-efficient, ecological and sustainable.",
   "content_2": "",
