@@ -164,8 +164,10 @@ export default {
       if (this.carouselIndex === 0) {
         return 'background-color:#B5DECB';
       } else if (this.carouselIndex === 1) {
-        return 'background-color:#FBDC00';
+        return 'background-color:#B5DECB';
       } else if (this.carouselIndex === 2) {
+        return 'background-color:#FBDC00';
+      } else if (this.carouselIndex === 3) {
         return 'background-color:#007190';
       } else return;
     },
