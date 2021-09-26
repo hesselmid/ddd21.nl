@@ -2,13 +2,10 @@
   <main :style="bgColor" class="overflow-x-hidden md:mb-[38.6px] xl:mb-[79px]">
     <img
       class="w-full pointer-events-none"
-      src="/images/backgrounds/white-stroke-top.png"
-      alt=""
-      width="1280"
-      height="78"
+      src="/images/backgrounds/white-stroke-top.svg"
     />
     <div
-      class="relative mx-auto mt-[17.4px] max-w-[375px] md:mt-[42.4px] md:w-[768px] md:max-w-none xl:mt-[93.4px] xl:w-[1280px]"
+      class="relative mx-auto mt-[30.4px] max-w-[375px] md:mt-[75px] md:w-[768px] md:max-w-none xl:mt-[88.5px] xl:w-[1280px]"
     >
       <img
         class="relative z-10 ml-[23.3px] w-[345.27px] md:ml-[48.6px] md:w-[707.66px] xl:ml-[95px] xl:w-[1161px]"
@@ -115,11 +112,8 @@
       </div>
     </div>
     <img
-      class="mt-[7px] w-full md:mt-[32.7px] xl:mt-[63px]"
-      src="/images/backgrounds/white-stroke-bottom.png"
-      alt=""
-      width="1280"
-      height="48"
+      class="mt-[23.7px] w-full pointer-events-none md:mt-[22px] xl:mt-[62px]"
+      src="/images/backgrounds/white-stroke-bottom.svg"
     />
   </main>
 </template>

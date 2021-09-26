@@ -1,14 +1,12 @@
 <template>
-  <main>
-    <div
-      id="mint-stroke-top"
-      class="relative z-10 h-[66.33px] bg-center bg-no-repeat bg-cover md:h-[135.84px] xl:h-[226.41px]"
-    ></div>
-    <div
-      class="pb-[44.2px] mt-[-36.63px] bg-[#B5DECB] md:pb-[159.6px] md:mt-[-46.7px] xl:pb-[182px] xl:mt-[-113.41px]"
-    >
+  <main class="bg-[#B5DECB]">
+    <img
+      class="w-full pointer-events-none"
+      src="/images/backgrounds/white-stroke-top.svg"
+    />
+    <div class="mt-[19.8px] md:mt-[66.1px] xl:mt-[59px]">
       <h1
-        class="pt-[42.3px] text-[35px] leading-[42px] text-center md:pt-[63px] md:text-[45px] md:leading-[54px] xl:pt-[113.4px] xl:text-[50px] xl:leading-[61px]"
+        class="text-[35px] leading-[42px] text-center md:text-[45px] md:leading-[54px] xl:text-[50px] xl:leading-[61px]"
       >
         The Drivers
       </h1>
@@ -881,10 +879,10 @@
         <!-- END 17 -->
       </div>
     </div>
-    <div
-      id="mint-stroke-bottom"
-      class="relative z-10 mt-[-44.2px] h-[89.15px] bg-center bg-no-repeat bg-cover md:mt-[-143.74px] md:h-[182.59px] xl:mt-[-192.21px] xl:h-[304.31px]"
-    ></div>
+    <img
+      class="mt-[65.6px] w-full pointer-events-none md:mt-[46.6px] xl:mt-[59.6px]"
+      src="/images/backgrounds/white-stroke-bottom.svg"
+    />
   </main>
 </template>
 
