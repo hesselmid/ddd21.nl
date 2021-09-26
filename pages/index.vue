@@ -1,21 +1,77 @@
 <template>
-  <main :style="bgColor" class="md:mb-[38.6px] xl:mb-[79px]">
+  <main :style="bgColor" class="overflow-x-hidden md:mb-[38.6px] xl:mb-[79px]">
     <img
-      class="mt-[13px] w-full pointer-events-none md:mt-[31.7px] xl:mt-[-6.27px]"
+      class="w-full pointer-events-none"
       src="/images/backgrounds/white-stroke-top.png"
       alt=""
       width="1280"
       height="78"
     />
     <div
-      class="mx-auto mt-[17.4px] max-w-[375px] md:mt-[42.4px] md:w-[768px] md:max-w-none xl:mt-[93.4px] xl:w-[1280px]"
+      class="relative mx-auto mt-[17.4px] max-w-[375px] md:mt-[42.4px] md:w-[768px] md:max-w-none xl:mt-[93.4px] xl:w-[1280px]"
     >
       <img
-        class="ml-[23.3px] w-[345.27px] md:ml-[48.6px] md:w-[707.66px] xl:ml-[95px] xl:w-[1161px]"
+        class="relative z-10 ml-[23.3px] w-[345.27px] md:ml-[48.6px] md:w-[707.66px] xl:ml-[95px] xl:w-[1161px]"
         src="/images/logos/logo.png"
         alt="I hear what you're seeing"
         width="2322"
         height="1774"
+      />
+      <img
+        class="absolute top-[-46px] left-[-12.83px] z-20 w-[69.77px] transform rotate-[-95deg] md:top-[-94.4px] md:left-[-26.3px] md:w-[143px] xl:top-[-158px] xl:left-[-43px] xl:w-[238px]"
+        src="/images/elements/eye_1.png"
+        alt=""
+        width="476"
+        height="632"
+      />
+      <img
+        class="absolute top-[-46.1px] left-[270.63px] w-[56.08px] transform rotate-[128deg] md:top-[-94.5px] md:left-[554.67px] md:w-[114.93px] xl:top-[-158.4px] xl:left-[923.61px] xl:w-[191.29px]"
+        src="/images/elements/eye_2.png"
+        alt=""
+        width="383"
+        height="534"
+      />
+      <img
+        class="absolute top-[81.3px] left-[265.4px] w-[51.7px] transform rotate-[-89deg] md:top-[166.6px] md:left-[543.95px] md:w-[105.96px] xl:top-[276.4px] xl:left-[905.94px] xl:w-[176.35px]"
+        src="/images/elements/eye_3.png"
+        alt=""
+        width="353"
+        height="487"
+      />
+      <img
+        class="absolute top-[54.7px] left-[344.63px] w-[79px] transform rotate-[-108deg] md:top-[112px] md:left-[706.34px] md:w-[161.92px] xl:top-[185.4px] xl:left-[1175.89px] xl:w-[270px]"
+        src="/images/elements/eye_4.png"
+        alt=""
+        width="540"
+        height="1212"
+      />
+      <img
+        class="absolute top-[135.5px] left-[-31.66px] w-[117.88px] transform rotate-[87deg] md:top-[277.8px] md:left-[-64.88px] md:w-[241.6px] xl:top-[461.6px] xl:left-[-107.35px] xl:w-[402.13px]"
+        src="/images/elements/eye_5.png"
+        alt=""
+        width="805"
+        height="834"
+      />
+      <img
+        class="absolute top-[241.4px] left-[7.89px] w-[44.93px] transform rotate-[-90deg] md:top-[494.8px] md:left-[16.17px] md:w-[92.09px] xl:top-[822.7px] xl:left-[27.56px] xl:w-[153.27px]"
+        src="/images/elements/eye_6.png"
+        alt=""
+        width="307"
+        height="362"
+      />
+      <img
+        class="absolute top-[212.13px] left-[261.63px] w-[100.4px] transform rotate-[176deg] md:top-[434.77px] md:left-[536.22px] md:w-[205.78px] xl:top-[722.79px] xl:left-[893.09px] xl:w-[342.48px]"
+        src="/images/elements/eye_7.png"
+        alt=""
+        width="685"
+        height="736"
+      />
+      <img
+        class="absolute top-[313.36px] left-[45.58px] w-[67.61px] transform rotate-[90deg] md:top-[587.19px] md:left-[93.42px] md:w-[138.56px] xl:top-[976px] xl:left-[156px] xl:w-[231px]"
+        src="/images/elements/eye_8.png"
+        alt=""
+        width="462"
+        height="1362"
       />
     </div>
     <div
