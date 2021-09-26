@@ -1,10 +1,17 @@
 <template>
   <main class="bg-[#007190]">
+    <img
+      class="w-full pointer-events-none"
+      src="/images/backgrounds/blue-stroke-top.png"
+      alt=""
+      width="1280"
+      height="171"
+    />
     <div
       class="px-[42px] mx-auto max-w-[375px] md:px-[87px] md:w-[768px] md:max-w-none xl:px-[145px] xl:w-[1280px]"
     >
       <h1
-        class="mt-[28.4px] text-[45px] leading-[54px] md:text-[50px] md:leading-[61px] md:text-center"
+        class="mt-[25px] text-[45px] leading-[54px] md:mt-0 md:text-[50px] md:leading-[61px] md:text-center xl:mt-[27px]"
       >
         Driver TV
       </h1>
@@ -65,6 +72,13 @@
         </article>
       </div>
     </div>
+    <img
+      class="w-full pointer-events-none"
+      src="/images/backgrounds/blue-stroke-bottom.png"
+      alt=""
+      width="1280"
+      height="304"
+    />
   </main>
 </template>
 
