@@ -5,11 +5,36 @@
       src="/images/backgrounds/white-stroke-top.svg"
     />
     <div class="mt-[19.8px] md:mt-[66.1px] xl:mt-[59px]">
-      <h1
-        class="text-[35px] leading-[42px] text-center md:text-[45px] md:leading-[54px] xl:text-[50px] xl:leading-[61px]"
-      >
-        The Drivers
-      </h1>
+      <div class="flex justify-center h-[68px] md:h-[75px]">
+        <vue-blotter
+          class="inline-block h-[45px] md:hidden"
+          family="Haarlem-Regular"
+          :size="45"
+          material-type="LiquidDistortMaterial"
+          text="The Drivers"
+          :uniforms="{
+            uSpeed: 0.25,
+          }"
+          :padding-right="40"
+          :padding-left="40"
+        >
+          <h1></h1>
+        </vue-blotter>
+        <vue-blotter
+          class="hidden md:inline-block md:h-[61px]"
+          family="Haarlem-Regular"
+          :size="50"
+          material-type="LiquidDistortMaterial"
+          text="The Drivers"
+          :uniforms="{
+            uSpeed: 0.25,
+          }"
+          :padding-right="60"
+          :padding-left="60"
+        >
+          <h1></h1>
+        </vue-blotter>
+      </div>
       <ul
         class="hidden md:flex md:justify-between md:mx-auto md:mt-[51.1px] md:w-[587px] "
       >

@@ -7,11 +7,38 @@
     <div
       class="px-[42px] mx-auto mt-[20.6px] max-w-[375px] md:px-[87px] md:mt-[32.1px] md:w-[768px] md:max-w-none xl:px-[145px] xl:mt-[58.5px] xl:w-[1280px]"
     >
-      <h1
-        class="mt-[25px] text-[45px] leading-[54px] md:mt-0 md:text-[50px] md:leading-[61px] md:text-center xl:mt-[27px]"
+      <div
+        class="flex justify-center mt-[25px] h-[68px] md:mt-0 md:h-[75px] xl:mt-[27px]"
       >
-        Driver TV
-      </h1>
+        <vue-blotter
+          class="inline-block h-[45px] md:hidden"
+          family="Haarlem-Regular"
+          :size="45"
+          material-type="LiquidDistortMaterial"
+          text="Driver TV"
+          :uniforms="{
+            uSpeed: 0.25,
+          }"
+          :padding-right="40"
+          :padding-left="40"
+        >
+          <h1></h1>
+        </vue-blotter>
+        <vue-blotter
+          class="hidden md:inline-block md:h-[61px]"
+          family="Haarlem-Regular"
+          :size="50"
+          material-type="LiquidDistortMaterial"
+          text="Driver TV"
+          :uniforms="{
+            uSpeed: 0.25,
+          }"
+          :padding-right="60"
+          :padding-left="60"
+        >
+          <h1></h1>
+        </vue-blotter>
+      </div>
       <div class="md:flex md:justify-between md:mt-[45px] xl:mt-[163px]">
         <p
           class="mt-[14px] text-[16px] leading-[19px] md:mt-0 md:w-[378px] md:text-[20px] md:leading-[24px] xl:w-[630px] xl:text-[25px] xl:leading-[30px]"
