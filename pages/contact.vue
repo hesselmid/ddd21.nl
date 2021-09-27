@@ -26,7 +26,7 @@
           connect with us on
           <a
             class="underline"
-            href=""
+            href="https://www.linkedin.com/in/driving-dutch-design-2a9b141b1/"
             target="_blank"
             rel="nofollow noreferrer noopener"
           >
@@ -35,7 +35,7 @@
           ,
           <a
             class="underline"
-            href=""
+            href="https://www.instagram.com/drivingdutchdesign/"
             target="_blank"
             rel="nofollow noreferrer noopener"
           >
@@ -44,7 +44,7 @@
           or
           <a
             class="underline"
-            href=""
+            href="https://www.facebook.com/DrivingDutchDesign"
             target="_blank"
             rel="nofollow noreferrer noopener"
           >

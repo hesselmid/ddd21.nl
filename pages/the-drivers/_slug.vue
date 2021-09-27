@@ -81,18 +81,24 @@
               <a
                 class="text-[16.5px] leading-[20px] underline md:text-[14.2px] md:leading-[17px] xl:text-[20px] xl:leading-[24px]"
                 :href="driver.social.websiteUrl"
+                target="_blank"
+                rel="noreferrer noopener"
               >
                 {{ driver.social.website }}
               </a>
               <a
                 class="text-[16.5px] leading-[20px] underline md:text-[14.2px] md:leading-[17px] xl:text-[20px] xl:leading-[24px]"
                 :href="driver.social.instagramUrl"
+                target="_blank"
+                rel="nofollow noreferrer noopener"
               >
                 {{ driver.social.instagram }}
               </a>
               <a
                 class="text-[16.5px] leading-[20px] underline md:text-[14.2px] md:leading-[17px] xl:text-[20px] xl:leading-[24px]"
                 :href="driver.social.linkedinUrl"
+                target="_blank"
+                rel="nofollow noreferrer noopener"
                 v-if="driver.social.linkedin"
               >
                 {{ driver.social.linkedin }}
