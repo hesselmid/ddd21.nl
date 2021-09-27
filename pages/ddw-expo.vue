@@ -100,6 +100,226 @@
             </div>
           </div>
         </div>
+        <div class="mb-[22px]">
+          <h3
+            class="text-[25px] leading-[30px] xl:text-[35px] xl:leading-[42px]"
+          >
+            Monday 18th of October
+          </h3>
+          <div class="grid grid-cols-3 gap-y-[17.4px] mt-[15.6px]">
+            <div
+              class="col-span-2 text-[15px] leading-[18px] xl:text-[16px] xl:leading-[19px]"
+            >
+              Open visiting hours
+            </div>
+            <div
+              class="justify-self-end text-[15px] leading-[18px] xl:text-[16px] xl:leading-[19px]"
+            >
+              11:00-18:00
+            </div>
+          </div>
+        </div>
+        <div class="mb-[22px]">
+          <h3
+            class="text-[25px] leading-[30px] xl:text-[35px] xl:leading-[42px]"
+          >
+            Tuesday 19th of October
+          </h3>
+          <div class="grid grid-cols-3 gap-y-[17.4px] mt-[15.6px]">
+            <div
+              class="col-span-2 text-[15px] leading-[18px] xl:text-[16px] xl:leading-[19px]"
+            >
+              Inspiration session (Dutch): Future systems - inclusivity
+              <br />
+              <a
+                href="https://www.eventbrite.nl/e/tickets-inspiration-sessions-future-systems-inclusivity-178135376707"
+              >
+                Tickets
+              </a>
+            </div>
+            <div
+              class="justify-self-end text-[15px] leading-[18px] xl:text-[16px] xl:leading-[19px]"
+            >
+              9:30-11:00
+            </div>
+            <div
+              class="col-span-2 text-[15px] leading-[18px] xl:text-[16px] xl:leading-[19px]"
+            >
+              Open visiting hours
+            </div>
+            <div
+              class="justify-self-end text-[15px] leading-[18px] xl:text-[16px] xl:leading-[19px]"
+            >
+              11:00-16:00
+            </div>
+            <div
+              class="col-span-2 text-[15px] leading-[18px] xl:text-[16px] xl:leading-[19px]"
+            >
+              Private event
+            </div>
+            <div
+              class="justify-self-end text-[15px] leading-[18px] xl:text-[16px] xl:leading-[19px]"
+            >
+              16:00-21:00
+            </div>
+          </div>
+        </div>
+        <div class="mb-[22px]">
+          <h3
+            class="text-[25px] leading-[30px] xl:text-[35px] xl:leading-[42px]"
+          >
+            Wednesday 20th of October
+          </h3>
+          <div class="grid grid-cols-3 gap-y-[17.4px] mt-[15.6px]">
+            <div
+              class="col-span-2 text-[15px] leading-[18px] xl:text-[16px] xl:leading-[19px]"
+            >
+              Inspiration session (Dutch): Future systems - sustainability
+              <br />
+              <a
+                href="https://www.eventbrite.nl/e/tickets-inspiration-session-future-systems-sustainability-178697116887"
+              >
+                Tickets
+              </a>
+            </div>
+            <div
+              class="justify-self-end text-[15px] leading-[18px] xl:text-[16px] xl:leading-[19px]"
+            >
+              9:30-11:00
+            </div>
+            <div
+              class="col-span-2 text-[15px] leading-[18px] xl:text-[16px] xl:leading-[19px]"
+            >
+              Open visiting hours
+            </div>
+            <div
+              class="justify-self-end text-[15px] leading-[18px] xl:text-[16px] xl:leading-[19px]"
+            >
+              11:00-15:00
+            </div>
+            <div
+              class="col-span-2 text-[15px] leading-[18px] xl:text-[16px] xl:leading-[19px]"
+            >
+              Private event
+            </div>
+            <div
+              class="justify-self-end text-[15px] leading-[18px] xl:text-[16px] xl:leading-[19px]"
+            >
+              15:00-18:00
+            </div>
+          </div>
+        </div>
+        <div class="mb-[22px]">
+          <h3
+            class="text-[25px] leading-[30px] xl:text-[35px] xl:leading-[42px]"
+          >
+            Thursday 21st of October
+          </h3>
+          <div class="grid grid-cols-3 gap-y-[17.4px] mt-[15.6px]">
+            <div
+              class="col-span-2 text-[15px] leading-[18px] xl:text-[16px] xl:leading-[19px]"
+            >
+              Inspiration session (Dutch): Storytelling. - Reimagining Memories
+              <br />
+              <a
+                href="https://www.eventbrite.nl/e/tickets-inspiration-sessions-storytelling-re-imagining-memories-178698821987"
+              >
+                Tickets
+              </a>
+            </div>
+            <div
+              class="justify-self-end text-[15px] leading-[18px] xl:text-[16px] xl:leading-[19px]"
+            >
+              9:30-11:00
+            </div>
+            <div
+              class="col-span-2 text-[15px] leading-[18px] xl:text-[16px] xl:leading-[19px]"
+            >
+              Open visiting hours
+            </div>
+            <div
+              class="justify-self-end text-[15px] leading-[18px] xl:text-[16px] xl:leading-[19px]"
+            >
+              11:00-18:00
+            </div>
+          </div>
+        </div>
+        <div class="mb-[22px]">
+          <h3
+            class="text-[25px] leading-[30px] xl:text-[35px] xl:leading-[42px]"
+          >
+            Friday 22nd of October
+          </h3>
+          <div class="grid grid-cols-3 gap-y-[17.4px] mt-[15.6px]">
+            <div
+              class="col-span-2 text-[15px] leading-[18px] xl:text-[16px] xl:leading-[19px]"
+            >
+              Inspiration session (English): Future systems - inclusivity
+              <br />
+              <a href="">
+                Tickets
+              </a>
+            </div>
+            <div
+              class="justify-self-end text-[15px] leading-[18px] xl:text-[16px] xl:leading-[19px]"
+            >
+              9:30-11:00
+            </div>
+            <div
+              class="col-span-2 text-[15px] leading-[18px] xl:text-[16px] xl:leading-[19px]"
+            >
+              Open visiting hours
+            </div>
+            <div
+              class="justify-self-end text-[15px] leading-[18px] xl:text-[16px] xl:leading-[19px]"
+            >
+              11:00-18:00
+            </div>
+          </div>
+        </div>
+        <div class="mb-[22px]">
+          <h3
+            class="text-[25px] leading-[30px] xl:text-[35px] xl:leading-[42px]"
+          >
+            Saturday 23rd of October
+          </h3>
+          <div class="grid grid-cols-3 gap-y-[17.4px] mt-[15.6px]">
+            <div
+              class="col-span-2 text-[15px] leading-[18px] xl:text-[16px] xl:leading-[19px]"
+            >
+              Inspiration session (English): Future systems - sustainability
+              <br />
+              <a href="">
+                Tickets
+              </a>
+            </div>
+            <div
+              class="justify-self-end text-[15px] leading-[18px] xl:text-[16px] xl:leading-[19px]"
+            >
+              9:30-11:00
+            </div>
+            <div
+              class="col-span-2 text-[15px] leading-[18px] xl:text-[16px] xl:leading-[19px]"
+            >
+              Open visiting hours
+            </div>
+            <div
+              class="justify-self-end text-[15px] leading-[18px] xl:text-[16px] xl:leading-[19px]"
+            >
+              11:00-17:00
+            </div>
+            <div
+              class="col-span-2 text-[15px] leading-[18px] xl:text-[16px] xl:leading-[19px]"
+            >
+              Private event
+            </div>
+            <div
+              class="justify-self-end text-[15px] leading-[18px] xl:text-[16px] xl:leading-[19px]"
+            >
+              17:00-21:00
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <img
