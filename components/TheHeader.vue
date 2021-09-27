@@ -50,7 +50,7 @@
           <nuxt-link to="/contact">Contact</nuxt-link>
         </li>
         <li class="md:hidden">
-          <button type="button">
+          <button type="button" @click="toggleMenu">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="w-[68px] h-[67px]"
@@ -71,3 +71,17 @@
     </nav>
   </header>
 </template>
+
+<script>
+export default {
+  methods: {
+    toggleMenu() {
+      this.$store.commit('toggleMenu');
+      const body = document.getElementsByTagName('body')[0];
+      if (window.innerWidth < 1280) {
+        body.classList.toggle('overflow-hidden');
+      }
+    },
+  },
+};
+</script>
