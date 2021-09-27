@@ -47,6 +47,80 @@
       <h2 class="text-[35px] leading-[42px] xl:text-[50px] xl:leading-[61px]">
         Program
       </h2>
+      <div class="mt-[26.4px] md:mt-[23.8px]">
+        <div class="mb-[18px] xl:mb-[22px]">
+          <h3
+            class="text-[25px] leading-[30px] xl:text-[35px] xl:leading-[42px]"
+          >
+            Za 16 OKT
+          </h3>
+          <div class="grid grid-cols-3 gap-y-[17.4px] mt-[15.6px]">
+            <div
+              class="col-span-2 text-[15px] leading-[18px] xl:text-[16px] xl:leading-[19px]"
+            >
+              Ontbeit sessie
+              <br />
+              Leer in 1 uur Bla Bla Bla
+              <br />
+              Tickets
+            </div>
+            <div
+              class="justify-self-end text-[15px] leading-[18px] xl:text-[16px] xl:leading-[19px]"
+            >
+              10.00 - 11.00
+            </div>
+            <div
+              class="col-span-2 text-[15px] leading-[18px] xl:text-[16px] xl:leading-[19px]"
+            >
+              Ontbeit sessie
+              <br />
+              Leer in 1 uur Bla Bla Bla
+              <br />
+              Tickets
+            </div>
+            <div class="justify-self-end text-[15px] leading-[18px]">
+              10.00 - 11.00
+            </div>
+          </div>
+        </div>
+        <div class="mb-[22.8px]">
+          <h3
+            class="text-[25px] leading-[30px] xl:text-[35px] xl:leading-[42px]"
+          >
+            Za 16 OKT
+          </h3>
+          <div class="grid grid-cols-3 gap-y-[17.4px] mt-[15.6px]">
+            <div
+              class="col-span-2 text-[15px] leading-[18px] xl:text-[16px] xl:leading-[19px]"
+            >
+              Ontbeit sessie
+              <br />
+              Leer in 1 uur Bla Bla Bla
+              <br />
+              Tickets
+            </div>
+            <div
+              class="justify-self-end text-[15px] leading-[18px] xl:text-[16px] xl:leading-[19px]"
+            >
+              10.00 - 11.00
+            </div>
+            <div
+              class="col-span-2 text-[15px] leading-[18px] xl:text-[16px] xl:leading-[19px]"
+            >
+              Ontbeit sessie
+              <br />
+              Leer in 1 uur Bla Bla Bla
+              <br />
+              Tickets
+            </div>
+            <div
+              class="justify-self-end text-[15px] leading-[18px] xl:text-[16px] xl:leading-[19px]"
+            >
+              10.00 - 11.00
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <img
       class="w-full pointer-events-none"
