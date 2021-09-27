@@ -61,7 +61,10 @@
               Drivers 2022 tour
               <br />
               <a
+                class="hover:underline"
                 href="https://www.eventbrite.nl/e/tickets-drivers22-178700105827"
+                target="_blank"
+                rel="nofollow noreferrer noopener"
               >
                 Tickets
               </a>
@@ -132,7 +135,10 @@
               Inspiration session (Dutch): Future systems - inclusivity
               <br />
               <a
+                class="hover:underline"
                 href="https://www.eventbrite.nl/e/tickets-inspiration-sessions-future-systems-inclusivity-178135376707"
+                target="_blank"
+                rel="nofollow noreferrer noopener"
               >
                 Tickets
               </a>
@@ -177,7 +183,10 @@
               Inspiration session (Dutch): Future systems - sustainability
               <br />
               <a
+                class="hover:underline"
                 href="https://www.eventbrite.nl/e/tickets-inspiration-session-future-systems-sustainability-178697116887"
+                target="_blank"
+                rel="nofollow noreferrer noopener"
               >
                 Tickets
               </a>
@@ -222,7 +231,10 @@
               Inspiration session (Dutch): Storytelling. - Reimagining Memories
               <br />
               <a
+                class="hover:underline"
                 href="https://www.eventbrite.nl/e/tickets-inspiration-sessions-storytelling-re-imagining-memories-178698821987"
+                target="_blank"
+                rel="nofollow noreferrer noopener"
               >
                 Tickets
               </a>
@@ -256,7 +268,12 @@
             >
               Inspiration session (English): Future systems - inclusivity
               <br />
-              <a href="">
+              <a
+                class="hover:underline"
+                href=""
+                target="_blank"
+                rel="nofollow noreferrer noopener"
+              >
                 Tickets
               </a>
             </div>
@@ -289,7 +306,12 @@
             >
               Inspiration session (English): Future systems - sustainability
               <br />
-              <a href="">
+              <a
+                class="hover:underline"
+                href=""
+                target="_blank"
+                rel="nofollow noreferrer noopener"
+              >
                 Tickets
               </a>
             </div>
