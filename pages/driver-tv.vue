@@ -28,13 +28,17 @@
           <div class="flex flex-col mt-[13px] md:mt-[18px] xl:mt-[22px]">
             <a
               class="text-[11px] leading-[13px] underline md:text-[15px] md:leading-[18px] xl:text-[18px] xl:leading-[22px]"
-              href="#"
+              href="https://www.facebook.com/sharer/sharer.php?u=https://ddd21.netlify.app/driver-tv"
+              target="_blank"
+              rel="nofollow noreferrer noopener"
             >
               Facebook
             </a>
             <a
               class="text-[11px] leading-[13px] underline md:text-[15px] md:leading-[18px] xl:text-[18px] xl:leading-[22px]"
-              href="#"
+              href="https://www.linkedin.com/shareArticle?mini=true&url=https://ddd21.netlify.app/driver-tv"
+              target="_blank"
+              rel="nofollow noreferrer noopener"
             >
               LinkedIn
             </a>
