@@ -82,6 +82,19 @@
 
 <script>
 export default {
+  head() {
+    return {
+      title: 'Driver TV - Driving Dutch Design 21',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'The amazing Nuxt application that teaches me all the cool features of Nuxt',
+        },
+      ],
+    };
+  },
   data() {
     return {
       videos: [

@@ -351,6 +351,24 @@
   </main>
 </template>
 
+<script>
+export default {
+  head() {
+    return {
+      title: 'DDW Expo - Driving Dutch Design 21',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'The amazing Nuxt application that teaches me all the cool features of Nuxt',
+        },
+      ],
+    };
+  },
+};
+</script>
+
 <style scoped>
 #content {
   background-image: url(/images/backgrounds/white-bg-expo-sm.svg);
