@@ -90,7 +90,7 @@ export default {
           hid: 'description',
           name: 'description',
           content:
-            'The amazing Nuxt application that teaches me all the cool features of Nuxt',
+            'An exhibition of 17 design studios that listen to see the world. Peek and peer through the grey areas into a world of wonder, beauty and questions.',
         },
       ],
     };

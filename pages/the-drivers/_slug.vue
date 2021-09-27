@@ -24,15 +24,15 @@
         :uniforms="{
           uSpeed: 0.25,
         }"
-        :padding-right="40"
-        :padding-left="40"
+        :padding-right="60"
+        :padding-left="60"
       >
         <h1></h1>
       </vue-blotter>
     </div>
     <div class="xl:grid xl:grid-cols-2 xl:mx-auto xl:mt-[63px] xl:w-[1280px]">
       <div
-        class="md:grid md:grid-cols-2 md:mx-auto md:mt-[81px] md:w-[768px] xl:grid-cols-1 xl:mr-0 xl:mt-[-98px] xl:ml-[74px] xl:w-[352px]"
+        class="md:grid md:grid-cols-2 md:mx-auto md:mt-[81px] md:w-[768px] xl:grid-cols-1 xl:mr-0 xl:mt-0 xl:ml-[74px] xl:w-[352px]"
       >
         <picture>
           <source :srcset="driver.image_2.avif" type="image/avif" />
@@ -172,8 +172,7 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content:
-            'The amazing Nuxt application that teaches me all the cool features of Nuxt',
+          content: `${this.driver.intro.substring(0, 150)}...`,
         },
       ],
     };

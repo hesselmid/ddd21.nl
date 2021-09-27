@@ -128,7 +128,7 @@ export default {
           hid: 'description',
           name: 'description',
           content:
-            'The amazing Nuxt application that teaches me all the cool features of Nuxt',
+            'An exhibition of 17 design studios that listen to see the world. Peek and peer through the grey areas into a world of wonder, beauty and questions.',
         },
       ],
     };
@@ -145,7 +145,7 @@ export default {
         {
           title: 'I feel objects',
           description:
-            'From extremely practical to purely poetic. In ‘I feel objects’ autonomous- and product designers draw attention to the tangible world around us and the interaction we have with it. The designers show surprising perspectives on materials such as marble, plastic waste and textiles.',
+            'From extremely practical to purely poetic. In<br /> ‘I feel objects’ autonomous- and product designers draw attention to the tangible world around us and the interaction we have with it. The designers show surprising perspectives on materials such as marble, plastic waste and textiles.',
         },
         {
           title: 'I hear stories',

@@ -270,7 +270,7 @@
               <br />
               <a
                 class="hover:underline"
-                href=""
+                href="https://www.eventbrite.nl/e/tickets-inspiration-sessions-future-systems-inclusivity-179804599397"
                 target="_blank"
                 rel="nofollow noreferrer noopener"
               >
@@ -294,7 +294,7 @@
             </div>
           </div>
         </div>
-        <div class="mb-[22px]">
+        <div class="mb-[80px]">
           <h3
             class="text-[25px] leading-[30px] xl:text-[35px] xl:leading-[42px]"
           >
@@ -308,7 +308,7 @@
               <br />
               <a
                 class="hover:underline"
-                href=""
+                href="https://www.eventbrite.nl/e/tickets-inspiration-session-future-systems-sustainability-179803907327"
                 target="_blank"
                 rel="nofollow noreferrer noopener"
               >
@@ -361,7 +361,7 @@ export default {
           hid: 'description',
           name: 'description',
           content:
-            'The amazing Nuxt application that teaches me all the cool features of Nuxt',
+            'An exhibition of 17 design studios that listen to see the world. Peek and peer through the grey areas into a world of wonder, beauty and questions.',
         },
       ],
     };
