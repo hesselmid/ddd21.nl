@@ -2,9 +2,9 @@
   <main>
     <div class="flex justify-center md:mt-[42px] xl:mt-[53px]">
       <vue-blotter
-        class="inline-block h-[54px] md:hidden"
+        class="inline-block h-[45px] md:hidden"
         family="Haarlem-Regular"
-        :size="45"
+        :size="30"
         material-type="LiquidDistortMaterial"
         :text="driver.name"
         :uniforms="{
