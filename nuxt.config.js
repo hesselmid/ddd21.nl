@@ -25,7 +25,7 @@ export default {
 
   components: true,
 
-  buildModules: ['@nuxtjs/tailwindcss'],
+  buildModules: ['@nuxtjs/google-analytics', '@nuxtjs/tailwindcss'],
 
   modules: ['@nuxt/content'],
 
@@ -45,5 +45,10 @@ export default {
         collapseWhitespace: true,
       },
     },
+  },
+
+  googleAnalytics: {
+    id: 'UA-208803280-1',
+    set: [{ field: 'anonymizeIp', value: true }],
   },
 };
