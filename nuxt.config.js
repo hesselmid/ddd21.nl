@@ -1,3 +1,13 @@
+const createSitemapRoutes = async () => {
+  let routes = [];
+  const { $content } = require('@nuxt/content');
+  const drivers = await $content('drivers').fetch();
+  for (const driver of drivers) {
+    routes.push(`the-drivers/${driver.slug}`);
+  }
+  return routes;
+};
+
 export default {
   target: 'static',
 
@@ -54,5 +64,6 @@ export default {
 
   sitemap: {
     hostname: 'https://www.ddd21.nl/',
+    routes: createSitemapRoutes,
   },
 };
