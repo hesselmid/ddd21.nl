@@ -27,7 +27,7 @@ export default {
 
   buildModules: ['@nuxtjs/google-analytics', '@nuxtjs/tailwindcss'],
 
-  modules: ['@nuxt/content'],
+  modules: ['@nuxt/content', '@nuxtjs/sitemap'],
 
   build: {
     html: {
@@ -50,5 +50,9 @@ export default {
   googleAnalytics: {
     id: 'UA-208803280-1',
     set: [{ field: 'anonymizeIp', value: true }],
+  },
+
+  sitemap: {
+    hostname: 'https://www.ddd21.nl/',
   },
 };
