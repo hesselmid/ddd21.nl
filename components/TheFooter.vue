@@ -80,8 +80,8 @@
             class="w-[88px] md:ml-[14px] xl:ml-[12px] xl:w-[138px]"
             src="/images/logos/logo-iwaarden.png"
             alt="Logo IWaarden"
-            width="276"
-            height="105"
+            width="320"
+            height="144"
           />
         </a>
         <a href="https://drivingdutchdesign.nl/">
