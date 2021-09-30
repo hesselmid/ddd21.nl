@@ -101,7 +101,7 @@
         class="flex justify-between mt-[8.8px] ml-[173px] w-[53px] md:mt-[26.1px] md:ml-[369px] md:w-[108px] xl:mt-[35px] xl:ml-[566px] xl:w-[210px]"
       >
         <div
-          class="w-[7px] h-[7px] bg-white border border-black rounded-full md:w-[14px] md:h-[13px] xl:w-[27px] xl:h-[27px]"
+          class="w-[7px] h-[7px] bg-white border border-black rounded-full md:w-[14px] md:h-[13px] xl:w-[23px] xl:h-[23px]"
           :class="{
             'bg-black': carouselIndex === index,
           }"
