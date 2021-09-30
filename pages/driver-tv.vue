@@ -44,7 +44,7 @@
           class="mt-[14px] text-[16px] leading-[19px] md:mt-0 md:w-[378px] md:text-[20px] md:leading-[24px] xl:w-[630px] xl:text-[25px] xl:leading-[30px]"
         >
           Meet the Drivers in these portrait videos, aired on DDW TV during
-          Dutch Design Week 2012. [Language: Dutch]
+          Dutch Design Week 2021.
         </p>
         <div class="mt-[20px] md:mt-0">
           <h2
