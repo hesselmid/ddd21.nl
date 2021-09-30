@@ -56,7 +56,7 @@
         >
           Or get in touch with a driver directly:
           <a
-            class="text-[24px] leading-[29px] underline md:text-[30px] md:leading-[37px] xl:text-[35px] xl:leading-[42px]"
+            class="block text-[24px] leading-[29px] underline md:text-[30px] md:leading-[37px] xl:text-[35px] xl:leading-[42px]"
             href="/the-drivers"
           >
             Meet the Drivers
