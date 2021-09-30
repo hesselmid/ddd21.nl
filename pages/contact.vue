@@ -66,24 +66,23 @@
           class="mt-[19px] text-[16x] leading-[19px] md:text-[22px] md:leading-[27px] xl:text-[25px] xl:leading-[30px]"
         >
           Feeling inspired and want to know more about the program?
-
-          <a
-            class="block text-[24px] leading-[29px] underline md:text-[30px] md:leading-[37px] xl:text-[35px] xl:leading-[42px]"
-            href="https://drivingdutchdesign.nl/"
-            target="_blank"
-            rel="nofollow noreferrer noopener"
-          >
-            drivingdutchdesign.nl
-          </a>
         </p>
         <p
           class="text-[13px] leading-[15px] md:text-[18px] md:leading-[22px] xl:text-[21px] xl:leading-[25px]"
         >
           Driving Dutch Design (DDD) is a professionalization and networking
-          program of ABN AMRO, the Professional Organization of Dutch Designers
-          (BNO) and the Dutch Design Foundation (DDF) that helps passionate
-          designers on their way in the world of creative entrepreneurship.
+          program of ABN AMRO, the Association of Dutch Designers (BNO) and the
+          Dutch Design Foundation (DDF) that helps passionate designers on their
+          way in the world of creative entrepreneurship.
         </p>
+        <a
+          class="block text-[24px] leading-[29px] underline md:text-[30px] md:leading-[37px] xl:text-[35px] xl:leading-[42px]"
+          href="https://drivingdutchdesign.nl/"
+          target="_blank"
+          rel="nofollow noreferrer noopener"
+        >
+          drivingdutchdesign.nl
+        </a>
         <a
           class="inline-block mt-[29px] text-[24px] leading-[29px underline md:text-[30px] md:leading-[37px] xl:text-[35px] xl:leading-[42px]"
           href="/"
@@ -91,16 +90,15 @@
           Pressfolder
         </a>
         <h2
-          class="mt-[29px] text-[24px] leading-[29px] underline md:text-[30px] md:leading-[37px] xl:text-[35px] xl:leading-[42px]"
+          class="mt-[29px] text-[24px] leading-[29px] md:text-[30px] md:leading-[37px] xl:text-[35px] xl:leading-[42px]"
         >
           Colophon
         </h2>
         <p
           class="text-[13px] leading-[15px] md:text-[16px] md:leading-[19px] xl:text-[21px] xl:leading-[25px]"
         >
-          Photography Michele Bergsma, Illustraties Djenné Fila, Branding Asja
-          Keeman, Films by Studio New West, Website design Lola van Praag,
-          Website developer Hessel Middendorp
+          Photography Michele Bergsma, Films by Studio New West, Website design
+          Lola van Praag, Website development Hessel Middendorp
         </p>
       </div>
     </div>
