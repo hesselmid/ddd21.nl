@@ -44,13 +44,15 @@
             height="105"
           />
         </a>
-        <img
-          class="w-[51px] md:hidden"
-          src="/images/logos/logo-ddd.png"
-          alt="Logo Driving Dutch Design"
-          width="158"
-          height="158"
-        />
+        <a href="https://drivingdutchdesign.nl/">
+          <img
+            class="w-[51px] md:hidden"
+            src="/images/logos/logo-ddd.png"
+            alt="Logo Driving Dutch Design"
+            width="158"
+            height="158"
+          />
+        </a>
       </div>
       <div
         class="grid grid-cols-3 justify-items-center items-center mt-[5px] md:flex md:mt-0"
@@ -82,13 +84,15 @@
             height="105"
           />
         </a>
-        <img
-          class="hidden md:inline md:ml-[14px] md:w-[51px] xl:ml-[21px] xl:w-[79px]"
-          src="/images/logos/logo-ddd.png"
-          alt="Logo Driving Dutch Design"
-          width="158"
-          height="158"
-        />
+        <a href="https://drivingdutchdesign.nl/">
+          <img
+            class="hidden md:inline md:ml-[14px] md:w-[51px] xl:ml-[21px] xl:w-[79px]"
+            src="/images/logos/logo-ddd.png"
+            alt="Logo Driving Dutch Design"
+            width="158"
+            height="158"
+          />
+        </a>
       </div>
     </div>
     <div
