@@ -42,9 +42,9 @@
           <button
             class="text-[24px] leading-[29px] underline"
             type="button"
-            @click="selectCategory('objects')"
+            @click="selectCategory('systems')"
           >
-            I feel objects
+            I see systems
           </button>
         </li>
         <li>
@@ -60,9 +60,9 @@
           <button
             class="text-[24px] leading-[29px] underline"
             type="button"
-            @click="selectCategory('systems')"
+            @click="selectCategory('objects')"
           >
-            I see systems
+            I feel objects
           </button>
         </li>
       </ul>
@@ -119,14 +119,14 @@
 
         <!-- END 1 -->
 
-        <!-- START 2 -->
+        <!-- START 10 -->
 
         <nuxt-link
           class="group block mx-auto mt-[108px] w-[302.39px] md:relative md:col-span-4 md:mx-0 md:mt-0 md:w-[140.38px] xl:col-span-2 xl:w-[159.58px]"
-          to="/the-drivers/bram-de-vos"
+          to="/the-drivers/jwve"
         >
           <div class="text-[24px] leading-[29px] text-center md:hidden">
-            I see systems
+            I feel objects
           </div>
           <div
             style="background-image:url(/images/backgrounds/white-bg-sm-2.svg)"
@@ -134,48 +134,48 @@
           >
             <picture>
               <source
-                srcset="/images/fotografie/bram-de-vos-1.avif"
+                srcset="/images/fotografie/jwve-1.avif"
                 type="image/avif"
               />
               <source
-                srcset="/images/fotografie/bram-de-vos-1.webp"
+                srcset="/images/fotografie/jwve-1.webp"
                 type="image/webp"
               />
               <source
-                srcset="/images/fotografie/bram-de-vos-1.jpg"
+                srcset="/images/fotografie/jwve-1.jpg"
                 type="image/jpeg"
               />
               <img
                 class="w-[243px] md:w-full md:group-hover:grayscale"
-                :class="{ 'md:grayscale': selectedCategory === 'systems' }"
-                src="/images/fotografie/bram-de-vos-1.jpg"
-                alt="Bram de Vos"
+                :class="{ 'md:grayscale': selectedCategory === 'objects' }"
+                src="/images/fotografie/jwve-1.jpg"
+                alt="JWvE"
                 width="486"
                 height="680"
               />
             </picture>
           </div>
           <div
-            class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#007190]"
+            class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#B5DECB]"
             :class="{
-              'md:!flex md:justify-center md:items-center md:text-[#007190]':
-                selectedCategory === 'systems',
+              'md:!flex md:justify-center md:items-center md:text-[#B5DECB]':
+                selectedCategory === 'objects',
             }"
           >
-            Bram de Vos
+            Jan Willem van Elten
           </div>
         </nuxt-link>
 
-        <!-- END 2 -->
+        <!-- END 10 -->
 
-        <!-- START 3 -->
+        <!-- START 11 -->
 
         <nuxt-link
           class="group block mx-auto mt-[108px] w-[298.87px] md:relative md:col-span-4 md:mx-0 md:mt-0 md:w-[140.38px] xl:col-span-2 xl:w-[159.58px]"
-          to="/the-drivers/daisy-van-loenhout"
+          to="/the-drivers/lisa-mandemaker"
         >
           <div class="text-[24px] leading-[29px] text-center md:hidden">
-            I hear stories
+            I see systems
           </div>
           <div
             style="background-image:url(/images/backgrounds/white-bg-sm-3.svg)"
@@ -183,39 +183,39 @@
           >
             <picture>
               <source
-                srcset="/images/fotografie/daisy-van-loenhout-1.avif"
+                srcset="/images/fotografie/lisa-mandemaker-1.avif"
                 type="image/avif"
               />
               <source
-                srcset="/images/fotografie/daisy-van-loenhout-1.webp"
+                srcset="/images/fotografie/lisa-mandemaker-1.webp"
                 type="image/webp"
               />
               <source
-                srcset="/images/fotografie/daisy-van-loenhout-1.jpg"
+                srcset="/images/fotografie/lisa-mandemaker-1.jpg"
                 type="image/jpeg"
               />
               <img
                 class="w-[243px] md:w-full md:group-hover:grayscale"
-                :class="{ 'md:grayscale': selectedCategory === 'stories' }"
-                src="/images/fotografie/daisy-van-loenhout-1.jpg"
-                alt="Daisy van Loenhout"
+                :class="{ 'md:grayscale': selectedCategory === 'systems' }"
+                src="/images/fotografie/lisa-mandemaker-1.jpg"
+                alt="Lisa Mandemaker"
                 width="486"
                 height="680"
               />
             </picture>
           </div>
           <div
-            class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#FBDC00]"
+            class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#00addd]"
             :class="{
-              'md:!flex md:justify-center md:items-center md:text-[#FBDC00]':
-                selectedCategory === 'stories',
+              'md:!flex md:justify-center md:items-center md:text-[#00addd]':
+                selectedCategory === 'systems',
             }"
           >
-            Daisy van Loenhout
+            Lisa Mandemaker
           </div>
         </nuxt-link>
 
-        <!-- END 3 -->
+        <!-- END 11 -->
 
         <!-- START 4 -->
 
@@ -303,9 +303,9 @@
             </picture>
           </div>
           <div
-            class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#007190]"
+            class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#00addd]"
             :class="{
-              'md:!flex md:justify-center md:items-center md:text-[#007190]':
+              'md:!flex md:justify-center md:items-center md:text-[#00addd]':
                 selectedCategory === 'systems',
             }"
           >
@@ -450,9 +450,9 @@
             </picture>
           </div>
           <div
-            class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#007190]"
+            class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#00addd]"
             :class="{
-              'md:!flex md:justify-center md:items-center md:text-[#007190]':
+              'md:!flex md:justify-center md:items-center md:text-[#00addd]':
                 selectedCategory === 'systems',
             }"
           >
@@ -511,14 +511,14 @@
 
         <!-- END 9 -->
 
-        <!-- START 10 -->
+        <!-- START 2 -->
 
         <nuxt-link
-          class="group block mx-auto mt-[108px] w-[302.39px] md:relative md:col-span-4 md:mx-0 md:mt-0 md:w-[140.38px] xl:col-span-2 xl:col-start-3 xl:w-[159.58px]"
-          to="/the-drivers/jwve"
+          class="group block mx-auto mt-[108px] w-[302.39px] md:relative md:col-span-4 md:mx-0 md:mt-0 md:w-[140.38px] xl:col-start-3 xl:col-span-2 xl:w-[159.58px]"
+          to="/the-drivers/bram-de-vos"
         >
           <div class="text-[24px] leading-[29px] text-center md:hidden">
-            I feel objects
+            I see systems
           </div>
           <div
             style="background-image:url(/images/backgrounds/white-bg-sm-2.svg)"
@@ -526,48 +526,48 @@
           >
             <picture>
               <source
-                srcset="/images/fotografie/jwve-1.avif"
+                srcset="/images/fotografie/bram-de-vos-1.avif"
                 type="image/avif"
               />
               <source
-                srcset="/images/fotografie/jwve-1.webp"
+                srcset="/images/fotografie/bram-de-vos-1.webp"
                 type="image/webp"
               />
               <source
-                srcset="/images/fotografie/jwve-1.jpg"
+                srcset="/images/fotografie/bram-de-vos-1.jpg"
                 type="image/jpeg"
               />
               <img
                 class="w-[243px] md:w-full md:group-hover:grayscale"
-                :class="{ 'md:grayscale': selectedCategory === 'objects' }"
-                src="/images/fotografie/jwve-1.jpg"
-                alt="JWvE"
+                :class="{ 'md:grayscale': selectedCategory === 'systems' }"
+                src="/images/fotografie/bram-de-vos-1.jpg"
+                alt="Bram de Vos"
                 width="486"
                 height="680"
               />
             </picture>
           </div>
           <div
-            class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#B5DECB]"
+            class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#00addd]"
             :class="{
-              'md:!flex md:justify-center md:items-center md:text-[#B5DECB]':
-                selectedCategory === 'objects',
+              'md:!flex md:justify-center md:items-center md:text-[#00addd]':
+                selectedCategory === 'systems',
             }"
           >
-            Jan Willem van Elten
+            Bram de Vos
           </div>
         </nuxt-link>
 
-        <!-- END 10 -->
+        <!-- END 2 -->
 
-        <!-- START 11 -->
+        <!-- START 3 -->
 
         <nuxt-link
           class="group block mx-auto mt-[108px] w-[298.87px] md:relative md:col-span-4 md:mx-0 md:mt-0 md:w-[140.38px] xl:col-span-2 xl:w-[159.58px]"
-          to="/the-drivers/lisa-mandemaker"
+          to="/the-drivers/daisy-van-loenhout"
         >
           <div class="text-[24px] leading-[29px] text-center md:hidden">
-            I see systems
+            I hear stories
           </div>
           <div
             style="background-image:url(/images/backgrounds/white-bg-sm-3.svg)"
@@ -575,39 +575,39 @@
           >
             <picture>
               <source
-                srcset="/images/fotografie/lisa-mandemaker-1.avif"
+                srcset="/images/fotografie/daisy-van-loenhout-1.avif"
                 type="image/avif"
               />
               <source
-                srcset="/images/fotografie/lisa-mandemaker-1.webp"
+                srcset="/images/fotografie/daisy-van-loenhout-1.webp"
                 type="image/webp"
               />
               <source
-                srcset="/images/fotografie/lisa-mandemaker-1.jpg"
+                srcset="/images/fotografie/daisy-van-loenhout-1.jpg"
                 type="image/jpeg"
               />
               <img
                 class="w-[243px] md:w-full md:group-hover:grayscale"
-                :class="{ 'md:grayscale': selectedCategory === 'systems' }"
-                src="/images/fotografie/lisa-mandemaker-1.jpg"
-                alt="Lisa Mandemaker"
+                :class="{ 'md:grayscale': selectedCategory === 'stories' }"
+                src="/images/fotografie/daisy-van-loenhout-1.jpg"
+                alt="Daisy van Loenhout"
                 width="486"
                 height="680"
               />
             </picture>
           </div>
           <div
-            class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#007190]"
+            class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#FBDC00]"
             :class="{
-              'md:!flex md:justify-center md:items-center md:text-[#007190]':
-                selectedCategory === 'systems',
+              'md:!flex md:justify-center md:items-center md:text-[#FBDC00]':
+                selectedCategory === 'stories',
             }"
           >
-            Lisa Mandemaker
+            Daisy van Loenhout
           </div>
         </nuxt-link>
 
-        <!-- END 11 -->
+        <!-- END 3 -->
 
         <!-- START 12 -->
 
@@ -658,14 +658,14 @@
 
         <!-- END 12 -->
 
-        <!-- START 13 -->
+        <!-- START 17 -->
 
         <nuxt-link
-          class="group block mx-auto mt-[108px] w-[298.87px] md:relative md:col-span-4 md:mx-0 md:mt-0 md:w-[140.38px] xl:col-span-2 xl:col-start-1 xl:w-[159.58px]"
-          to="/the-drivers/ralf-de-bruin"
+          class="group block mx-auto mt-[108px] w-[298.87px] md:relative md:col-span-4 md:mx-0 md:mt-0 md:w-[140.38px] xl:col-start-1 xl:col-span-2 xl:w-[159.58px]"
+          to="/the-drivers/thom-bindels"
         >
           <div class="text-[24px] leading-[29px] text-center md:hidden">
-            I feel objects
+            I see systems
           </div>
           <div
             style="background-image:url(/images/backgrounds/white-bg-sm-1.svg)"
@@ -673,39 +673,39 @@
           >
             <picture>
               <source
-                srcset="/images/fotografie/ralf-de-bruin-1.avif"
+                srcset="/images/fotografie/thom-bindels-1.avif"
                 type="image/avif"
               />
               <source
-                srcset="/images/fotografie/ralf-de-bruin-1.webp"
+                srcset="/images/fotografie/thom-bindels-1.webp"
                 type="image/webp"
               />
               <source
-                srcset="/images/fotografie/ralf-de-bruin-1.jpg"
+                srcset="/images/fotografie/thom-bindels-1.jpg"
                 type="image/jpeg"
               />
               <img
                 class="w-[243px] md:w-full md:group-hover:grayscale"
-                :class="{ 'md:grayscale': selectedCategory === 'objects' }"
-                src="/images/fotografie/ralf-de-bruin-1.jpg"
-                alt="Ralf de Bruin"
+                :class="{ 'md:grayscale': selectedCategory === 'systems' }"
+                src="/images/fotografie/thom-bindels-1.jpg"
+                alt="Thom Bindels"
                 width="486"
                 height="680"
               />
             </picture>
           </div>
           <div
-            class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#B5DECB]"
+            class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#00addd]"
             :class="{
-              'md:!flex md:justify-center md:items-center md:text-[#B5DECB]':
-                selectedCategory === 'objects',
+              'md:!flex md:justify-center md:items-center md:text-[#00addd]':
+                selectedCategory === 'systems',
             }"
           >
-            Studio Brundal
+            Thom Bindels
           </div>
         </nuxt-link>
 
-        <!-- END 13 -->
+        <!-- END 17 -->
 
         <!-- START 14 -->
 
@@ -842,9 +842,9 @@
             </picture>
           </div>
           <div
-            class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#007190]"
+            class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#00addd]"
             :class="{
-              'md:!flex md:justify-center md:items-center md:text-[#007190]':
+              'md:!flex md:justify-center md:items-center md:text-[#00addd]':
                 selectedCategory === 'systems',
             }"
           >
@@ -854,14 +854,14 @@
 
         <!-- END 16 -->
 
-        <!-- START 17 -->
+        <!-- START 13 -->
 
         <nuxt-link
           class="group block mx-auto mt-[108px] w-[298.87px] md:relative md:col-span-4 md:mx-0 md:mt-0 md:w-[140.38px] xl:col-span-2 xl:w-[159.58px]"
-          to="/the-drivers/thom-bindels"
+          to="/the-drivers/ralf-de-bruin"
         >
           <div class="text-[24px] leading-[29px] text-center md:hidden">
-            I see systems
+            I feel objects
           </div>
           <div
             style="background-image:url(/images/backgrounds/white-bg-sm-1.svg)"
@@ -869,39 +869,39 @@
           >
             <picture>
               <source
-                srcset="/images/fotografie/thom-bindels-1.avif"
+                srcset="/images/fotografie/ralf-de-bruin-1.avif"
                 type="image/avif"
               />
               <source
-                srcset="/images/fotografie/thom-bindels-1.webp"
+                srcset="/images/fotografie/ralf-de-bruin-1.webp"
                 type="image/webp"
               />
               <source
-                srcset="/images/fotografie/thom-bindels-1.jpg"
+                srcset="/images/fotografie/ralf-de-bruin-1.jpg"
                 type="image/jpeg"
               />
               <img
                 class="w-[243px] md:w-full md:group-hover:grayscale"
-                :class="{ 'md:grayscale': selectedCategory === 'systems' }"
-                src="/images/fotografie/thom-bindels-1.jpg"
-                alt="Thom Bindels"
+                :class="{ 'md:grayscale': selectedCategory === 'objects' }"
+                src="/images/fotografie/ralf-de-bruin-1.jpg"
+                alt="Ralf de Bruin"
                 width="486"
                 height="680"
               />
             </picture>
           </div>
           <div
-            class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#007190]"
+            class="text-[24px] leading-[29px] text-center md:hidden md:absolute md:inset-0 md:group-hover:flex md:group-hover:justify-center md:group-hover:items-center md:group-hover:text-[#B5DECB]"
             :class="{
-              'md:!flex md:justify-center md:items-center md:text-[#007190]':
-                selectedCategory === 'systems',
+              'md:!flex md:justify-center md:items-center md:text-[#B5DECB]':
+                selectedCategory === 'objects',
             }"
           >
-            Thom Bindels
+            Studio Brundal
           </div>
         </nuxt-link>
 
-        <!-- END 17 -->
+        <!-- END 13 -->
       </div>
     </div>
     <img

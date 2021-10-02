@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="md:pb-[17px] xl:pb-[29px]">
     <div class="mx-auto max-w-[375px] md:w-[768px] md:max-w-none xl:w-[1280px]">
       <h1
         class="
@@ -54,7 +54,7 @@
             xl:text-[25px] xl:leading-[30px]
           "
         >
-          connect with us on
+          Connect with us on
           <a
             class="underline"
             href="https://www.linkedin.com/in/driving-dutch-design-2a9b141b1/"
@@ -119,10 +119,11 @@
         </p>
         <p
           class="
+          mt-[15px]
             text-[13px]
             leading-[15px]
-            md:text-[18px] md:leading-[22px]
-            xl:text-[21px] xl:leading-[25px]
+            md:mt-[22px] md:text-[18px] md:leading-[22px]
+            xl:mt-[25px] xl:text-[21px] xl:leading-[25px]
           "
         >
           Driving Dutch Design (DDD) is a professionalization and networking
@@ -133,6 +134,7 @@
         <a
           class="
             block
+            mt-[29px]
             text-[24px]
             leading-[29px]
             underline
@@ -150,7 +152,7 @@
             inline-block
             mt-[29px]
             text-[24px]
-            leading-[29px
+            leading-[29px]
             underline
             md:text-[30px] md:leading-[37px]
             xl:text-[35px] xl:leading-[42px]
@@ -162,20 +164,20 @@
         <h2
           class="
             mt-[29px]
-            text-[24px]
-            leading-[29px]
-            md:text-[30px] md:leading-[37px]
-            xl:text-[35px] xl:leading-[42px]
+            text-[11px]
+            leading-[13px]
+            md:mt-[37px] md:text-[15px] md:leading-[18px]
+            xl:mt-[42px] xl:text-[20px] xl:leading-[24px]
           "
         >
           Colophon
         </h2>
         <p
           class="
-            text-[13px]
-            leading-[15px]
-            md:text-[16px] md:leading-[19px]
-            xl:text-[21px] xl:leading-[25px]
+            text-[8px]
+            leading-[10px]
+            md:text-[11px] md:leading-[13px]
+            xl:text-[15px] xl:leading-[18px]
           "
         >
           Photography Michele Bergsma, Films by Studio New West, Website design
@@ -186,11 +188,11 @@
     <div
       id="grey-stroke"
       class="
-        mt-[47px]
+        mt-[93px]
         h-[47px]
         bg-center bg-no-repeat bg-cover
-        md:mt-[58px] md:h-[97px]
-        xl:mt-[39px] xl:h-[159px]
+        md:mt-[89px] md:h-[97px]
+        xl:mt-[71px] xl:h-[159px]
       "
     ></div>
   </main>

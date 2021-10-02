@@ -143,9 +143,8 @@ export default {
             'An exhibition of 17 design studios that listen to see the world. Peek and peer through the grey areas into a world of wonder, beauty and questions. Discover the ideas and visions that lie beyond the first glance through the themes; I see systems, I hear stories and I feel objects.',
         },
         {
-          title: 'I feel objects',
-          description:
-            'From extremely practical to purely poetic. In<br /> ‘I feel objects’ autonomous- and product designers draw attention to the tangible world around us and the interaction we have with it. The designers show surprising perspectives on materials such as marble, plastic waste and textiles.',
+          title: 'I see systems',
+          description: `Designers aren't there to provide answers, but to question the obvious. The designers in ‘I see systems’ give insights in their process, guided by alternative visions of the systems in which we function as humans.`,
         },
         {
           title: 'I hear stories',
@@ -153,8 +152,9 @@ export default {
             'Stories are there to be experienced. The designers in ‘I hear stories’  invite you into visual worlds that are not your own. Connect with your surroundings through the visions of Graphic Designers, Illustrators, Filmmakers, and Interior Designers.',
         },
         {
-          title: 'I see systems',
-          description: `Designers aren't there to provide answers, but to question the obvious. The designers in ‘I see systems’ give insights in their process, guided by alternative visions of the systems in which we function as humans.`,
+          title: 'I feel objects',
+          description:
+            'From extremely practical to purely poetic. In<br /> ‘I feel objects’ autonomous- and product designers draw attention to the tangible world around us and the interaction we have with it. The designers show surprising perspectives on materials such as marble, plastic waste and textiles.',
         },
       ],
     };
@@ -164,11 +164,11 @@ export default {
       if (this.carouselIndex === 0) {
         return 'background-color:#B5DECB';
       } else if (this.carouselIndex === 1) {
-        return 'background-color:#B5DECB';
+        return 'background-color:#007190';
       } else if (this.carouselIndex === 2) {
         return 'background-color:#FBDC00';
       } else if (this.carouselIndex === 3) {
-        return 'background-color:#007190';
+        return 'background-color:#B5DECB';
       } else return;
     },
   },

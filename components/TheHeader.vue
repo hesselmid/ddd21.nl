@@ -4,7 +4,7 @@
       class="pt-[20px] mx-auto max-w-[375px] md:pt-[54px] md:w-[768px] md:max-w-none xl:pt-[42px] xl:w-[1280px]"
     >
       <ul
-        class="flex justify-between mr-[23px] ml-[13px] md:mr-[48px] md:ml-[35px] xl:mr-[65px] xl:ml-[57px]"
+        class="flex justify-between items-center mr-[23px] ml-[13px] md:mr-[48px] md:ml-[35px] xl:mr-[65px] xl:ml-[57px]"
       >
         <li>
           <nuxt-link to="/">

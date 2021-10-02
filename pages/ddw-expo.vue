@@ -61,7 +61,7 @@
               Drivers 2022 tour
               <br />
               <a
-                class="hover:underline"
+                class="underline"
                 href="https://www.eventbrite.nl/e/tickets-drivers22-178700105827"
                 target="_blank"
                 rel="nofollow noreferrer noopener"
@@ -75,7 +75,7 @@
               16:00-17:00
             </div>
             <div
-              class="col-span-2 text-[15px] leading-[18px] xl:text-[16px] xl:leading-[19px]"
+              class="col-span-2 text-[15px] font-bold italic leading-[18px] xl:text-[16px] xl:leading-[19px]"
             >
               Private event
             </div>
@@ -84,7 +84,7 @@
             </div>
           </div>
         </div>
-        <div class="mb-[22px]">
+        <div class="pt-4 mb-[22px] border-t border-black">
           <h3
             class="text-[25px] leading-[30px] xl:text-[35px] xl:leading-[42px]"
           >
@@ -103,7 +103,7 @@
             </div>
           </div>
         </div>
-        <div class="mb-[22px]">
+        <div class="pt-4 mb-[22px] border-t border-black">
           <h3
             class="text-[25px] leading-[30px] xl:text-[35px] xl:leading-[42px]"
           >
@@ -122,7 +122,7 @@
             </div>
           </div>
         </div>
-        <div class="mb-[22px]">
+        <div class="pt-4 mb-[22px] border-t border-black">
           <h3
             class="text-[25px] leading-[30px] xl:text-[35px] xl:leading-[42px]"
           >
@@ -135,7 +135,7 @@
               Inspiration session (Dutch): Future systems - inclusivity
               <br />
               <a
-                class="hover:underline"
+                class="underline"
                 href="https://www.eventbrite.nl/e/tickets-inspiration-sessions-future-systems-inclusivity-178135376707"
                 target="_blank"
                 rel="nofollow noreferrer noopener"
@@ -159,7 +159,7 @@
               11:00-16:00
             </div>
             <div
-              class="col-span-2 text-[15px] leading-[18px] xl:text-[16px] xl:leading-[19px]"
+              class="col-span-2 text-[15px] leading-[18px] font-bold italic xl:text-[16px] xl:leading-[19px]"
             >
               Private event
             </div>
@@ -170,7 +170,7 @@
             </div>
           </div>
         </div>
-        <div class="mb-[22px]">
+        <div class="pt-4 mb-[22px] border-t border-black">
           <h3
             class="text-[25px] leading-[30px] xl:text-[35px] xl:leading-[42px]"
           >
@@ -183,7 +183,7 @@
               Inspiration session (Dutch): Future systems - sustainability
               <br />
               <a
-                class="hover:underline"
+                class="underline"
                 href="https://www.eventbrite.nl/e/tickets-inspiration-session-future-systems-sustainability-178697116887"
                 target="_blank"
                 rel="nofollow noreferrer noopener"
@@ -207,7 +207,7 @@
               11:00-15:00
             </div>
             <div
-              class="col-span-2 text-[15px] leading-[18px] xl:text-[16px] xl:leading-[19px]"
+              class="col-span-2 text-[15px] leading-[18px] font-bold italic xl:text-[16px] xl:leading-[19px]"
             >
               Private event
             </div>
@@ -218,20 +218,20 @@
             </div>
           </div>
         </div>
-        <div class="mb-[22px]">
+        <div class="pt-4 mb-[22px] border-t border-black">
           <h3
             class="text-[25px] leading-[30px] xl:text-[35px] xl:leading-[42px]"
           >
             Thursday 21st of October
           </h3>
-          <div class="grid grid-cols-3 gap-y-[17.4px] mt-[15.6px]">
+          <div class="grid grid-cols-4 gap-y-[17.4px] mt-[15.6px]">
             <div
-              class="col-span-2 text-[15px] leading-[18px] xl:text-[16px] xl:leading-[19px]"
+              class="col-span-3 text-[15px] leading-[18px] xl:text-[16px] xl:leading-[19px]"
             >
               Inspiration session (Dutch): Storytelling. - Reimagining Memories
               <br />
               <a
-                class="hover:underline"
+                class="underline"
                 href="https://www.eventbrite.nl/e/tickets-inspiration-sessions-storytelling-re-imagining-memories-178698821987"
                 target="_blank"
                 rel="nofollow noreferrer noopener"
@@ -245,7 +245,7 @@
               9:30-11:00
             </div>
             <div
-              class="col-span-2 text-[15px] leading-[18px] xl:text-[16px] xl:leading-[19px]"
+              class="col-span-3 text-[15px] leading-[18px] xl:text-[16px] xl:leading-[19px]"
             >
               Open visiting hours
             </div>
@@ -256,7 +256,7 @@
             </div>
           </div>
         </div>
-        <div class="mb-[22px]">
+        <div class="pt-4 mb-[22px] border-t border-black">
           <h3
             class="text-[25px] leading-[30px] xl:text-[35px] xl:leading-[42px]"
           >
@@ -269,7 +269,7 @@
               Inspiration session (English): Future systems - inclusivity
               <br />
               <a
-                class="hover:underline"
+                class="underline"
                 href="https://www.eventbrite.nl/e/tickets-inspiration-sessions-future-systems-inclusivity-179804599397"
                 target="_blank"
                 rel="nofollow noreferrer noopener"
@@ -294,7 +294,7 @@
             </div>
           </div>
         </div>
-        <div class="mb-[80px]">
+        <div class="pt-4 mb-[22px] border-t border-black">
           <h3
             class="text-[25px] leading-[30px] xl:text-[35px] xl:leading-[42px]"
           >
@@ -307,7 +307,7 @@
               Inspiration session (English): Future systems - sustainability
               <br />
               <a
-                class="hover:underline"
+                class="underline"
                 href="https://www.eventbrite.nl/e/tickets-inspiration-session-future-systems-sustainability-179803907327"
                 target="_blank"
                 rel="nofollow noreferrer noopener"
@@ -331,7 +331,7 @@
               11:00-17:00
             </div>
             <div
-              class="col-span-2 text-[15px] leading-[18px] xl:text-[16px] xl:leading-[19px]"
+              class="col-span-2 text-[15px] leading-[18px] font-bold italic xl:text-[16px] xl:leading-[19px]"
             >
               Private event
             </div>

@@ -1,9 +1,5 @@
 <template>
-  <main class="bg-[#007190]">
-    <img
-      class="w-full pointer-events-none"
-      src="/images/backgrounds/white-stroke-top.svg"
-    />
+  <main class="md:pb-[17px] xl:pb-[29px]">
     <div
       class="px-[42px] mx-auto mt-[20.6px] max-w-[375px] md:px-[87px] md:mt-[32.1px] md:w-[768px] md:max-w-none xl:px-[145px] xl:mt-[58.5px] xl:w-[1280px]"
     >
@@ -72,9 +68,9 @@
           </div>
         </div>
       </div>
-      <div class="pb-[81.8px] md:pb-[154.6px] xl:pb-[223px]">
+      <div class="pb-[15px] md:pb-[23px] xl:pb-[61px]">
         <article
-          class="mt-[30px] md:mt-[62px] xl:mt-[142px]"
+          class="mt-[33px] md:mt-[52px] xl:mt-[48px]"
           v-for="video in videos"
           :key="video.videoId"
         >
@@ -97,13 +93,29 @@
               allowfullscreen
             ></iframe>
           </div>
+          <p
+            class="mt-[3px] text-[11px] leading-[13px] md:mt-[10px] md:text-[14px] md:leading-[17px] xl:mt-[10px] xl:text-[18px] xl:leading-[22px]"
+          >
+            {{ video.description }}
+          </p>
+          <p
+            class="mt-[13px] text-[11px] leading-[13px] md:mt-[14px] md:text-[14px] md:leading-[17px] xl:mt-[22px] xl:text-[18px] xl:leading-[22px]"
+          >
+            {{ video.drivers }}
+          </p>
         </article>
       </div>
     </div>
-    <img
-      class="w-full pointer-events-none"
-      src="/images/backgrounds/white-stroke-bottom.svg"
-    />
+    <div
+      id="grey-stroke"
+      class="
+        mt-[93px]
+        h-[47px]
+        bg-center bg-no-repeat bg-cover
+        md:mt-[89px] md:h-[97px]
+        xl:mt-[71px] xl:h-[159px]
+      "
+    ></div>
   </main>
 </template>
 
@@ -125,11 +137,38 @@ export default {
   data() {
     return {
       videos: [
-        { name: 'I see systems', videoId: '614471863' },
-        { name: 'I feel objects', videoId: '614469590' },
-        { name: 'I hear stories', videoId: '614784182' },
+        {
+          name: 'I see systems',
+          videoId: '614471863',
+          description:
+            'Designers aren’t there to provide answers, but to question the obvious. The designers in ‘I see systems’ give insights in their process, guided by alternative visions of the systems in which we function as humans.',
+          drivers:
+            'Drivers: Bram de Vos, Thom Bindels, Studio Uncoated, Fides Lapidaire, Studio Tessa Petrusa & Lisa Mandemaker',
+        },
+        {
+          name: 'I hear stories',
+          videoId: '614784182',
+          description:
+            'From extremely practical to purely poetic. In ‘I feel objects’ autonomous- and product designers draw attention to the tangible world around us and the interaction we have with it. The designers show surprising perspectives on materials such as marble, plastic waste and textiles.',
+          drivers:
+            'Drivers: Rein Reitsma, Jan Willem van Elten, Lola van Praag, Inderjeet Sandhu, Studio Jule Cats & Studio Brundal',
+        },
+        {
+          name: 'I feel objects',
+          videoId: '614469590',
+          description:
+            'Stories are there to be experienced. The designers in ‘I hear stories’  invite you into visual worlds that are not your own. Connect with your surroundings through the visions of Graphic Designers, Illustrators, Filmmakers, and Interior Designers.',
+          drivers:
+            'Drivers: Studio New West, Asja Keeman, Geert Snijders, Daisy van Loenhout & Djenné Fila',
+        },
       ],
     };
   },
 };
 </script>
+
+<style scoped>
+#grey-stroke {
+  background-image: url('/images/backgrounds/grey-stroke.png');
+}
+</style>
