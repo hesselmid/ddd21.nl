@@ -167,7 +167,7 @@
 export default {
   head() {
     return {
-      title: this.driver.name + ' - Driving Dutch Design 21',
+      title: this.driver.name + ' - Driving Dutch Design 2021',
       meta: [
         {
           hid: 'description',

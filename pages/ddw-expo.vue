@@ -355,7 +355,7 @@
 export default {
   head() {
     return {
-      title: 'DDW Expo - Driving Dutch Design 21',
+      title: 'DDW Expo - Driving Dutch Design 2021',
       meta: [
         {
           hid: 'description',

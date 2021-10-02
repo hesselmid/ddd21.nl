@@ -202,7 +202,7 @@
 export default {
   head() {
     return {
-      title: 'Contact - Driving Dutch Design 21',
+      title: 'Contact - Driving Dutch Design 2021',
       meta: [
         {
           hid: 'description',

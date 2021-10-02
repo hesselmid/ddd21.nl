@@ -123,7 +123,7 @@
 export default {
   head() {
     return {
-      title: 'Driver TV - Driving Dutch Design 21',
+      title: 'Driver TV - Driving Dutch Design 2021',
       meta: [
         {
           hid: 'description',

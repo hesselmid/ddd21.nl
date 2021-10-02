@@ -122,7 +122,7 @@
 export default {
   head() {
     return {
-      title: 'Driving Dutch Design 21',
+      title: 'Driving Dutch Design 2021',
       meta: [
         {
           hid: 'description',

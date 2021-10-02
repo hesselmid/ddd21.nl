@@ -915,7 +915,7 @@
 export default {
   head() {
     return {
-      title: 'The Drivers - Driving Dutch Design 21',
+      title: 'The Drivers - Driving Dutch Design 2021',
       meta: [
         {
           hid: 'description',
