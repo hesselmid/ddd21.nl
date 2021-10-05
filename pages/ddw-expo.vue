@@ -59,15 +59,6 @@
               class="col-span-2 text-[15px] leading-[18px] xl:text-[16px] xl:leading-[19px]"
             >
               Drivers 2022 tour
-              <br />
-              <a
-                class="underline"
-                href="https://www.eventbrite.nl/e/tickets-drivers22-178700105827"
-                target="_blank"
-                rel="nofollow noreferrer noopener"
-              >
-                Tickets
-              </a>
             </div>
             <div
               class="justify-self-end text-[15px] leading-[18px] xl:text-[16px] xl:leading-[19px]"
