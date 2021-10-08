@@ -149,17 +149,17 @@ export default {
           name: 'I hear stories',
           videoId: '614784182',
           description:
-            'From extremely practical to purely poetic. In ‘I feel objects’ autonomous- and product designers draw attention to the tangible world around us and the interaction we have with it. The designers show surprising perspectives on materials such as marble, plastic waste and textiles.',
+            'Stories are there to be experienced. The designers in ‘I hear stories’  invite you into visual worlds that are not your own. Connect with your surroundings through the visions of Graphic Designers, Illustrators, Filmmakers, and Interior Designers.',
           drivers:
-            'Drivers: Rein Reitsma, Jan Willem van Elten, Lola van Praag, Inderjeet Sandhu, Studio Jule Cats & Studio Brundal',
+            'Drivers: Studio New West, Asja Keeman, Geert Snijders, Daisy van Loenhout & Djenné Fila',
         },
         {
           name: 'I feel objects',
           videoId: '614469590',
           description:
-            'Stories are there to be experienced. The designers in ‘I hear stories’  invite you into visual worlds that are not your own. Connect with your surroundings through the visions of Graphic Designers, Illustrators, Filmmakers, and Interior Designers.',
+            'From extremely practical to purely poetic. In ‘I feel objects’ autonomous- and product designers draw attention to the tangible world around us and the interaction we have with it. The designers show surprising perspectives on materials such as marble, plastic waste and textiles.',
           drivers:
-            'Drivers: Studio New West, Asja Keeman, Geert Snijders, Daisy van Loenhout & Djenné Fila',
+            'Drivers: Rein Reitsma, Jan Willem van Elten, Lola van Praag, Inderjeet Sandhu, Studio Jule Cats & Studio Brundal',
         },
       ],
     };
